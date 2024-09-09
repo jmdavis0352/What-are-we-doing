@@ -1,7 +1,7 @@
 name: "."
 title: "What are we doing?"
 description: |
-  What are we doing?
+  Mostly nonsense.
 output_dir: "docs"
 navbar:
   right:

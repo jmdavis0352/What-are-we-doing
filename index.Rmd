@@ -1,23 +1,5 @@
 ---
-title: "Jonathan M. Davis"
-image: "JMD.jpg"
-output:
-  postcards::trestles
+title: "Nonsense"
 site: distill::distill_website
+listing: posts
 ---
- 
-## Bio
-
-At work I mostly conduct modeling and simulation analyses of complex systems, but I come here for fun. 
-
-## Education
-
-**Georgia Institute of Technology** | Atlanta, GA
-
-B.S. in Industrial Engineering with focus on Operations Research & Statistics | 2007
-
-**The University of Alabama, Huntsville** | Huntsville, AL
-
-M.S. in Operations Research | 2014
-
-
