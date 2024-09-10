@@ -6,14 +6,19 @@ author:
   - name: Jonathan M. Davis
     affiliation: Not an optics or photonics engineer
     url: {}
-  - name: Joshua Cherof
-    affiliation: Jewish Subject Matter Expert
+
 date: 02-15-2021
 output:
   distill::distill_article: 
     self_contained: false
 bibliography: Lasers.bib  
 ---
+
+```{r, out.width = 800,   echo=FALSE}
+knitr::include_graphics('marjorietaylorgreene-campfire.png')
+
+```
+
 
 Solaren has not yet launched their space-based solar generation system (which didn't include lasers anyway) [@solarenFacebookPostReferencing2021] so this particular claim cannot be true ^[A skeptical reader may consider Solaren an unreliable source for refuting the claim that Solaren Energy systems never actually launched and so could not have started the fires with energy beams from space. We counter argue that Rep. Greene's initial assessment of the launch came from Solaren press material and propose that were a nefarious company trying to obfuscate the launch of it's space laser system the original press release announcing the plan seems implausible]. However, since the system is still under development, a design opportunity exists for Jewish space laser enthusiasts. We develop a crude feasible design region for Jewish Space Lasers capable of igniting wood or grass from geosynchronous orbit with respect to wavelength (visible spectrum), laser aperture, and total system power. These calculations represent a rough order of magnitude estimate for system requirements and will facilitate the development of future Jewish Space-based laser platforms. 
 
@@ -25,7 +30,7 @@ Jewish Space Laser Architecture
 </aside>
 
 ## System Requirements
-The authors conducted user base surveys to elicit the needs of the Jewish Space Laser enthusiast community using a modified Delphi panel method ^[JMD asked JC what he wanted the laser system to do in an exchange of facebook comments]. The modifications to the panel method reduced cost and facilitated rapid requirements development. For this analysis the laser system under examination must:
+The authors conducted user base surveys to elicit the needs of the Jewish Space Laser enthusiast community using a modified Delphi panel method^[There were some facebook comments exchanged]. The modifications to the panel method reduced cost and facilitated rapid requirements development. For this analysis the laser system under examination must:
 
 * Occupy a geosynchronous orbit above North America
 * Change orientation (targeting) using reaction wheel assemblies and magnetic torquers (based on Hubble Space Telescope design) ^[We didn't actually consider this in the design at all, but the authors enjoy the phrase "magnetic torquers"]
@@ -53,7 +58,7 @@ We gave up on the atmosphere.
 Seems hard.
 </aside>
  
-```{r PowerOpt, echo=F, fig.cap="Some incomprehensible charts from:https://apps.dtic.mil/dtic/tr/fulltext/u2/781763.pdf", out.extra="class=external"}
+```{r PowerOpt, echo=F, fig.cap="Some incomprehensible charts from: https://apps.dtic.mil/sti/tr/pdf/AD0781763.pdf", out.extra="class=external"}
 knitr::include_graphics("Poweroptimization.PNG")
 ```
 
@@ -70,18 +75,23 @@ $$\frac{166,666W}{m^2}[\pi(10m)^2]= 52,359,668W$$
 A 20m diameter laser with total beam energy of 52MW puts us well beyond Hogge's calculations above. We frankly have no idea what will happen and suggest consulting with a team of laser and atmospheric physicists and photonics and optics experts. 
    
 
-***We assume the total energy density effect of the atmosphere on the beamis 1/10 (irrespective of wavelength or laser aperture), but we have no idea what we're doing, this might not work at all] ***
+***We assume the total energy density effect of the atmosphere on the beam is 1/10 (irrespective of wavelength or laser aperture), but we have no idea what we're doing, this might not work at all] ***
   
 
 ## Methods
 ### Determining required beam energy density at earth surface
-We estimated the beam energy density required to ignite vegetation and toast bagels by experimenting with a low power (~$10^0 W$) retail laser at 450nm. [Fig] illustrates the layout of the experiments. Two experiments of the same design evaluate power requirements to either toast bagels or destroy all threats (ignite dry biomass). Destroying threats requires more energy density than toasting bagels, so this paper is limited to those test focuses on those results. We secured the laser in a 2-axis machining vice with the aim point at either various segments of the bagel or at a pile of dry sticks. Distance deviations achieved by moving the machining vice along the axis of beam prorogation modified the beam convergence at the target and thus simulated lasers of different energy densities. Beam spot size was measured directly at the target distance with dial calipers (to calculate energy density for a known laser power output). We recharged the laser batteries between tests to ensure power output did not diminish over the experiment. 
+We estimated the beam energy density required to ignite vegetation and toast bagels by experimenting with a low power (~$10^0 W$) retail laser at 450nm. Figure \@ref(fig:laserexp) illustrates the layout of the experiments. Two experiments of the same design evaluate power requirements to either toast bagels or destroy all threats (ignite dry biomass). Destroying threats requires more energy density than toasting bagels, so this paper is limited to that use case as a design driver. We secured the laser in a 2-axis machining vice with the aim point at either various segments of the bagel or at a pile of dry sticks. Distance deviations achieved by moving the machining vice along the axis of beam prorogation modified the beam convergence at the target and thus simulated lasers of different energy densities. Beam spot size was measured directly at the target distance with dial calipers (to calculate energy density for a known laser power output). We recharged the laser batteries between tests to ensure power output did not diminish over the experiment. 
 
 <aside>
 This experiment proved quite tedious, so these results are approximate, and possibly fabricated. We feel such a methodology is appropriate for this genre of research. 
 </aside>
 
-**Experiment goes here**
+```{r laserexp, fig.cap="Laser ignition experiment configuration", echo=FALSE}
+knitr::include_graphics('laser_experiment.jpg')
+
+```
+
+Is it a coincidence that the result of our experiment was exactly the previously hypothesized power requirement? 
 
 ### Calculating the resulting orbital platform power requirement
 A basic calculation is possible with a few simple formulas. The beam divergence half angle $\theta$, in radians, is given by:
