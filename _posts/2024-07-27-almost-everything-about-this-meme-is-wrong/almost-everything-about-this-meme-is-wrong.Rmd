@@ -1,15 +1,16 @@
 ---
 title: "Almost Everything About This Meme is Wrong"
 description: |
-  Ahh memes...the heavily processed bite sized information snack of the future and today. 
+  Ahh memes...the heavily processed bite sized information snack of the future, and today!
 author:
   - name: Jonathan M. Davis
-    url: {}
+    affiliation: The Truthy McTruthface Group
 
 date: 2024-07-27
 output:
   distill::distill_article:
-    self_contained: true
+    self_contained: false
+bibliography: Pasteur.bib
 ---
 
 
@@ -31,15 +32,15 @@ knitr::include_graphics('LPMeme.jpg')
 
 This meme, like many memes, has a lot going on, and presents an interesting opportunity for study.
 
-It seems like that statement (or similar forms of it) has been misattributed to Pasteur since around 1920 (consult the google). It is almost certainly a reconstruction of Francis Bacon's essay "Of Atheism" (written ~1612) which includes the passage "It is true, that a little philosophy inclineth man’s mind to atheism, but depth in philosophy bringeth men’s minds about to religion." The change in attribution likely seeks to exploit Pasteur's household name recognition (all the kids learn about Pasteurized milk). 
+It seems like that statement (or similar forms of it) has been misattributed to Pasteur since around 1920 (consult the google). It is almost certainly a reconstruction of Francis Bacon's essay "Of Atheism" (written ~1612) which includes the passage "It is true, that a little philosophy inclineth man’s mind to atheism, but depth in philosophy bringeth men’s minds about to religion" [@bacon1612]. The change in attribution likely seeks to exploit Pasteur's household name recognition (all the kids learn about Pasteurized milk). 
 
-The attribution to a widely recognized scientific figure, amplified by the annotation indicating Pasteur is the father of two fields of study is probably intended as a, logically fallacious, appeal to authority. Being the father of two fields of study is better than one but at least with respect to microbiology that attribution usually goes further back to Leeuwenhoek who discovered protists and bacteria and reported results in a 1677 paper [2]. 
+The attribution to a widely recognized scientific figure, amplified by the annotation indicating Pasteur is the father of two fields of study is probably intended as a, logically fallacious, appeal to authority. Being the father of two fields of study is better than one but at least with respect to microbiology that attribution usually goes further back to Leeuwenhoek who discovered protists and bacteria and reported results in a 1677 paper [@lane2015]. 
 
-Pasteur's place as the father of immunology is more credible but still debated by some scholars. Smith [3] recognizes Pasteur's achievements but candidly discusses seeming breeches of integrity in the competition with M. Toussaint in 1880 when they were both developing an anthrax vaccine. Toussiant developed a vaccine that incorporated dead bacteria that was effective in a trials of dogs and sheep. Pasteur's theory at the time insisted on live pathogens depleting the host of some essential nutrient required to support pathogen reproduction and he sharply criticized Toussaint's methods. A challenge arose and Pasteur administered a vaccine that succeeded well. In his public discussion of methods he stated "...living vaccines, cultivatable at will, transportable anywhere without alteration, and, lastly, prepared by a method that one may consider capable of generalization since it served a previous time for a discovery of the chicken cholera vaccine." The actual vaccine he used in the test was not based on live cultured bacteria, but was based on another method similar to Toussaint's that killed the bacteria with potassium bichromate. Pastuer was lauded and Smith [3] reports that "Toussaint subsequently published only 2 more scientific papers before he died in 1890 at the age of 43, after suffering a mental breakdown." 
+Pasteur's place as the father of immunology is more credible but still debated by some scholars. Smith [-@smith2012] recognizes Pasteur's achievements but candidly discusses seeming breeches of integrity in the competition with M. Toussaint in 1880 when they were both developing an anthrax vaccine. Toussiant developed a vaccine that incorporated dead bacteria that was effective in a trials of dogs and sheep. Pasteur's theory at the time insisted on live pathogens depleting the host of some essential nutrient required to support pathogen reproduction and he sharply criticized Toussaint's methods. A challenge arose and Pasteur administered a vaccine that succeeded well. In his public discussion of methods he stated "...living vaccines, cultivatable at will, transportable anywhere without alteration, and, lastly, prepared by a method that one may consider capable of generalization since it served a previous time for a discovery of the chicken cholera vaccine." The actual vaccine he used in the test was not based on live cultured bacteria, but was based on another method similar to Toussaint's that killed the bacteria with potassium bichromate. Pastuer was lauded and Smith [-@smith2012] reports that "Toussaint subsequently published only 2 more scientific papers before he died in 1890 at the age of 43, after suffering a mental breakdown." 
 
 Of course that history isn't particularly relevant to the analysis of our meme, but it was interesting to learn. So what else is going on? The statement of the meme itself, misattributed to authoritative appeal, is demonstrably false in the sense that such a relationship is not evident. Available data is mixed, but most likely supports the opposite trend, particularly respecting deep scientific knowledge. 
 
-A 2017 Pew survey [4] found that "Overall, U.S. adults with college degrees are less religious than
+A 2017 Pew survey [@pew2017] found that "Overall, U.S. adults with college degrees are less religious than
 others, but this pattern does not hold among Christians". The specificity of these results is low. Measures are self reported frequency of prayer and belief in God etc. The Pew Survey acknowledges the previous work of Schwandel that finds "education negatively affects exclusivist religious viewpoints and biblical literalism but not belief in God or the afterlife" and other positive associations between education levels and religious activities. The Pew survey examines relationships within denominational groups and finds opposing trends depending on group affiliation. Catholics, Latter-Day Saints, Historically black Protestants and Evangelicals all exhibit positive correlations between education levels and percentage believing "in God with absolute certainty" {% from high school to college grad for Catholic: 61 -> 66%; Latter-Day: 82 -> 88%; Historically Black: 88 -> 90%; Evangelical: 87 -> 90%}. Mainline Protestant affiliated participants exhibited an opposite trend with 69% of those with High school or less education indicating absolute certainty in God-belief compared with 61% for those with college degrees (see table on page 9 of [4]). Among religiously unaffiliated the change is more drastic. Thirty-six (36%) with high school education absolutely believe in God compared to 15% with college degrees. 
 
 A limitation in the data above to the analysis of our meme is that those results are related to education in general, most of which probably falls under the "little science" bracket. So what does depth of knowledge impart to religiosity? 
@@ -50,20 +51,3 @@ Larson and Witham [7] illustrate that this trend is not new, reporting that "US 
 
 
 ----
-References:
-[1] Bacon, Francis. 1612. "Essays". Prometheus Books. Amherst, NY. 1995. pp 44. (I verified this in my physical copy but also available: https://www.gutenberg.org/files/56463/56463-h/56463-h.htm)
-
-[2] Lane, Nick. 2015. "The unseen world: reflections on Leeuwenhoek (1677) ‘Concerning little animals’". Philos Trans R Soc Lond B Biol Sci. 370 (1666). Retrieved: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4360124/#:~:text=Leeuwenhoek%20is%20universally%20acknowledged%20as,with%20the%20power%20to%20see.
-
-[3] Smith, Kendall A. 2012. "Louis Pasteur, the Father of Immunology?". Frontiers in immunology. 3 (68). Retrieved: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342039/#:~:text=Louis%20Pasteur%20is%20traditionally%20considered,well%20as%20also%20treated%20by
-
-
-[4] Pew Research Center, April 26, 2017, “In America, Does More Education Equal Less Religion?". Retrieved: https://www.pewresearch.org/wp-content/uploads/sites/20/2017/04/Religion-and-education-FULL-REPORT.pdf
-
-[5] Ecklund, E. H., Johnson, D. R., Scheitle, C. P., Matthews, K. R. W., & Lewis, S. W. (2016). Religion among Scientists in International Context: A New Study of Scientists in Eight Regions. Socius, 2. https://doi.org/10.1177/2378023116664353
-
-[6] Pew Research Center. May 2019. "Religion and Science in the United States". Retrieved from: https://www.pewresearch.org/religion/2009/11/05/scientists-and-belief/
-
-[7] Larson, E., Witham, L. Leading scientists still reject God. Nature 394, 313 (1998). https://doi.org/10.1038/28478
-
-

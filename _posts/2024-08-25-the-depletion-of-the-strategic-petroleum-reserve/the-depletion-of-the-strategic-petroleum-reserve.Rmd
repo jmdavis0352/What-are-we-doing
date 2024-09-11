@@ -1,7 +1,7 @@
 ---
 title: "Did Joe Biden Recklessly Deplete the Stategic Petroleum Reserve for Short-Term Political Gain?"
 description: |
-  President Joe Biden's release of approximately 200M barrels of oil from the US Strategic Petroleum Reserve (SPR) in and after 2021 garned criticism from conservative politicians, pundits, and media. Some criticisms asserted the release was a misuse of the reserve as political tool while others incorporated language suggesting the drawdown was a threat to national security. This article examines the history and purpose of the SPR, and conducts an analysis of the drawdown and historical SPR levels relative to specific claims from critics in the context of that history and purpose. 
+  President Joe Biden's release of approximately 200M barrels of oil from the US Strategic Petroleum Reserve (SPR) in and after 2021 garnered criticism from conservative politicians, pundits, and media. Some criticisms asserted the release was a misuse of the reserve as political tool while others incorporated language suggesting the drawdown was a threat to national security. This article examines the history and purpose of the SPR, and conducts an analysis of the drawdown and historical SPR levels relative to specific claims from critics in the context of that history and purpose. 
 author:
   - name: Jonathan M. Davis
     affiliation: The Truthy McTruthface Group
@@ -18,6 +18,7 @@ bibliography: SPR.bib
 knitr::opts_chunk$set(echo = FALSE)
 library(plotly)
 library(tidyverse)
+library(scales)
 
 ################### Prepare data ###############
 
@@ -272,7 +273,7 @@ Productionplot
 
 Not well it seems. 
 
-US Oil Production seems uncorrelated with the political parties happening to hold power in Congress and in the White House. In a largely free, mixed economy like the U.S., oil production is mostly driven by market calculus -- what about the dip in production from April 2015 to Sept 2016? Was it it the Obama Administration's war efforts finally taking effect? Or was it market response to the price of oil falling from \$87 a barrel in Sept 2014 to \$27 in Jan 2016^[Price data are not inflation adjusted: https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=f000000__3&f=m] combined with lower than expected global economic growth [@world_bank_group_global_2018]? The dip in 2020? Was it the Biden Administration's leash on American Oil Production or the market response to depressed demand during the COVID-19 pandemic?
+US Oil Production seems uncorrelated with the political parties happening to hold power in Congress and in the White House. In a largely free, mixed economy like the U.S., oil production is mostly driven by market calculus -- what about the dip in production from April 2015 to Sept 2016? Was it the Obama Administration's war efforts finally taking effect? Or was it market response to the price of oil falling from \$87 a barrel in Sept 2014 to \$27 in Jan 2016^[Price data are not inflation adjusted: https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=f000000__3&f=m] combined with lower than expected global economic growth [@world_bank_group_global_2018]? The dip in 2020? Was it the Biden Administration's leash on American Oil Production or the market response to depressed demand during the COVID-19 pandemic?
 
 Policy may make some difference; I argue policy differences are minor effects compared to global market dynamics. What drove the long decline from 1986 until it flattened in 2005 and began climbing in 2008-2009? Prices dropped from \$24 a barrel in Dec 1985 to \$10 a barrel by April 1986 and remained mostly stagnant until an upward trend began in 2002 and accelerated in 2004. 
 
@@ -302,16 +303,32 @@ Combination <- crossing(Prod_2020, Prod_not2020) %>% mutate(Diff_2020 = Barrels2
 
 ProdJ21 <- subset(Production, Month == my('02-2021')  ) %>% mutate(Jan21 = Month, BarrelJ2021 = Barrels) %>% select(Jan21, BarrelJ2021) 
 
-Combination <- crossing(ProdJ21, Prod_not2020) %>% mutate(Diff_2020 = BarrelJ2021 - Barrelsn2020) 
+Combination_2021 <- crossing(ProdJ21, Prod_not2020) %>% mutate(Diff_2020 = BarrelJ2021 - Barrelsn2020) 
+Combination_2020 <- crossing(Prod_2020, Prod_not2020) %>% mutate(Diff_2020 = Barrels2020 - Barrelsn2020) %>% 
+  filter(Diff_2020 > 1500000  &Diff_2020 < 2e6  ) 
+
 
 
 ```
 
 Is it possible to interpret this data in a way such that we are "currently" producing "nearly two million barrels a day less than we were in 2020"? We are constrained to choose an origin in the calendar or fiscal year 2020, but could plausibly choose an end point for 'current' production sometime in the recent past relative to March 2022, which could be interpreted broadly. 
 
-If we interpret "nearly" to "mean rounds up to but is strictly less than", there are 29 pairs of months where the difference in oil production meets these criteria. All of these comparisons require an origin in April 2020 or before. If the end date is in calendar year 2022 the origin must go back to calendar year 2019. Why do we suppose that is? Surely we don't imagine the arms of the Democrat War on Oil are so long that they reach backward through time to fix their leash round the necks of American energy producers? 
+If we interpret "nearly" to "mean rounds up to but is strictly less than", there are 29 pairs of months where the difference in oil production meets these criteria. All of these comparisons require an origin in April 2020 or before. If the end date is in calendar year 2022 the origin must go back to calendar year 2019. Why do we suppose that is? Surely we don't imagine the arms of the Democrat War on Oil are so long that they reach backward through time to fix their leash round the necks of American energy producers? The graphic below illustrates these 29 possible comparisons, with origin dates highlighted in red. 
 
-If we fix our origin in Feb 2021, the earliest the "policies he implemented on day one" could have taken effect^[Biden took office Jan 20, 2021. It seems unlikely policy changes would effect measurable production changes in 10 days, and our data is aggregated by month so Feb seems the most reasonable start time to measure any potential effect of 'day one' policy change.], then of 14 possible date comparisons available to Rep Cole, *all* are positive (an increase in production). Of course this is semi-random -- February 2021 happened to be a particularly low production month but the trend in production since May of 2020 has been positive.  
+```{r pairs, fig.height = 5.5, fig.width=10, fig.cap= "Possible data comparisons Rep Cole could have used to make the claim that 'America is producing nearly two million barrels a day less than we were in 2020'"  }
+
+ggplot(subset(Production, Month >= my('10-2019') & Month <= my('03-2022') ), aes(x = Month, y = Barrels)) + geom_line(colour = '#00468B', size = 1.2) + 
+  theme_minimal() + scale_y_continuous(labels = unit_format(unit = "M", scale = 1e-6)) + labs(title = 'US Field Production of Crude Oil per Day (Oct 2019 - March 2022)', subtitle = "Rep Cole's possible comparisons", x = NULL) + theme(text = element_text(size = 17)) +
+  geom_segment(data = Combination_2020, aes( x = Month_2020, xend = Month_n2020, y = Barrels2020, yend = Barrelsn2020, group = Diff_2020), alpha = .3) + 
+  geom_point(data = Combination_2020, aes(x = Month_2020, y = Barrels2020), colour = 'red', alpha = .1, size = 6) + 
+  annotate('text', x = my('07-2021'), y = 12.8e6, hjust = .4, label = 'Origin date for comparison', size = 5 )  +
+  annotate('point', x = my('03-2021'), y = 12.8e6, colour = 'red', size = 6, alpha = .6 )
+
+```
+
+If we fix our origin in Feb 2021, the earliest the "policies he implemented on day one" could have taken effect^[Biden took office Jan 20, 2021. It seems unlikely policy changes would effect measurable production changes in 10 days, and our data is aggregated by month so Feb seems the most reasonable start time to measure any potential effect of 'day one' policy change.], then of 14 possible date comparisons available to Rep Cole, *all* are positive (an increase in production). Of course this is semi-random -- February 2021 happened to be a particularly low production month but the trend in production since May of 2020 has been positive. 
+
+**It is implausible that this comparison is a mistake. Rep Cole (or someone in his office who prepared the statement) intended to portray U.S. oil production suffering directly from an imagined Biden Administration action and found data that would allow them to construct something that wasn't *entirely* false, but did not convey truth.** 
 
 Rep Cole mentions the Keystone XL pipeline, and the construction of the sentence groups that specific item within the discussion of American energy production. The Keystone XL pipeline would have been a transport mechanism for the U.S. to *import* oil from Canada.^[For the 1 billionth time.]
 
