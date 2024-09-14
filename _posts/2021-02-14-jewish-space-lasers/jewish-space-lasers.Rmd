@@ -5,7 +5,6 @@ description: |
 author:
   - name: Jonathan M. Davis
     affiliation: Not an optics or photonics engineer
-    url: {}
 
 date: 02-15-2021
 output:
@@ -168,7 +167,7 @@ We executed the calculation developed in the previous section at the values of l
 </aside>
 
 
-```{r result, fig.height=4.5,fig.width=7.5, fig.cap="Sensitivity of system power requirements to laser characteristics", echo=FALSE }
+```{r result, fig.height=4.5,fig.width=7.5, fig.cap="Sensitivity of system power requirements to laser characteristics", echo=FALSE, preview = TRUE }
 
 
 ggplot(subset(LaserParam, M2<=20) , aes(x = Aperture, y = GWatts, colour = M2, group = M2)) + geom_line() + theme_minimal()

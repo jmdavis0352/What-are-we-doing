@@ -1,0 +1,13 @@
+﻿Transition,Affiliation,Effect,Color,ynudge,ynudge_c
+High School,Catholic,0.61,Increased from High School to College,-0.03,0.03
+College,Catholic,0.66,Increased from High School to College,-0.03,0.03
+High School,Latter-Day Saints,0.82,Increased from High School to College,-0.03,0.03
+College,Latter-Day Saints,0.88,Increased from High School to College,-0.03,0.03
+High School,Historically Black Protestants,0.88,Increased from High School to College,-0.03,0.03
+College,Historically Black Protestants,0.9,Increased from High School to College,-0.03,0.03
+High School,Evangelical,0.87,Increased from High School to College,-0.03,0.03
+College,Evangelical,0.9,Increased from High School to College,-0.03,0.03
+High School,Mainline Protestant,0.69,Decreased from High School to College,0.03,-0.03
+College,Mainline Protestant,0.61,Decreased from High School to College,0.03,-0.03
+High School,Unaffiliated,0.36,Decreased from High School to College,0.03,-0.03
+College,Unaffiliated,0.15,Decreased from High School to College,0.03,-0.03
