@@ -1,5 +1,5 @@
 ---
-title: "Did Joe Biden Recklessly Deplete the Stategic Petroleum Reserve for Short-Term Political Gain?"
+title: "Did Joe Biden Recklessly Deplete the Strategic Petroleum Reserve for Short-Term Political Gain?"
 description: |
   President Joe Biden's release of approximately 200M barrels of oil from the US Strategic Petroleum Reserve (SPR) in and after 2021 garnered criticism from conservative politicians, pundits, and media. Some criticisms asserted the release was a misuse of the reserve as political tool while others incorporated language suggesting the drawdown was a threat to national security. This article examines the history and purpose of the SPR, and conducts an analysis of the drawdown and historical SPR levels relative to specific claims from critics in the context of that history and purpose. 
 author:
@@ -9,16 +9,18 @@ author:
 date: 2024-08-25
 output:
   distill::distill_article:
-    self_contained: false
+     toc: true
 bibliography: SPR.bib  
 ---
 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
 library(plotly)
 library(tidyverse)
 library(scales)
+library(foreach)
 
 ################### Prepare data ###############
 
@@ -61,6 +63,8 @@ Production$Month <- my(Production$Month)
 Production$Barrels <- Production$ThousandBarrels*1000
 
 
+Party <- readxl::read_excel('Party_control.xlsx')
+
 ```
 
 ## A Very Brief History of the SPR
@@ -102,7 +106,7 @@ knitr::include_graphics("Newsmax_Daysleft.png")
 ```
 
 
-In a March 2023 House Committee hearing titled “Burning the Midnight Oil: Why Depleting the Strategic Petroleum Reserve is Not a Solution to America’s Energy Problem, Part 1.” the following remarks were  publicized:
+In a March 2023 House Committee hearing titled “Burning the Midnight Oil: Why Depleting the Strategic Petroleum Reserve is Not a Solution to America’s Energy Problem, Part 1.” the following remarks were publicized [@united_states_house_committee_on_oversight_and_accountability_hearing_2024]:
 
 > * Instead of responding to high gas prices by reversing his own anti-American energy policies, President Biden chose to manipulate short-term prices by depleting our SPR.
   * President Biden must take responsibility for his abuse of the SPR, which has put America’s national security at risk.
@@ -111,11 +115,11 @@ In a March 2023 House Committee hearing titled “Burning the Midnight Oil: Why 
 
 
 
-Congressman Tom Cole (R. OK) released the following statement:
+Congressman Tom Cole (R. OK) released the following statement [@cole_cole_2022]:
 
 >President Biden's decision to release more oil from the Strategic Petroleum Reserve is misguided, reckless and completely irresponsible....The answer is to unleash domestic energy production to supply more oil and gas. America is producing nearly two million barrels a day less than we were in 2020. President Biden could easily reverse the policies he implemented on day one, including restarting the Keystone XL pipeline, reopening federal lands for more exploration and production and adopting policies that encourage, rather than disparage, our domestic energy industry.
 
-In a letter to Energy Secretary Jennifer Granholm,  Representative James Comer (R. KY) and Representative Pat Fallon (R. TX) write
+In a letter to Energy Secretary Jennifer Granholm,  Representative James Comer (R. KY) and Representative Pat Fallon (R. TX) [@comer_comer_2024] write
 
 >Committee Republicans are concerned the Biden Administration abused the SPR for political gain — to lower skyrocketing gas prices before the 2022 midterm election — rather than for its intended purpose of mitigating severe energy supply interruptions or fulfilling obligations to the International Energy Agency (IEA).
 
@@ -158,7 +162,7 @@ NetImports
 ```
 
 
-Examining SPR inventory in relation to total US oil imports is another possibility. Even though the US is currently a net exporter, we still import about 6-8M barrels per day. Below we examine the total number of import days to which the SPR inventory equates (i.e. how many days could the SPR supply total US oil imports assuming imports remained static from the day 0). The SPR can not, and is not intended to, replace the entire bulk of US imports because its distribution throughput is limited to 4.4M^[Maximum distribution from all sites combined (https://www.energy.gov/sites/default/files/2023-03/2023%20SPR%20Distribuiton%20Brochure_0.pdf)] barrels per day, so this isn't a realistic measure of strategic safety, just a relative measure of how SPR inventory related to total US oil imports over time. 
+Examining SPR inventory in relation to total US oil imports is another possibility. Even though the US is currently a net exporter, we still import about 6-8M barrels per day. Below we examine the total number of import days to which the SPR inventory equates (i.e. how many days could the SPR supply total US oil import requirements remained static day 0). The SPR can not, and is not intended to, replace the entire bulk of US imports because its distribution throughput is limited to 4.4M^[Maximum distribution from all sites combined (https://www.energy.gov/sites/default/files/2023-03/2023%20SPR%20Distribuiton%20Brochure_0.pdf)] barrels per day, so this isn't a realistic measure of strategic safety, just a relative measure of how SPR inventory was related to total US oil imports over time. 
 
 ```{r ImportDays, fig.width=9, fig.cap="Source: SPR inventory from: https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCSSTUS1&f=W ; US Imports from:https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=mcrimus2&f=m "}
 
@@ -175,9 +179,9 @@ ImportDays
 
 Viewed this way, it's reasonable to state that the SPR level is historically low. When we think of the SPR as equivalent to days of total oil imports, the current SPR inventory is about the same as it was in 2001 (as of May 2024 -- the most recent data available -- it was 52.2 days, compared to April 2001 when it was 53.6 days). 
 
-But one other factor complicates the interpretation of this data. The origin of US imports has gradually shifted away from OPEC and other potentially adversarial nations toward allies and partners. **In 2001, the US imported 28% of its oil from Canada and Mexico while importing 41% from OPEC nations, Russia, or Venezuela; in 2023 the US imported 61% of its oil from Canada and Mexico while importing 14% from OPEC nations, Russia or Venezuela.^[See https://afdc.energy.gov/data/10621]** So does the SPR today need to be the same size (relative to US imports) as it was in 2001?
+But one other factor complicates the interpretation of this data. The origin of US imports has gradually shifted away from OPEC and other potentially adversarial nations toward allies and partners. **In 2001, the US imported 28% of its oil from Canada and Mexico and similarly about 28% from OPEC nations or Russia; in 2023 the US imported 61% of its oil from Canada and Mexico while importing 12% from OPEC nations or Russia.^[See https://afdc.energy.gov/data/10621]** So does the SPR today need to be the same size (relative to US imports) as it was in 2001?
 
-To state that the SPR inventory is "down to nothing" or that it has been "depleted" is inaccurate political rhetoric. It is accurate to state that SPR levels are low relative to historical levels, but the national security implications and policy implications of this level are ambiguous at best and **it is *demonstrable* that Republican lawmakers in general are not significantly concerned about an SPR inventory at this level -- we will see why later in this analysis**. 
+To state that the SPR inventory is "down to nothing" or that it has been "depleted"^[One strict definition of deplete is simply to "lessen markedly in quantity" but most connotations and I argue, most American English usage implies "a reduction in number or quantity so as to endanger the ability to function". See https://www.merriam-webster.com/dictionary/deplete] is inaccurate political rhetoric. It is accurate to state that SPR levels are low relative to historical levels, but the national security implications and policy implications of this level are ambiguous at best and **it is *demonstrable* that Republican lawmakers in general are not significantly concerned about an SPR inventory at this level -- we will see why later in this analysis**. 
 
 
 ### "Personal ATM" 
@@ -189,11 +193,11 @@ The statement from Carl Higbie that "President Biden treated the SPR, as his per
 
 There are many such comments; comments above are reproduced without changes to grammar or spelling. 
 
-Legal action against such misrepresentations is unlikely to succeed. The individual or organization can assert the statement was just a metaphor, just entertainment, obviously not meant to be taken seriously and no reasonable person would believe it. We know this argument works because it is the successful legal defense mounted by Tucker Carlson and Fox News against a libel suit brought by Karen McDougal -- the Playboy model who allegedly had an affair with former President Trump and to whom President Trump allegedly paid $150,000 for keeping the story out of the public. Carlson widely implied McDougal was extorting the former President. The judge wrote in the ruling that
+Legal action against such misrepresentations is unlikely to succeed. The individual or organization can assert the statement was just a metaphor, just entertainment, obviously not meant to be taken seriously and no reasonable person would believe it. We know this argument works because it is the successful legal defense mounted by Tucker Carlson and Fox News against a libel suit brought by Karen McDougal -- the Playboy model who allegedly had an affair with former President Trump and to whom President Trump allegedly paid \$150,000 for keeping the story out of the public^[Not to be confused with Stormy Daniels, the adult film star to whom former President Trump certainly paid \$150,000 to keep information about his affair with her (which he denies) out of the public, and for which he was convicted of 34 felony counts of falsifying business records.] . Carlson widely implied McDougal was extorting the former President. The judge wrote in the ruling that
 
 > Fox persuasively argues . . . that given Mr. Carlson's reputation, any reasonable viewer arrives with an appropriate amount of skepticism about the statements he makes...[w]hether the Court frames Mr. Carlson's statements as exaggeration, non-literal commentary, or simply bloviating for his audience, the conclusion remains the same—the statements are not actionable [@fawbush_tucker_2020] .
 
-The ruling makes no consideration for the effects of such media on "unreasonable" viewers, nor does it attempt to ascertain the proportion of the audience that might reasonably be classified as "reasonable".
+The ruling makes no consideration for the effects of such media on "unreasonable" viewers, nor does it attempt to ascertain the proportion of the audience that might reasonably be classified as "reasonable". I hypothesize that proportion to be relatively small. 
 
 ### 17 Days Remain
 
@@ -260,13 +264,70 @@ I don't want to expend the effort required to examine specific claims and points
 His comments and many others referenced above imply Democrat policies that are hostile to American oil production. The phrase "Democrat War on Oil" is popular among lawmakers and commentators. How goes the war effort?
 
 
-```{r Production, fig.width=9, fig.cap= "Source: Energy Information Agency (https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=mcrfpus2&f=m)." }
+```{r Production, fig.width=9, fig.cap= "Source: Energy Information Agency (https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=mcrfpus2&f=m). Shaded blocks indicate political party in power. " }
+
+House <- foreach(s = Party$Start) %do% {
+  
+  col <- ifelse(Party$House[Party$Start == s] == 'D', 'blue', 'red')
+  
+  list(
+    type = "rect",
+    fillcolor = col,
+    line = list(color = col),
+    opacity = 0.2,
+    x0 = ymd(s),
+    x1 = ymd(Party$End[Party$Start == s]) ,
+    xref = "x",
+    y0 = 0,
+    y1 = 1.5e6,
+    yref = "y"
+)
+}
+
+Senate <- foreach(s = Party$Start) %do% {
+  
+  col <- ifelse(Party$Senate[Party$Start == s] == 'D', 'blue', 'red')
+  
+  list(
+    type = "rect",
+    fillcolor = col,
+    line = list(color = col),
+    opacity = 0.2,
+    x0 = ymd(s),
+    x1 = ymd(Party$End[Party$Start == s]) ,
+    xref = "x",
+    y0 = 2.5e6,
+    y1 = 4e6,
+    yref = "y"
+)
+}
+
+Exec <- foreach(s = Party$Start) %do% {
+  
+  col <- ifelse(Party$Executive[Party$Start == s] == 'D', 'blue', 'red')
+  
+  list(
+    type = "rect",
+    fillcolor = col,
+    line = list(color = col),
+    opacity = 0.2,
+    x0 = ymd(s),
+    x1 = ymd(Party$End[Party$Start == s]) ,
+    xref = "x",
+    y0 = 1.5e6,
+    y1 = 2.5e6,
+    yref = "y"
+)
+}
+
+
+
 
 Productionplot <- plot_ly(data = Production, x = ~Month) %>% add_trace( y = ~Barrels, name = 'Production', mode = 'lines')  %>%
   layout(title = list(text = 'US Field Production of Crude Oil per Day', x = 0, xref = 'paper',xanchor = 'left'),
          yaxis = list(title = 'Barrels of Oil', rangemode = "tozero" ), 
-         xaxis = list(title = '') 
-         )
+         xaxis = list(title = ''), shapes = c(House,Senate, Exec) 
+         ) %>% add_annotations(x = rep( my('01-1970'),3), y = c(.75e6, 2e6, 3.25e6), text = c('House', 'President', 'Senate'), xref = 'x', yref = 'y', showarrow = FALSE)
 Productionplot
 
 ```
@@ -313,7 +374,9 @@ Combination_2020 <- crossing(Prod_2020, Prod_not2020) %>% mutate(Diff_2020 = Bar
 
 Is it possible to interpret this data in a way such that we are "currently" producing "nearly two million barrels a day less than we were in 2020"? We are constrained to choose an origin in the calendar or fiscal year 2020, but could plausibly choose an end point for 'current' production sometime in the recent past relative to March 2022, which could be interpreted broadly. 
 
-If we interpret "nearly" to "mean rounds up to but is strictly less than", there are 29 pairs of months where the difference in oil production meets these criteria. All of these comparisons require an origin in April 2020 or before. If the end date is in calendar year 2022 the origin must go back to calendar year 2019. Why do we suppose that is? Surely we don't imagine the arms of the Democrat War on Oil are so long that they reach backward through time to fix their leash round the necks of American energy producers? The graphic below illustrates these 29 possible comparisons, with origin dates highlighted in red. 
+If we interpret "nearly" to "mean rounds up to but is strictly less than", there are 29 pairs of months where the difference in oil production meets these criteria; all of these comparisons require an origin in April 2020 or before -- Before the Biden Administration began (Figure \@ref(fig:pairs)). 
+
+Why do we suppose that is? Surely we don't imagine the arms of the Democrat War on Oil are so long that they reach backward through time to fix their leash round the necks of American energy producers? 
 
 ```{r pairs, fig.height = 5.5, fig.width=10, fig.cap= "Possible data comparisons Rep Cole could have used to make the claim that 'America is producing nearly two million barrels a day less than we were in 2020'"  }
 
@@ -321,22 +384,25 @@ ggplot(subset(Production, Month >= my('10-2019') & Month <= my('03-2022') ), aes
   theme_minimal() + scale_y_continuous(labels = unit_format(unit = "M", scale = 1e-6)) + labs(title = 'US Field Production of Crude Oil per Day (Oct 2019 - March 2022)', subtitle = "Rep Cole's possible comparisons", x = NULL) + theme(text = element_text(size = 17)) +
   geom_segment(data = Combination_2020, aes( x = Month_2020, xend = Month_n2020, y = Barrels2020, yend = Barrelsn2020, group = Diff_2020), alpha = .3) + 
   geom_point(data = Combination_2020, aes(x = Month_2020, y = Barrels2020), colour = 'red', alpha = .1, size = 6) + 
-  annotate('text', x = my('07-2021'), y = 12.8e6, hjust = .4, label = 'Origin date for comparison', size = 5 )  +
-  annotate('point', x = my('03-2021'), y = 12.8e6, colour = 'red', size = 6, alpha = .6 )
+  annotate('text', x = my('11-2021'), y = 12.6e6, hjust = .4, label = 'Origin date for comparison', size = 5 )  +
+  annotate('point', x = my('07-2021'), y = 12.6e6, colour = 'red', size = 6, alpha = .6 ) +
+  geom_vline(xintercept = my('02-2021')) + 
+  annotate('text', x = my('02-2021'), y = 13.1e6, hjust = 0,   label = ' ~ Biden Inauguration', size = 4 )  
+
 
 ```
 
 If we fix our origin in Feb 2021, the earliest the "policies he implemented on day one" could have taken effect^[Biden took office Jan 20, 2021. It seems unlikely policy changes would effect measurable production changes in 10 days, and our data is aggregated by month so Feb seems the most reasonable start time to measure any potential effect of 'day one' policy change.], then of 14 possible date comparisons available to Rep Cole, *all* are positive (an increase in production). Of course this is semi-random -- February 2021 happened to be a particularly low production month but the trend in production since May of 2020 has been positive. 
 
-**It is implausible that this comparison is a mistake. Rep Cole (or someone in his office who prepared the statement) intended to portray U.S. oil production suffering directly from an imagined Biden Administration action and found data that would allow them to construct something that wasn't *entirely* false, but did not convey truth.** 
+**It is implausible that this comparison is a mistake. Rep Cole (or someone in his office who prepared the statement) intended to portray U.S. oil production as suffering directly from some imagined Biden Administration action and found data that would allow them to construct a statement of condemnation that wasn't quite *entirely* false.**
 
-Rep Cole mentions the Keystone XL pipeline, and the construction of the sentence groups that specific item within the discussion of American energy production. The Keystone XL pipeline would have been a transport mechanism for the U.S. to *import* oil from Canada.^[For the 1 billionth time.]
+Rep Cole mentions the Keystone XL pipeline, and the construction of the sentence groups that specific item within the discussion of American energy production. The Keystone XL pipeline would have been a transport mechanism for the U.S. to *import* petroleum products from Canada.^[For the 1 billionth time.]
 
-I started researching the federal land issue but I'm running out of energy on this topic -- the counter argument is that granting new leases is unlikely to affect production because industry already has access to vast tracts of federal land with approvals for exploration that are unused. Tracking down how the process actually works and whether anything anyone says about this is true would be another one of these documents and another 40-80 hours of labor.  
+I started researching the federal land issue but I'm running out of energy on this topic and it seems difficult find information that's clear and easy to understand -- the counter argument is that granting new leases is unlikely to affect production because industry already has access to vast tracts of federal land with approvals for exploration that are unused. Tracking down how the process actually works and whether anything anyone says about this is true would be another one of these documents and another 40-80 hours of labor.  
 
 I find representative Cole's statement to be a normal political lie. The essence of it is untrue, but there are technical and narrow ways in which the basic premises could be true if interpreted in a specific way (a way that doesn't really make any sense, but still). This is how normal political lying works. A common caricature might be: "My budget cuts the deficit over 10 years" -- but only if Congress renews these 8 provisions every 2 years and the U.S. experiences constant year over year GDP growth of 4.6% -- both of which are unlikely. 
 
-The next section is something different -- normal political lies and rhetoric are based on partial truths -- a truth that holds under unlikely assumptions or narrow circumstances. Or, they may be statements that while basically true omit critical context and alter the perception of those consuming the statement. That paradigm has been changing. 
+The next section is something a little different -- normal political lies and rhetoric usually originate from partial truths -- a truth that holds under unlikely assumptions or narrow circumstances. Or, they may be statements that while basically true omit critical context and alter the perception of those consuming the statement. The normal notion of political lies has been shifting.  
 
 ### Statement from former President Trump
 
@@ -363,7 +429,11 @@ fig
 
 He did not do this. In Jan of 2017 when former President Trump was sworn in, the SPR contained ~695M barrels (pretty full). When he left office the SPR contained about 637M barrels (still pretty full but 58M barrels lighter). SPR inventory declined during this period because "since 2015, Congress has enacted seven laws containing provisions mandating the sale of SPR oil.These mandated sales from the SPR have committed 271 million barrels of oil for sale through FY2028" [@greenley_strategic_2020].^[It's possible President Trump was mis-remembering a proposal from his administration in March of 2020 after oil prices fell sharply to spend \$3 Billion buying 77M barrels of oil from US producers to fill the SPR as part of a pandemic stimulus bill. The Democrat controlled Senate stripped that funding from the bill, characterizing it as a "bail out for big oil" [@hulac_oil_2020]. Republicans asserted the purchases were to be made from smaller oil suppliers but the practicality of such a plan may not have been viable as small producers had limited access to pipeline bandwidth or other transportation to move stocks to the SPR salt caverns in Texas [@kumar_drowning_2020]. Regardless, the program was never implemented, but previously scheduled mandated SPR sales were delayed because it didn't make sense to add more oil to a supply rich market, sold at a low price [@hulac_oil_2020] Understanding the data and political motivations related to this event would require another one of these documents and another 15-30 hours of labor.]
 
-The largest commitment to SPR mandatory sales came from the FY 2018 budget. *President Trump's budget*. In it, his administration states: "the Budget proposes to sell approximately 270 million barrels^[I think this was total inclusive of previous legislation. A 2023 analysis showed the 2018 budget added sales of 100M barrels occurring between 2022 and 2027 [@razek_can_2023]. But there seems to be confusion -- if that's the case the projected ending inventory in 2027 would be around 400M barrels, but earlier reporting and the plain text of the budget suggest 260M as the projected ending inventory in 2027 [@mufson_trump_2017] which would mean the 270M proposed sales were on top of previously mandated sales-- I'm not certain exactly what's going on. It may be that the final form of the law reduced that proposed sales amount to 100M so I'll use the more conservative estimate that the desired ending inventory was around 400M barrels.] of SPR crude by 2027, leaving roughly half of the remaining SPR inventory after all sales currently authorized by law are completed (approximately 250–260 million barrels). Given the long-term trajectory of domestic energy production and transportation capabilities, a smaller SPR is projected to be able to continue to meet international obligations and emergency needs. As sales progress, the proposal closes two of the four Gulf Coast SPR sites as determined by a comprehensive analysis of footprint and operations to be conducted" [@office_of_management_and_budget_appendix_2018].
+The largest commitment to SPR mandatory sales (100M barrels) came from the FY 2018 budget. *President Trump's budget*. In it, his administration states: 
+
+>"the Budget proposes to sell approximately 270 million barrels of SPR crude by 2027, leaving roughly half of the remaining SPR inventory after all sales currently authorized by law are completed (approximately 250–260 million barrels). Given the long-term trajectory of domestic energy production and transportation capabilities, a smaller SPR is projected to be able to continue to meet international obligations and emergency needs. As sales progress, the proposal closes two of the four Gulf Coast SPR sites as determined by a comprehensive analysis of footprint and operations to be conducted" [@office_of_management_and_budget_appendix_2018]. 
+
+The remaining uncommitted SPR inventory after these sales would be "less than 400 million barrels" [@pirog_strategic_2019]. This target amount was likely influenced by U.S. net import levels in 2017, when this budget would have been written. The IEP requirement for 90-days of net imports in 2017 was around 340M barrels.  
 
 Of a 700M barrel SPR:
 
@@ -390,9 +460,13 @@ It is not called this.
 
 This is technically true, the SPR has not been at physical capacity most of its history -- It reached capacity in the spring of 2009 and remained full until July of 2011 when the emergency sale of 30M barrels was authorized as part of coordinated IEA release in response to disruptions to global supplies from unrest in Libya.  
 
->In fact, it’s been mostly empty. It's supposed to only be used for large-scale emergency or conflict. Now I see where Biden has just announced he's going to take what we so carefully and magically built, and what will be a futile attempt to reduce oil and gasoline prices. They will soon bring it down to empty again. It just never ends!
+>In fact, it’s been mostly empty. 
 
-The Biden Administrations SPR withdrawals occurred via distinct legal mechanisms. Some of the sales were accelerations of the already *Congressionally mandated* sales of 270M barrels by 2027. Others were exchanges (required to be replaced) but the bulk were direct sales. Those replacements for exchanges began in August of 2023 and have since brought SPR inventory back to 378M barrels -- but the mandated sales will continue through FY28. 
+It has not been.
+
+>It's supposed to only be used for large-scale emergency or conflict. Now I see where Biden has just announced he's going to take what we so carefully and magically built, and what will be a futile attempt to reduce oil and gasoline prices. They will soon bring it down to empty again. It just never ends!
+
+The Biden Administrations SPR withdrawals occurred via distinct legal mechanisms. Some of the sales were accelerations of the already *Congressionally mandated* sales of 270M barrels by 2027. Others were exchanges (required to be replaced) but the bulk were direct sales. Those replacements for exchanges began in August of 2023 and have since brought SPR inventory back to 378M barrels.^[As of the date when I downloaded the data from EIA -- Aug, 30 2024.] 
 
 
 ## Short-Term Political Gain? Do We Even Need an SPR?
@@ -401,7 +475,7 @@ Conservative outlets aren't always opposed to tapping the SPR to reduce gas pric
 
 >If U.S. President Donald Trump wants to lower pump prices, he doesn’t have to rely on OPEC. He has a 660-million-barrel emergency oil stockpile at his disposal. Releasing some of that crude in September or October could dampen gasoline prices ahead of November mid-term elections. 
 
-As far as I can tell President Trump did not take that advice, but the publication of such an article suggests that outrage at gas price reduction via SPR sales ahead of an election, at least in some media, is predicated on the color of the party occupying the White House. I hypothesize that most Americans, absent any media consumption, would be ambivalent on whether such a concept was good or bad. How many hours a year does an average American spend studying energy policy? I don't have any data but my guess is a number of hours statistically identical to zero^[Prior to writing this document in response to a statement I heard, I had spent approximately 0 hours per year studying energy policy. I have now spent perhaps 30-40 hours studying petroleum markets and policy, the SPR, and related politics.]. Sharing those sick memes does not count. For an average American, gaining sufficient knowledge and expertise to really understand the pros, cons, secondary and tertiary effects of, limitations on, and motivations behind SPR actions relative to the global petroleum market likely requires thousands of hours of study. One example of scholarly analysis of the Biden Administrations SPR release that's publicly available is [@razek_can_2023]. I encourage anyone reading this document to scan it and observe the differences between news press and actual research. 
+As far as I can tell President Trump did not take that advice, but the publication of such an article suggests that outrage at gas price reduction via SPR sales ahead of an election, at least in some media, is predicated on the color of the party occupying the White House. I hypothesize that most Americans, absent any media consumption, would be ambivalent on whether such a concept was good or bad. How many hours a year does an average American spend studying energy policy? I don't have any data but my guess is a number of hours statistically identical to zero^[Prior to writing this document in response to a statement I heard, I had spent approximately 0 hours per year studying energy policy. I have now spent perhaps 30-40 hours studying petroleum markets and policy, the SPR, and related politics.]. Sharing those sick memes does not count. For an average American, gaining sufficient knowledge and expertise to really understand the pros, cons, secondary and tertiary effects of, limitations on, and motivations behind SPR actions relative to the global petroleum market and geopolitical machinations likely requires thousands of hours of study. One example of scholarly analysis of the Biden Administrations SPR release that's publicly available is [@razek_can_2023]. I encourage anyone reading this document to scan it and observe the differences between news press and actual research. 
 
 
 Scholarship regarding the continued value of strategic petroleum stock is widely varied. A 2006 study [@considine_is_2006] finds 
@@ -417,16 +491,28 @@ Some actual policy analysts on the more distant right (Heritage Foundation) or l
 
 But scholarship does not universally suggest the SPR itself is of limited value. Scholars at Columbia University's Center on Global Energy Policy [@bordoff_new_2018] argue vigorously and convincingly for the continued advantages of an SPR but acknowledge challenges to its effective management and usage. The statements below are from various sections in the report but summarize key points
 
->Decisions to sell off the SPR to fill near-term budget holes unrelated to energy security are shortsighted...Strategic stocks remain valuable as a tool of international cooperation and soft power. They also enhance America’s ability to take foreign policy actions that may adversely affect oil markets, such as the recent decision to reimpose oil sanctions on Iran... Assessing the right size of the US SPR is, in some ways, an impossible task. An early version of the stochastic dynamic programming models developed in the 1980s, for example, concluded that the “optimal” size of the SPR could be anywhere between 0.8 and 4.4 billion barrels, depending on the DOE’s assumptions...Given the level of ambiguity about future oil market trends, the changing nature of supply risks to the oil market, and the risk of increased volatility in a period of a highly uncertain energy transition, policymakers would be well advised to proceed with caution rather than sell off the nation’s oil security arsenal.
+>Decisions [writing in 2018 this refers to the Congressional mandates for SPR draw downs] to sell off the SPR to fill near-term budget holes unrelated to energy security are shortsighted...Strategic stocks remain valuable as a tool of international cooperation and soft power. They also enhance America’s ability to take foreign policy actions that may adversely affect oil markets, such as the recent decision to reimpose oil sanctions on Iran... Assessing the right size of the US SPR is, in some ways, an impossible task. An early version of the stochastic dynamic programming models developed in the 1980s, for example, concluded that the “optimal” size of the SPR could be anywhere between 0.8 and 4.4 billion barrels, depending on the DOE’s assumptions...Given the level of ambiguity about future oil market trends, the changing nature of supply risks to the oil market, and the risk of increased volatility in a period of a highly uncertain energy transition, policymakers would be well advised to proceed with caution rather than sell off the nation’s oil security arsenal.
 
 
 ### What's the Real Answer?
 
-I don't know. But after reading the material referenced in this discussion (and about as many un-referenced articles and reports) I'm reasonably confident that the majority of Republican criticism of the 2021-2023 SPR draw-downs does not originate from an objective and principled policy stance, and I find most of it flatly hollow^[I must credit Rick Perry who at least has been consistently critical of SPR sales for short term gas price stability across administrations -- but I would still characterize his op-ed in Fox News as misleading and intentionally excluding critical context -- the analysis of which would be another document and another 5-10 hours of work.] in light of the Congressional mandates for SPR sales passed by a Republican Congress and mostly signed by President Trump. The position that a planned SPR inventory of ~400M barrels by the end of 2027 is fine and good but an SPR of ~350M in 2023 with requirements for partial replacements in law is a catastrophe exhibits at least some incoherence. 
+I don't know. But after reading the material referenced in this discussion (and many other un-referenced articles and reports) I'm reasonably confident that the majority of Republican criticism of the 2021-2023 SPR draw-downs does not originate from an objective and principled policy stance, and I find most of it flatly hollow^[I must credit Rick Perry who at least has been consistently critical of SPR sales for short term gas price stability across administrations -- but I would still characterize his op-ed in Fox News as misleading and intentionally excluding critical context -- the analysis of which would be another document and another 5-10 hours of work.] in light of Congressional SPR sale mandates in laws passed by a Republican Congress and mostly signed by President Trump. The position that a planned SPR inventory of ~400M barrels and the closure of 2 of the 4 storage sites by the end of 2027 is fine and good (we don't need them) but an SPR of ~350M in 2023 with requirements for partial replacements in law is a national security catastrophe exhibits at the very least, some incoherence. 
 
-I'm also tremendously confident that assessing whether a particular SPR action was "good", "bad", "reckless" etc. is very, very difficult and people who spend decades studying such problems disagree. 
+I'm also tremendously confident that assessing whether a particular SPR action was "good", "bad", "short-sighted", "brilliant", 'reckless' etc. is very, very difficult and people who spend decades studying such problems disagree. 
 
-Was the Biden Administration action a stunt for political gain? I'm reasonably certain that politics was part of the calculus. 
+**Were the Biden Administration's SPR sales a reckless abuse of a national security asset for political gain?** I'm reasonably certain that politics was part of the calculus but it is inaccurate to characterize those actions as entirely reckless or as an abuse of the SPR solely for political gain ahead of the election. I find such a characterization inaccurate because:
 
-Was the Republican reaction to that action a political stunt for short term political gain? I find the data to generally support that assertion.
+* As the economy emerged from pandemic induced reductions of petroleum demand, and subsequent reductions in petroleum supplies, increasing demand outpaced increasing supply production. U.S. petroleum consumption returned to pre-pandemic levels by late June of 2021, while U.S. and global petroleum production wouldn't return to pre-pandemic levels until 2023^[U.S. production data illustrated above. Global production by year: https://www.statista.com/statistics/265203/global-oil-production-in-barrels-per-day/]. Suppliers follow market signals and production ramp ups take time. In this supply constrained market, the price of crude oil climbed from \$15.18 a barrel in April 2020 to \$78.51 a barrel by April 2021 -- a 7 year high^[Not inflation adjusted.]. 
 
+* Sharp spikes in petroleum prices frequently precede global recessions (eg. 1973, 1980–82, 1990, 2000 and 2008) [@reynolds_strategic_2022]. 
+
+* In Feb 2022 Russia invaded Ukraine. Anticipation of a global supply disruption resulting from war in Europe amid rapidly increasing oil prices climbing from the post-pandemic economy was a legitimate concern. By March, 2022 crude oil was trading at \$107 a barrel (a 10 year high). SPR sales in March and April of 2022 were part of a coordinated release among IEA member states who voted unanimously to execute the action. Conservative policy analyst Alan Reynolds^[https://www.cato.org/people/alan-reynolds] characterized the 2022 release as "...only the second time that the SPR has been used for the purpose Congress intended in 1975 – to counteract temporary spikes in the global price of oil due to cartel extortion or foreign wars" [@reynolds_strategic_2022].
+
+There are of course legitimate criticisms of the SPR releases. Most scholars seem to agree that the sales were largely ineffective and argue that SPR releases in general have limited capability to impact global markets. 
+
+**Was the Republican and conservative media reaction to Biden Administration SPR sales a political stunt for short term political gain?** I find the data indicates the characterizations of SPR sales reviewed in this document were either misleading political rhetoric or plainly false propaganda.
+
+## Caveats {.appendix}
+At most, this documents reflects about 50 hours of labor. It almost certainly contains errors, omissions that should have been included, and misunderstandings. I think to gain a *thorough* understanding of this issue would require, for me, perhaps 200-400 hours. I do not typically study energy policy and before writing this, knew nothing about the Strategic Petroleum Reserve beyond the basic fact of its existence, and was unfamiliar with any of these specific statements or articles.
+
+My hope in writing this is to illuminate the nature of political rhetoric around complex geopolitical and economic issues. Every topic is like this. Every statement from every politician or pundit requires 10's of hours of study to verify and understand because politicians are *almost exclusively*  seeking to influence voters to vote for their party and pundits are *almost exclusively* seeking to sell clicks and advertisements to their audiences, who mostly come seeking bias confirmation and viewpoint validation (I'm on the good side) -- no one wants to buy a pile of "...its complicated and everyone is lying to you."
