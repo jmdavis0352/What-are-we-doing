@@ -2,8 +2,7 @@
 title: "Did Joe Biden Recklessly Deplete the Strategic Petroleum Reserve for Short-Term Political Gain?"
 description: |
   President Joe Biden's release of approximately 200M barrels of oil from the US Strategic Petroleum Reserve (SPR) in and after 2021 garnered criticism from conservative politicians, pundits, and media. Some criticisms asserted the release was a misuse of the reserve as political tool while others incorporated language suggesting the drawdown was a threat to national security. This article examines the history and purpose of the SPR, and conducts an analysis of the drawdown and historical SPR levels relative to specific claims from critics in the context of that history and purpose. 
-
-preview: https://jmdavis0352.github.io/What-are-we-doing/distill-preview.png
+base_url: https://jmdavis0352.github.io/What-are-we-doing/
 author:
   - name: Jonathan M. Davis
     affiliation: The Truthy McTruthface Group 
@@ -12,7 +11,8 @@ date: 2024-08-25
 output:
   distill::distill_article:
      toc: true
-bibliography: SPR.bib  
+bibliography: SPR.bib 
+repository_url: https://github.com/jmdavis0352
 ---
 
 
@@ -103,7 +103,7 @@ During this same video segment the guest, Larry Elder, asserted that this draw d
 
 The same video displays the graphic below -- the commentary implies that 17 days remaining in the SPR is a national security risk:
 
-```{r Newmax, out.width=980, fig.cap="Source: Newsmax video segment https://www.youtube.com/watch?v=TYuQRR0F57w"}
+```{r Newmax, preview = TRUE, out.width=980, fig.cap="Source: Newsmax video segment https://www.youtube.com/watch?v=TYuQRR0F57w"}
 knitr::include_graphics("Newsmax_Daysleft.png")
 ```
 
