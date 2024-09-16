@@ -2,6 +2,7 @@ name: "."
 title: "What are we doing?"
 description: |
   Mostly nonsense.
+base_url: https://jmdavis0352.github.io/What-are-we-doing/  
 output_dir: "docs"
 navbar:
   right:

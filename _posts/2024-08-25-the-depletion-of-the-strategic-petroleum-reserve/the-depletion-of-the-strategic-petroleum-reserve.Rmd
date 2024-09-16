@@ -3,16 +3,16 @@ title: "Did Joe Biden Recklessly Deplete the Strategic Petroleum Reserve for Sho
 description: |
   President Joe Biden's release of approximately 200M barrels of oil from the US Strategic Petroleum Reserve (SPR) in and after 2021 garnered criticism from conservative politicians, pundits, and media. Some criticisms asserted the release was a misuse of the reserve as political tool while others incorporated language suggesting the drawdown was a threat to national security. This article examines the history and purpose of the SPR, and conducts an analysis of the drawdown and historical SPR levels relative to specific claims from critics in the context of that history and purpose. 
 base_url: https://jmdavis0352.github.io/What-are-we-doing/
+preview: distill-preview.png
 author:
   - name: Jonathan M. Davis
     affiliation: The Truthy McTruthface Group 
-    url: {}
 date: 2024-08-25
 output:
-  distill::distill_article:
+  distill::distill_article: 
      toc: true
+self_contained: false
 bibliography: SPR.bib 
-repository_url: https://github.com/jmdavis0352
 ---
 
 

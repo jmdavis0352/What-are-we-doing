@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>What are we doing?</title>
+    <link>https://jmdavis0352.github.io/What-are-we-doing/</link>
+    <atom:link href="https://jmdavis0352.github.io/What-are-we-doing/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Mostly nonsense.
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Did Joe Biden Recklessly Deplete the Strategic Petroleum Reserve for Short-Term Political Gain?</title>
+      <dc:creator>Jonathan M. Davis</dc:creator>
+      <link>https://jmdavis0352.github.io/What-are-we-doing/posts/2024-08-25-the-depletion-of-the-strategic-petroleum-reserve</link>
+      <description>President Joe Biden's release of approximately 200M barrels of oil from the US Strategic Petroleum Reserve (SPR) in and after 2021 garnered criticism from conservative politicians, pundits, and media. Some criticisms asserted the release was a misuse of the reserve as political tool while others incorporated language suggesting the drawdown was a threat to national security. This article examines the history and purpose of the SPR, and conducts an analysis of the drawdown and historical SPR levels relative to specific claims from critics in the context of that history and purpose.</description>
+      <guid>https://jmdavis0352.github.io/What-are-we-doing/posts/2024-08-25-the-depletion-of-the-strategic-petroleum-reserve</guid>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <media:content url="https://jmdavis0352.github.io/What-are-we-doing/posts/2024-08-25-the-depletion-of-the-strategic-petroleum-reserve/distill-preview.png" medium="image" type="image/png" width="861" height="483"/>
+    </item>
+    <item>
+      <title>Almost Everything About This Meme is Wrong</title>
+      <dc:creator>Jonathan M. Davis</dc:creator>
+      <link>https://jmdavis0352.github.io/What-are-we-doing/posts/2024-07-27-almost-everything-about-this-meme-is-wrong</link>
+      <description>Ahh memes...the heavily processed bite sized information snack of the future, and today!</description>
+      <guid>https://jmdavis0352.github.io/What-are-we-doing/posts/2024-07-27-almost-everything-about-this-meme-is-wrong</guid>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <media:content url="https://jmdavis0352.github.io/What-are-we-doing/posts/2024-07-27-almost-everything-about-this-meme-is-wrong/almost-everything-about-this-meme-is-wrong_files/figure-html5/pewtable-1.png" medium="image" type="image/png" width="1920" height="1536"/>
+    </item>
+    <item>
+      <title>Design Considerations for Jewish Space-based Laser Platforms in Visible Wavelengths</title>
+      <dc:creator>Jonathan M. Davis</dc:creator>
+      <link>https://jmdavis0352.github.io/What-are-we-doing/posts/2021-02-14-jewish-space-lasers</link>
+      <description>Congressional Representative Marjorie Taylor Greene (R-Ga) has proposed the California Camp fires may have been ignited by a space-based laser system launched into geosynchronous orbit by the Solaren corporation, possibly under the influence of the Rothschild's for nefarious purposes.</description>
+      <guid>https://jmdavis0352.github.io/What-are-we-doing/posts/2021-02-14-jewish-space-lasers</guid>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://jmdavis0352.github.io/What-are-we-doing/posts/2021-02-14-jewish-space-lasers/jewish-space-lasers_files/figure-html5/result-1.png" medium="image" type="image/png" width="1440" height="864"/>
+    </item>
+  </channel>
+</rss>
