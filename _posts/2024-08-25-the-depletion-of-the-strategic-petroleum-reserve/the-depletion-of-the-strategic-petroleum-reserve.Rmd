@@ -103,7 +103,7 @@ During this same video segment the guest, Larry Elder, asserted that this draw d
 
 The same video displays the graphic below -- the commentary implies that 17 days remaining in the SPR is a national security risk:
 
-```{r Newmax, preview = TRUE, out.width=980, fig.cap="Source: Newsmax video segment https://www.youtube.com/watch?v=TYuQRR0F57w"}
+```{r Newmax,  out.width=980, fig.cap="Source: Newsmax video segment https://www.youtube.com/watch?v=TYuQRR0F57w"}
 knitr::include_graphics("Newsmax_Daysleft.png")
 ```
 
@@ -380,7 +380,7 @@ If we interpret "nearly" to "mean rounds up to but is strictly less than", there
 
 Why do we suppose that is? Surely we don't imagine the arms of the Democrat War on Oil are so long that they reach backward through time to fix their leash round the necks of American energy producers? 
 
-```{r pairs, fig.height = 5.5, fig.width=10, fig.cap= "Possible data comparisons Rep Cole could have used to make the claim that 'America is producing nearly two million barrels a day less than we were in 2020'"  }
+```{r pairs, preview = TRUE,fig.height = 5.5, fig.width=10, fig.cap= "Possible data comparisons Rep Cole could have used to make the claim that 'America is producing nearly two million barrels a day less than we were in 2020'"  }
 
 ggplot(subset(Production, Month >= my('10-2019') & Month <= my('03-2022') ), aes(x = Month, y = Barrels)) + geom_line(colour = '#00468B', size = 1.2) + 
   theme_minimal() + scale_y_continuous(labels = unit_format(unit = "M", scale = 1e-6)) + labs(title = 'US Field Production of Crude Oil per Day (Oct 2019 - March 2022)', subtitle = "Rep Cole's possible comparisons", x = NULL) + theme(text = element_text(size = 17)) +
