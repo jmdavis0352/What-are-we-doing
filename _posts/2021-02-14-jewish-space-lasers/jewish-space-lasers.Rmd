@@ -16,6 +16,8 @@ bibliography: Lasers.bib
 ```{r, out.width = 800,   echo=FALSE}
 knitr::include_graphics('marjorietaylorgreene-campfire.png')
 
+library(ggpubr)
+
 ```
 
 
@@ -85,7 +87,7 @@ We estimated the beam energy density required to ignite vegetation and toast bag
 This experiment proved quite tedious, so these results are approximate, and possibly fabricated. We feel such a methodology is appropriate for this genre of research. 
 </aside>
 
-```{r laserexp, fig.cap="Laser ignition experiment configuration", echo=FALSE}
+```{r laserexp, preview = TRUE, fig.cap="Laser ignition experiment configuration", echo=FALSE}
 knitr::include_graphics('laser_experiment.jpg')
 
 ```
@@ -169,8 +171,16 @@ We executed the calculation developed in the previous section at the values of l
 
 ```{r result, fig.height=4.5,fig.width=7.5, fig.cap="Sensitivity of system power requirements to laser characteristics", echo=FALSE, preview = TRUE }
 
+library(plotly)
+library(ggsci)
 
-ggplot(subset(LaserParam, M2<=20) , aes(x = Aperture, y = GWatts, colour = M2, group = M2)) + geom_line() + theme_minimal()
+LaserParam$tip <- paste0("Aperture: ", LaserParam$Aperture, "m</br></br>", "Power:", round(LaserParam$GWatts, 2), "(GW)</br>M2:", LaserParam$M2)
+
+ggplotly(ggplot(subset(LaserParam, M2<=20) , 
+                aes(x = Aperture, y = GWatts, colour = M2)) + geom_line() + scale_colour_viridis_c() +
+           labs(y = 'Giga Watts Required in Orbit', x = 'Laser Aperture (m)') )
+
+
 
 ```
 

@@ -164,7 +164,7 @@ NetImports
 ```
 
 
-Examining SPR inventory in relation to total US oil imports is another possibility. Even though the US is currently a net exporter, we still import about 6-8M barrels per day. Below we examine the total number of import days to which the SPR inventory equates (i.e. how many days could the SPR supply total US oil import requirements remained static day 0). The SPR can not, and is not intended to, replace the entire bulk of US imports because its distribution throughput is limited to 4.4M^[Maximum distribution from all sites combined (https://www.energy.gov/sites/default/files/2023-03/2023%20SPR%20Distribuiton%20Brochure_0.pdf)] barrels per day, so this isn't a realistic measure of strategic safety, just a relative measure of how SPR inventory was related to total US oil imports over time. 
+Examining SPR inventory in relation to total US oil imports is another possibility. Even though the US is currently a net exporter, we still import about 6-8M barrels per day. Below we examine the total number of import days to which the SPR inventory equates (i.e. how many days could the SPR supply total US oil import requirements assuming constant imports starting on day 0). The SPR can not, and is not intended to, replace the entire bulk of US imports because its distribution throughput is limited to 4.4M^[Maximum distribution from all sites combined (https://www.energy.gov/sites/default/files/2023-03/2023%20SPR%20Distribuiton%20Brochure_0.pdf)] barrels per day, so this isn't a realistic measure of strategic safety, just a relative measure of how SPR inventory was related to total US oil imports over time. 
 
 ```{r ImportDays, fig.width=9, fig.cap="Source: SPR inventory from: https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCSSTUS1&f=W ; US Imports from:https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=mcrimus2&f=m "}
 
@@ -376,7 +376,7 @@ Combination_2020 <- crossing(Prod_2020, Prod_not2020) %>% mutate(Diff_2020 = Bar
 
 Is it possible to interpret this data in a way such that we are "currently" producing "nearly two million barrels a day less than we were in 2020"? We are constrained to choose an origin in the calendar or fiscal year 2020, but could plausibly choose an end point for 'current' production sometime in the recent past relative to March 2022, which could be interpreted broadly. 
 
-If we interpret "nearly" to "mean rounds up to but is strictly less than", there are 29 pairs of months where the difference in oil production meets these criteria; all of these comparisons require an origin in April 2020 or before -- Before the Biden Administration began (Figure \@ref(fig:pairs)). 
+If we interpret "nearly" to mean "rounds up to but is strictly less than", there are 29 pairs of months where the difference in oil production meets these criteria; all of these comparisons require an origin in April 2020 or before -- Before the Biden Administration began (Figure \@ref(fig:pairs)). 
 
 Why do we suppose that is? Surely we don't imagine the arms of the Democrat War on Oil are so long that they reach backward through time to fix their leash round the necks of American energy producers? 
 
