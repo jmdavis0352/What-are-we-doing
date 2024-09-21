@@ -14,7 +14,7 @@ output:
 bibliography: Lasers.bib  
 ---
 
-```{r, out.width = 800,   echo=FALSE}
+```{r, out.width = 800,   echo=FALSE, fig.cap="Source: https://www.cbsnews.com/sanfrancisco/news/bay-area-lawmakersmarjorie-taylor-greene-camp-fire-jewish-space-laser-conspiracy-theory/"}
 knitr::include_graphics('marjorietaylorgreene-campfire.png')
 
 library(ggpubr)
@@ -170,7 +170,7 @@ We executed the calculation developed in the previous section at the values of l
 </aside>
 
 
-```{r result, fig.height=4.5,fig.width=7.5, fig.cap="Sensitivity of system power requirements to laser characteristics", echo=FALSE, preview = TRUE }
+```{r result, fig.height=4.5,fig.width=7.5, fig.cap="Sensitivity of system power requirements to laser characteristics", echo=FALSE }
 
 library(plotly)
 library(ggsci)
