@@ -3,7 +3,7 @@ title: "Design Considerations for Jewish Space-based Laser Platforms in Visible 
 description: |
   Congressional Representative Marjorie Taylor Greene (R-Ga) has proposed the California Camp fires may have been ignited by a space-based laser system launched into geosynchronous orbit by the Solaren corporation, possibly under the influence of the Rothschild's for nefarious purposes. 
 base_url: https://jmdavis0352.github.io/What-are-we-doing/
-preview: laserparam.png
+preview: https://jmdavis0352.github.io/what-are-we-doing/laserparam.png
 author:
   - name: Jonathan M. Davis
     affiliation: Not an optics or photonics engineer
