@@ -49,7 +49,7 @@ Since this effort was executed without funding or expertise, we make the followi
 
   * Total wall plug efficiency of the laser system accounting for power required for cooling systems, communications, satellite orientation, navigation, computer controls systems, heat loss, and orbit maintenance is 15%. This number is commensurate with various other laser systems [@shammiVariableLaserWallplug2018] and the 2.2 MJ pulse laser at the National Ignition Facility [@bayramianCompactEfficientLaser2011].
   * The laser beam quality is evaluated for assumed values of beam propagation ratios ($M^2$) where $M^2 \in [3,20]$. High energy multi-modal lasers tend to exhibit poor beam quality [@newportcorporationLaserBeamSpatial2021]. Zlobina et al [-@zlobinaGeneratingHighqualityBeam2017] demonstrate techniques to improve beam quality, reducing $M^2$ in a 50W CW Raman laser from 26 to 2.6. High energy pulse lasers with near diffraction limited Gaussian beams are possible [@millerGenerationHighenergyGaussian2020], but nanosecond pulse laser systems are probably ill suited for fire starting. Additionally a nano-second pulse laser is less likely to be visually observed by conspiracy minded individuals. A tertiary consideration for expending the resources required to deploy an extraordinarily expensive and impractical technology solution into orbit (that achieves the same effect as a plausibly deniable gender reveal party) is the subtle fear we may inspire in our adversaries as they whisper of space laser threats to their blood and soil. There is no purer mechanism to burn the blood and scorch the soil than the raw essence of the universe, packaged into photons descending from the heavens at Jewish wavelengths. 
-  * Feasible laser apertures or beam waists ($W_0$ ) range from 20cm - 100 cm. Larger apertures are desirable because they minimize beam divergence. The National Ignition Facility laser elements each use an optical aperture of 40 cm so we know this is feasible (for a multi-pass pulse laser architecture on Earth surface anyway). Laser apertures up to 10 km may be possible with coherent laser arrays such as those suggested for light sail propulsion [@fugateSharshotPropulsionSystem2017], but the complexities of constructing and tuning such an array for an orbital platform seem daunting so we ignore them here.
+  * Feasible laser apertures or beam waists ($W_0$ ) range from 40cm - 200 cm. Larger apertures are desirable because they minimize beam divergence. The National Ignition Facility laser elements each use an optical aperture of 40 cm so we know this is feasible (for a multi-pass pulse laser architecture on Earth surface anyway). Laser apertures up to 10 km may be possible with coherent laser arrays such as those suggested for light sail propulsion [@fugateSharshotPropulsionSystem2017], but the complexities of constructing and tuning such an array for an orbital platform seem daunting so we ignore them here.
   
 The next section describes assumptions related to beam propagation in the atmosphere. Simple assumptions regarding high energy laser propagation through the atmosphere are not evident in the literature, so we present a short discussion before giving up. 
   
@@ -144,11 +144,11 @@ powerReq <- function(aperture, energyDensity , wavelength = 450, distance, effic
 beamdivergence <- M2*wavelength/(pi*aperture)
 spotsize  <- pi*(beamdivergence*distance*1000)^2
   
-return(list(Watts = (166666*spotsize)/(atmosphere*efficiency), BeamArea = spotsize))
+return(list(Watts = (166666*spotsize)/(atmosphere*efficiency), BeamArea = spotsize ))
   
 }
 
-ap <- seq(.2, 1, .01)
+ap <- seq(.4, 2, .01)
 wl <- 450
 m2 <- seq(3,20, 1)
 
@@ -159,12 +159,12 @@ LaserParam <- expand.grid(Aperture = ap, Wavelength = wl, M2 = m2 )
 LaserParam$PowerReq <- apply(LaserParam, 1, FUN = function(x){powerReq(aperture = x[1], M2= x[3], energyDensity = 166666, wavelength = x[2]*(1e-9), distance = 35786)$Watts})
 LaserParam$BeamArea <- apply(LaserParam, 1, FUN = function(x){powerReq(aperture = x[1], M2= x[3], energyDensity = 166666, wavelength = x[2]*(1e-9), distance = 35786)$BeamArea})
 LaserParam$MWatts <- LaserParam$PowerReq/1e6
-LaserParam$GWatts <- LaserParam$PowerReq/1e9
+LaserParam$GWatts <- round(LaserParam$PowerReq/1e9, 2)
 LaserParam$BeamDiameter <- sqrt(LaserParam$BeamArea/pi)*2
 
 ```
 
-We executed the calculation developed in the previous section at the values of laser aperture and $M^2$ defined above for a beam with $\lambda = 450nm$ (a lovely vibrant blue). We also examined the effect of wavelength on the requirements between $445nm$ and $490nm$ but the effect is very small compared to the aperture and beam propagation ratio so we did not include those results. Figure \@ref(fig:result) illustrates the relationship between laser aperture and system power requirements for a given beam propagation ratio ($M^2$). Achieving a large aperture will be critical to feasibility. A 20cm aperture requires *at least* `r round(min(LaserParam$GWatts[LaserParam$Aperture == .2]),0)` GW of power in geosynchronous orbit, which doesn't seem feasible, or at least affordable. For reference the Palo Verde nuclear power plant in Arizona is the largest in the U.S with a maximum capacity of about 4 GW.
+We executed the calculation developed in the previous section at the values of laser aperture and $M^2$ defined above for a beam with $\lambda = 450nm$ (a lovely vibrant blue). We also examined the effect of wavelength on the requirements between $445nm$ and $490nm$ but the effect is very small compared to the aperture and beam propagation ratio so we did not include those results. Figure \@ref(fig:result) illustrates the relationship between laser aperture and system power requirements for a given beam propagation ratio ($M^2$). Achieving a large aperture will be critical to feasibility. A 40cm aperture requires *at least* `r round(min(LaserParam$GWatts[LaserParam$Aperture == .4]),0)` GW of power in geosynchronous orbit, which doesn't seem feasible, or at least affordable. For reference the Palo Verde nuclear power plant in Arizona is the largest in the U.S with a maximum capacity of about 4 GW.
 
 <aside>
 4 GW of Nuclear Power at Palo Verde
@@ -182,15 +182,15 @@ LaserParam$tip <- paste0("Aperture: ", LaserParam$Aperture, "m</br></br>", "Powe
 
 ggplotly(ggplot(subset(LaserParam, M2<=20) , 
                 aes(x = Aperture, y = GWatts, colour = M2)) + geom_line() + scale_colour_viridis_c() +
-           labs(y = 'Giga Watts Required in Orbit', x = 'Laser Aperture (m)') )
+           labs(y = 'GigaWatts Required in Orbit', x = 'Laser Aperture (m)')  + scale_y_continuous(breaks = seq(0,max(LaserParam$GWatts),100)))
 
 
 
 ```
 
-Solaren's planned solar power generation plant will generate 200 MW by design. Based on our assumptions regarding feasible apertures,  propagation ratios, wall plug efficiency, and the effect of the atmosphere, the minimal power plant capacity required to support this system is `r round(min(LaserParam$GWatts), 1)` GW. Even if the atmosphere has no effect on the beam energy the system power required is still `r round(min(LaserParam$MWatts)/10, 0)` MW, far exceeding Solaren's proposed design. 
+Solaren's planned solar power generation plant will generate 200 MW by design. Based on our assumptions regarding feasible apertures,  propagation ratios, wall plug efficiency, and the effect of the atmosphere, the minimal power plant capacity required to support this system is `r round(min(LaserParam$GWatts), 2)*1000` MW. 
 
-We encourage the Jewish Space Laser enthusiast community to use these results to inform future system designs and technology investments. Obviously developing large aperture, high quality beams is of paramount importance to deploying such a system. While staging a pyrotechnic gender reveal party or having an agent simply toss a lighter is astronomically cheaper, such crude tactics lack a sense of sophistication and are unbecoming of Jewish Space Laser enthusiasts. 
+We encourage the Jewish Space Laser enthusiast community to use these results to inform future system designs and technology investments. Developing large aperture, high quality beams is critical to the feasibility of deploying such a ridiculous system. While staging a pyrotechnic gender reveal party or having an agent toss a lighter is astronomically cheaper, these tactics lack the Bond villain essence of parody that apparently smacks of truth to some members of Congress. 
 
 ## Acknowledgements {.appendix}
 I think we all know who's behind this.
