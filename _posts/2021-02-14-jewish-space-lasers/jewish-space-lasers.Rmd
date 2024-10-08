@@ -13,12 +13,17 @@ output:
   distill::distill_article: 
     self_contained: false
 bibliography: Lasers.bib  
+
+
 ---
 
 ```{r, out.width = 800,   echo=FALSE, fig.cap="Source: https://www.cbsnews.com/sanfrancisco/news/bay-area-lawmakersmarjorie-taylor-greene-camp-fire-jewish-space-laser-conspiracy-theory/", include=F}
 knitr::include_graphics('marjorietaylorgreene-campfire.png')
 
 library(ggpubr)
+library(metathis)
+
+meta() %>% meta_social(image = "https://jmdavis0352.github.io/What-are-we-doing/laserparam.png")
 
 ```
 
