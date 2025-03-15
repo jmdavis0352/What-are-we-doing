@@ -20,7 +20,13 @@ bibliography: Pasteur.bib
 knitr::opts_chunk$set(echo = FALSE)
 
 library(tidyverse)
+library(metathis)
+
 pewdata <- read.csv('PewData.csv') %>% pivot_wider(id_cols = c(Affiliation, Color, ynudge, ynudge_c), names_from = Transition, values_from = Effect)
+
+
+meta() %>% meta_social(image = "https://jmdavis0352.github.io/What-are-we-doing/Pasteur.png")
+
 
 ```
 
