@@ -2,6 +2,8 @@
 title: "Almost Everything About This Meme is Wrong"
 description: |
   Ahh memes...the heavily processed bite sized information snack of the future, and today!
+base_url: https://jmdavis0352.github.io/What-are-we-doing/
+preview: https://jmdavis0352.github.io/What-are-we-doing/Pasteur.png 
 author:
   - name: Jonathan M. Davis
     affiliation: The Truthy McTruthface Group
@@ -52,7 +54,7 @@ A 2017 Pew survey [@pew2017] found that "Overall, U.S. adults with college degre
 
 The Pew survey examines relationships within denominational groups and finds opposing trends depending on group affiliation. Catholics, Latter-Day Saints, Historically black Protestants and Evangelicals all exhibit positive correlations between education levels (High School --> Undergraduate Degree) and the percentage believing "in God with absolute certainty". Mainline Protestants and the religiously unaffiliated exhibit negative correlations between High School and College education levels (Figure \@ref(fig:pewtable))
 
-```{r pewtable, fig.width=10, fig.height = 8,fig.cap="Percentage of Survey Participants who \"believe in God with absolute certainty\", change from high school to college education. Data from: [@pew2017]"}
+```{r pewtable, fig.width=10, fig.height = 8,fig.cap="Percentage of Survey Participants who \"believe in God with absolute certainty\", difference between high school and college education. Data from: [@pew2017]"}
 
 ggplot(pewdata, aes(x = Affiliation)) + 
   geom_segment(aes(xend = Affiliation, y = `High School`, yend = College, colour = Color), 
@@ -69,11 +71,13 @@ ggplot(pewdata, aes(x = Affiliation)) +
 
 A limitation in the data above to the analysis of our meme is that those results are related to education in general, most of which probably falls under the "little science" bracket. So what does depth of knowledge impart to religiosity? 
 
-An international survey of 9,422 physicists and biologists in 2016 [@Ecklund2016] found the percentage of respondents indicating an absolute belief in God was less than or equal to 20% for all countries included except Turkey (61%) and India (26%).^[The majority of the scientists in Turkey were Muslim and the majority in India were Hindu.] **The proportion of physicists and biologists indicating absolute belief in God in the United States was 10%.** A 2009 Pew Research Survey [@pew2009] among members of the American Association for the Advancement of Science found 
+An international survey of 9,422 physicists and biologists in 2016 [@Ecklund2016] found the percentage of respondents indicating an absolute belief in God was less than or equal to 20% for all countries included except Turkey (61%) and India (26%).^[The majority of the scientists in Turkey were Muslim and the majority in India were Hindu.] **The proportion of physicists and biologists indicating absolute belief in God in the United States was 10%.** 
+
+A 2009 Pew Research Survey [@pew2009] among members of the American Association for the Advancement of Science found 
 
 >"just over half of scientists (51%) believe in some form of deity or higher power; specifically, 33% of scientists say they believe in God, while 18% believe in a universal spirit or higher power. By contrast, 95% of Americans believe in some form of deity or higher power" 
 
-That same survey found Physics and Astronomy to exhibit the highest rate of non-belief (46% do not believe in God or in a universal spirit or higher power) and that older scientists were less likely to believe (48% do not believe among 65+ vs 32% among 18-34)
+That same Pew survey found Physics and Astronomy to exhibit the highest rate of non-belief (46% do not believe in God or in a universal spirit or higher power) and that older scientists were less likely to believe (48% do not believe among 65+ vs 32% among 18-34)
 
 Larson and Witham [-@Larson1998] illustrate that this trend is not new, reporting that 
 

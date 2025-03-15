@@ -1,0 +1,475 @@
+---
+title: "Analyzing a Modern Example of Christian Lamb-Symbology Narrative"
+description: |
+  The practice of symbolizing Jesus as the paschal lamb or associating him with other Jewish Temple elements is evident in our earliest manuscript evidence from Christianity (the authentic Pauline epistles, mostly written in the 50's CE). Just as Christology and eschatology evolve over the centuries to address theological or dogmatic problems, this symbolism similarly evolves as Christian writers innovate to inject renewed interest and, more recently, to get subscribers, views, shares, likes, and clicks - the better to spread the good news with. Here we examine one such modern symbological narrative to study how these innovations originate.   
+author:
+  - name: Jonathan M. Davis
+    url: {}
+date: 2024-12-21
+output:
+  distill::distill_article:
+    self_contained: false 
+citation: false
+bibliography: Shepherd.bib 
+draft: false
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+hrs_spent <-  74.
+
+shabur <- enc2utf8("שָׁבַר")
+harus <- enc2utf8('חָר֣וּץ')
+yahweh <- enc2utf8('יהוה')
+arian <- enc2utf8('ὁμοιούσιος')
+athanasius <- enc2utf8('ὁμοούσιος')
+
+```   
+
+## The Lamb Symbology Narrative in Question
+
+Here we have the version of this narrative that is the focus of our study today. A friend shared it on social media with the imperative, "Because I care...Ponder on this my dears":
+
+> No matter how many times I read this, I just cannot do it without getting chills all over me! 😲 I bet you didn’t know the following about the manger that Jesus was laid in.  Of course mangers are animal feeding troughs but in ancient Israel they were made of stone - not what you would see in a modern day nativity scene. Not comfortable, but great for protection. That’s why those who were experts in this matter, the priests, would put their newborn lambs in them for protection. But not just any lamb, the unblemished perfect lambs that were used in the sacrifice for sins. And Bethlehem, where Jesus was born was FAMOUS for their UNBLEMISHED LAMBS used for the sacrifice. These lambs had to be perfect so they would wrap them tightly in cloth and lie them in the manger to keep them safe. This is exactly why the only time mangers are mentioned in Jesus’ birth story it is being told to shepherds. In Luke 2 it says “This will be a sign for you, you will find a baby wrapped in cloth and lying in a manger.” The shepherds would have understood this powerful parallel! THEY KNEW what the cloth and the manger meant! This baby would be THE PERFECT LAMB OF GOD! The Messiah who would sacrifice His life for the sins of the whole world. He wasn’t just a baby wrapped in swaddling clothes lying in a manger, He was GOD: perfect, sinless and Holy, humbling Himself to become the perfect sacrifice to reconcile us back to Himself!! THAT my friend, that Perfect Lamb, is WHY we celebrate Christmas!!
+
+I pondered it for a few minutes, then left it alone. I went back and pondered it a little more, then studied it for an hour or so. After pondering the result of that hour long study, and particularly because of the qualifying clause of the imperative to ponder ("Because I care") -- I decided to study it rigorously and to formally document that study. 
+
+I'm writing this very much because I share that sentiment of caring. I care about the world we live in, about educating ourselves to discover the nature of the universe, about how we author the rules of civil society, and fundamental to all of these concerns, I care about constructing our world views from reasoning that is logically valid and premises that are true. The ascertainment of truth however, is difficult and time consuming. 
+
+## Results of Superficial Pondering
+
+The first time I read the narrative my initial impression was that it was fabricated (like the stories in chain emails where my friend found this letter in a Vietnam Vet's closet after he died that comments poignantly on a phenomenon that strongly resembles a recent political event etc.). This initial impression stemmed from the use of two rhetorical devices employed in the first two sentences that are common in fabricated stories crafted with the intent to attract attention and promote rapid transmission:
+
+* The first sentence is an assertion that the content is so compelling it causes a physical reaction to which one is never inured regardless of the total number of exposures -- this is an accurate description of the physiological response to an addictive substance to which humans do not develop a tolerance.^[Lysergic Acid Diethylamide (LSD) is such a substance. Tolerance builds within 24 hours and reaches maximum by the fourth day but a five-day abstinence period entirely reverses tolerance [@buchborn_chapter_2016]] The intent of this sentence is to assure the reader that something unimaginably powerful must lie waiting in the following paragraph -- what could it possibly be? we are meant to ask ourselves. 
+
+* The second sentence is a confident assertion that that the reader has never heard the content to follow, through the specific phrase "I bet you didn't know..." -- this is a rhetorical device to engage audiences by accusing them of ignorance -- the most common and immediate reaction to such assertions is a defensive desire to demonstrate the accuser to be incorrect -- how can we ascertain that the author who asserts we don't know is wrong? by reading what follows to see if we have in fact heard of it of course -- which is the desired effect of the accusation.  
+
+No human just sharing information they discovered writes this way -- these are hallmarks of intentionally crafted narrative and in my experience, are almost always followed by marketing material, fiction, or fraud. Alone however, these devices don't provide any data regarding the value or nature of whatever follows -- but they do make me suspicious. The second time I pondered, I pondered with an elevated level of critical thought. 
+
+## Results of More Critical Pondering and some Mild Googling
+
+Reading critically is difficult. It requires focus, energy, and an active application of all of our knowledge and faculties to examine claims and arguments on their own merits. It takes time, work, and care. I hypothesize that when we consume media, particularly on social media, we are frequently not thinking critically. My hypothesis results from the reality that we are busy and tired, and when scrolling memes and posts, we're mostly there for the low effort dopamine reward (see [@firth_online_2019], [@maza_association_2023]). If consuming social media non-critically is a typical learned behavior, this may be one reason why @butler_predicting_2024 reports data indicating social media as a common vector for misinformation propagation and highlights the importance of critically consuming information on such platforms.
+
+The subsections below document the results of my critical analysis of the text of the lamb symbology narrative. Several components are problematic or seem implausible to me. These elements motivated a more rigorous study. 
+
+### Mangers for Protection? 
+The narrative *seems*^[There are plenty of pictures of these types of stone basins -- but all of these pictures I can find are on website articles that generally allude to this birth narrative -- I can't find any archaeological or academic assessment of these basins that indicate their likely use or their dating. Evidence of wooden troughs in the Levant exists. @rosenberg_unseen_2023 report what is most likely a wooden trough that "may have been used as a container for feeding livestock or various household uses" that dates to 5th millennium BCE from a submerged site just off the coast near modern Haifa in Israel.] to be correct that water or feeding troughs in 1st century Palestine were commonly made from limestone, which apparently means these troughs are
+
+> Not comfortable, but great for protection.
+
+Are they really? The suggestion that a stone trough offers protection to a lamb sitting on top of it, bound tightly in cloth, doesn't seem plausible.
+
+***How does the stone trough provide protection? protection from what?*** 
+
+Recalling the specific reason the lambs needed protection in the narrative, it was because these were:
+
+>...not just any lamb, the unblemished perfect lambs that were used in the sacrifice for sins...These lambs had to be perfect so they would wrap them tightly in cloth and lie them in the manger to keep them safe.
+
+***What are these blemishes that disqualify the animal for ritual slaughter?***
+
+This language certainly refers to the requirements in the Pentateuch that the animal used in the Passover sacrifice must be "unblemished". But what does "unblemished" actually mean in the context of 1st Century BCE temple sacrifice in Judaism? 
+
+The authors of the Hebrew Bible don't provide too much detail but relevant verses with specific sections highlighted are below:
+
+Exodus 12:5-13 (NRSVU)
+
+> 5 **Your lamb shall be without blemish, a year-old male; you may take it from the sheep or from the goats.** 6 You shall keep it until the fourteenth day of this month; then the whole assembled congregation of Israel shall slaughter it at twilight. 7 They shall take some of the blood and put it on the two doorposts and the lintel of the houses in which they eat it. 8 They shall eat the lamb that same night; they shall eat it roasted over the fire with unleavened bread and bitter herbs. 9 Do not eat any of it raw or boiled in water but roasted over the fire, with its head, legs, and inner organs. 10 You shall let none of it remain until the morning; anything that remains until the morning you shall burn with fire. 11 This is how you shall eat it: your loins girded, your sandals on your feet, and your staff in your hand, and you shall eat it hurriedly. It is the Passover of the Lord. 12 I will pass through the land of Egypt that night, and I will strike down every firstborn in the land of Egypt, from human to animal, and on all the gods^[I don't think any of the gods of Egypt (or of any culture) actually exist or ever existed but the authors of Exodus portray the patron deity of Israel as believing the gods of Egypt to be real, and deserving of His judgement. It may be worth noting for those new to any sort of critical analysis of the Bible that I say "authors" of Exodus because since the 19th century when critical analysis of the Bible began in Germany, the overwhelming consensus among scholars is that Exodus and the other books in the Pentateuch were composed by different groups of writers and sources from different periods -- scholars identify these as the J (Yahwist), E (Elohist), D (Deuteronomist), and P (Priestly) sources. Not all scholars agree with all of those designations but the overwhelming majority argue for different groups of writers with different rhetorical goals working over a period of perhaps four or five centuries.  It is incontrovertible that the Pentateuch can be clustered into distinct portions based on grammar and language styles using statistical and machine learning algorithms ( [@van_der_schans_clustering_2019], [@van_peursen_computational_2023], [@rachmuth_behold-na_2022], [@hallo_approaches_2020] and many many other). Most scholars conclude the writings in Exodus were authored during the period starting from around 700 BCE and up to around 350 BCE by different scribal groups in different places at different times with final edits and redaction by P [@society_of_biblical_literature_sbl_2023]. For a general discussion see [@smith_literary_1996]; for a detailed discussion of P's redeaction of the Plague narratives see [@zevit_priestly_1976]] of Egypt I will execute judgments: I am the Lord. 13 The blood shall be a sign for you on the houses where you live: when I see the blood, I will pass over you, and no plague shall destroy you when I strike the land of Egypt.
+
+Leviticus 22:21-25 (NRSVU)
+
+>21 When anyone offers a sacrifice of well-being to the Lord, in fulfillment of a vow or as a freewill offering, from the herd or from the flock, **to be acceptable it must be perfect; there shall be no blemish in it. 22 Anything blind or injured or maimed or having a discharge or an itch or scabs—these you shall not offer to the Lord or put any of them on the altar as offerings by fire to the Lord. 23 An ox or a lamb that is deformed or stunted you may present for a freewill offering, but it will not be accepted for a vow. 24 Any animal that has its testicles bruised or crushed or torn or cut, you shall not offer to the Lord; such you shall not do within your land, 25 nor shall you accept any such animals from a foreigner to offer as food^[The notion that the gods "ate" the sacrifices is not unique to writers in Israel -- more on this in a later section.] to your God; since they are mutilated, with a blemish in them, they shall not be accepted on your behalf.**
+
+Deuteronomy 17:1 (NRSVU)
+
+>You must not sacrifice to the Lord your God an ox or a sheep that has a defect, anything seriously wrong, for that is abhorrent to the Lord your God.
+
+The passage in Leviticus provides the most detail. Of all of these blemishes, only the injury/maiming variety could possibly be prevented by any kind of physical precautions -- the "itch or scabs" requirement refers to skin diseases. Commentary on the Hebrew from the Jewish Virtual Library indicates "injured or maimed" (Hebrew **`r shabur`** [shah-VAHR]: break shatter or destroy,  or **`r harus`** [harus]: maimed or broken) means "broken or cracked limbs that cause the animal to be lame"^[For discussion see [Jewish Virutal Library](https://www.jewishvirtuallibrary.org/blemish) and consult your favorite Hebrew lexicon -- link to [Strongs](https://biblehub.com/text/leviticus/22-22.htm) (Strong's is free but it is also quite dated and not your best resource -- forgive me for having forgotten the other lexicon that is generally better and available as a pdf download)]. 
+
+Different translations similarly indicate this meaning. The New American Standard Bible proposes: 
+
+>Those that are blind, fractured, maimed, or have a wart, a festering rash, or scabs, you shall not offer to the LORD
+
+as the English for Leviticus 22:22. Other translations use "broken or maimed" (KJV), "disabled or mutilated" (ESV), "crippled or injured" (CSB). Given all of the above I think it's reasonable to interpret "injury" as something serious  -- a significant sprain or fracture that makes the animal lame in some way. The Mishnah is a later source (we will revisit the Mishnah below) and it expounds on the definition of blemishes but doesn't mention physical injury at all (see the Mishnah text on blemishes [here](https://www.sefaria.org/English_Explanation_of_Mishnah_Bekhorot.6.12.2?lang=bi)).
+
+
+Based on the definition of "blemish" in the context of animals slated for ritual slaughter, I don't think swaddling them in a manger would provide any protective benefit from such defects.  
+
+An image search reveals many pictures of these troughs, and suggests heights from the ground between 12 - 24 inches and basins maybe 4-8 inches deep, all open from the top. Unless the 1st Century CE shepherds needed to protect the lambs from vertically oriented Improvised Explosive Devices, I'm not sure how they offer protection against becoming fractured or maimed. Common threats to lambs capable of inflicting physical harm would include local predators (canines, hyenas, birds etc.)......and I can't really think of anything else -- a lamb wouldn't be physically damaged from stumbling and falling -- maybe some accidents could occur where lambs would be trampled by larger animals -- but for the most common threats that come to mind - I don't see how immobilizing a lamb in a stone trough provides a protective benefit. Other options would be better: an enclosed room or pen for instance.
+
+
+### The Priests are the Shepherds?
+The narrative suggest that priests are the "experts in this matter" and though it's not precisely clear which matter that is, the following sentences suggest the priests are the ones raising the lambs. This seems odd to me. Before studying this narrative I had a rudimentary knowledge of the priestly order in pre-Christian Judaism, but have never heard any suggestion that the Levite priests raised their own special flocks specifically for ritual slaughter. I wonder where this information came from. There are no passages in the Bible suggesting that the priestly order functioned as shepherds that I was able to find. 
+
+### Bethleham is FAMOUS for Unblemished lambs?
+
+This sentence suggests invention to me. Would there really be a place that produced especially good lambs for sacrificing? so much so that everyone would have known and it would be FAMOUS? 
+
+When there was no mass communication? When most people in 1st Century CE Palestine were illiterate^[Estimates of literacy rates range from 3% [@bar-ilan_illiteracy_1992] to 10% [@harris_ancient_1989]] and would have to hear it word-of-mouth? By the first century CE sacrifices and worship were well centralized at the Temple in Jerusalem^[This centralization started with Josiah's reforms around 623 BCE and these reforms also present an interesting case study in how religious ideology evolves which we'll examine in more detail later (actually no we won't -- I'm running out of time to finish this so I'm not going to get to it -- for reference see [@wright_why_2023] and [@romer_invention_2015].] -- so most animals for sacrifice would have come from around Jerusalem anyway (the animals being sold in the temple when Jesus disrupts the sellers were animals being sold as sacrifices to Jews who came to offer sacrifices; the money changers were converting currency to pay the temple tax -- see [@seeley_jesus_1993], [@mcgrath_jesus_nodate]) 
+
+This doesn't seem likely to me.
+
+
+
+
+## The Results of Study   
+
+The concerns expressed above motivated a rigorous study seeking to evaluate the origin and veracity of the narrative. In this section I summarize the results of Biblical scholar Wave Nunnally who has written a detailed analysis tracing the origins of this narrative -- apparently identified as the "New Birth Narrative" (NBN). Nunnally is Professor Emeritus of Early Judaism and Christian Origins at Evangel University, Springfield, MO. He holds an MA in Hebrew Language from Jerusalem University College, an MA in Old Testament from Reformed Theological Seminary, and an MPhil and PhD in Hebraic Cognate Studies (Jewish backgrounds of the Bible) from Hebrew Union College [full bio](https://wavenunnally.com/wave-nunnally/).
+
+This section further includes tangential studies on topics motivated by the examination of this narrative. 
+
+### Tracing the Origins of the Narrative
+
+As with most every topic of inquiry a normal human (i.e. anyone who isn't an expert on the leading edge of their field) may explore -- the veracity of this particular narrative has already been well examined by scholars. The most well supported discussions I found are from Chad Bird^[Bio from 1517: Chad Bird is a Scholar in Residence at 1517. He has served as a pastor, professor, and guest lecturer in Old Testament and Hebrew. He holds master's degrees from Concordia Theological Seminary and Hebrew Union College. He has contributed articles to Christianity Today, The Gospel Coalition, Modern Reformation, The Federalist, Lutheran Forum, and other journals and websites. He is also the author of several books, including The Christ Key & Limping with God.] writing at 1517.org [@bird_debunking_2021] and Dr. Wave Nunnally writing on his own website [@nunally_modern_2023]. 
+
+I encourage anyone reading this to read both of those discussions in full, but I will summarize the results of Nunally's analysis here along with my own thoughts. 
+
+Nunnally traces the most recent incarnations of the NBN -- the narrative I'm examining at the beginning of this document -- to a 2012 book titled *Jesus: a Theography* by Frank Viola and Dr. Leonard Sweet^[Viola is an author and Dr. Sweet is a Theologian -- currently the E. Stanley Jones Professor Emeritus at Drew Theological School, Drew University.] . The fundamental premises in this 2012 book almost certainly originate in an 1883 work by Alfred Edersheim titled *The Life and Times of Jesus the Messiah*. **Prior to 1883 the notion that priestly shepherds raised lambs for sacrifice in Bethlehem did not exist in human thought**.^[At least that we have any record of, but as we will see below -- there is no reason for such a notion to exist in human thought.]
+
+@edersheim_life_1883 writes  
+
+> That the Messiah was to be born in Bethlehem, was a settled conviction^[Nunally points out he might have cited Micah 5:2 or the quote of Micah in Matthew. Edersheim doesn't cite these verses here but points to Targum pseudo-Jonathan after the next sentence.]. Equally so was the belief, that He was to be revealed from Migdal Eder, "the tower of the flock".^[Edersheim references Targum Pseudo-Jonathan on Genesis 35:21 but doesn't quote it. It reads "And Jakob proceeded and spread his tent beyond the tower of Eder, the place from whence, it is to be, the King Meshiha (Messiah) will be revealed **at the end of the days.**" (emphasis is mine). Obviously Jesus was not revealed at the end of days, so this prophecy fails if Jesus is supposed to be the Messiah -- but this is a *Jewish* text written centuries after the time of Jesus. The Messiah here isn't even *supposed* to be Jesus. The Targum dates no earlier than the 4th Century and some scholars argue for dates as late as the 14th Century. The Targum is a translation and interpretation of the Torah into Aramaic and incorporates extra-biblical material. Genesis 35:21 ends with Jacob spreading his tent and doesn't include any discussions of the Messiah. Why would Edershiem reference the Targum? My opinion is that his rhetorical goal is to create symbolism and synergy unveiled as the discovery of a previously unknown secret -- because people like reading such things -- and the Targum provided some words that create that symbolism if you don't think too hard or look too closely.] This Migdal Eder was not the watchtower for the ordinary flocks which pastured on the barren sheep-ground beyond Bethlehem, but lay close to town, on the road to Jerusalem. **A passage in the Mishnah leads to the conclusion that the flocks which pastured there, were destined for Temple-sacrifices, and accordingly, that the shepherds, who watched over them, were not ordinary shepherds**... [emphasis mine, Edersheim argues here that raising flocks was banned in this area, so if flocks were being raised, they must be special flocks raised by priests -- See Nunnally's detailed review of the Mishnah and other sources Edersheim points to for reasons why this is not the case -- Edersheim chooses a particular passage but ignores several others that clarify shepherding was allowed outside urban centers]... Thus,  Jewish tradition in some dim manner apprehended the first revelation of the Messiah from  that Migdal Eder, where shepherds watched the Temple-flocks all the year round. Of the  deep symbolic significance of such a coincidence, it is needless to speak.
+
+***So what is the Mishnah? ***
+
+It is rabbinic literature that dates to the *2nd Century CE*, two-hundred years after the estimated date of Jesus' birth.  The temple in Jerusalem was destroyed by the Roman's in 70 CE and temple sacrifices no longer occurred, so as Dr. Dan McClellan^[Dan McCellan "received his PhD in theology and religion from the University of Exeter, where he wrote his dissertation on the conceptualization of deity and divine images in the Hebrew Bible through the methodological lenses of cognitive linguistics and the cognitive science of religion. Since March of 2021, he has been confronting misinformation on social media related to the academic study of the Bible and religion."-- From his website bio (https://www.maklelan.org/about)] notes in his analysis of the this same NBN (https://youtu.be/U00gZq7s2VA?t=31), "...nobody who had anything to do with the Mishnah had ever seen a temple sacrifice or knew the circumstances regarding where the temple got their sacrifices from around the end of the 1st Century BCE and the beginning of the 1st Century CE so again, there are no data that support this claim."
+
+But let's see for ourselves -- Edersheim's actual text (URL is linked in the reference at the bottom of this document) includes a footnote indicating this Mishnah passage is Shekalim 7:4, so what does it actually say? We can read it [here](https://www.sefaria.org/Mishnah_Shekalim.7.4?lang=bi)
+
+>If an animal that is fit for the altar was found straying, from Jerusalem and as far as Migdal Eder, and similarly if it was found within that distance from Jerusalem in any other direction, it is presumed that the animal came from Jerusalem. Most of the animals in Jerusalem were designated for offerings, and presumably this one was as well. Males are presumed to be burnt-offerings, as only males are brought as burnt-offerings. Females are presumed to be peace-offerings, as it is permitted to bring a female peace-offering. Rabbi Yehuda says: An animal that is fit for the Paschal offering, i.e., a one-year-old male lamb or kid, is presumed to be a Paschal offering, provided that it was found within thirty days before the Festival of Passover. -- Mishnah, Shekalim 7:4
+
+Two immediate observations emerge: 
+
+1. Shekalim 7:4 doesn't say anything about flocks being raised or managed *in* Bethlehem, or *in* Migdal Eder. This text clearly asserts that if the animals are *found* there *or anywhere in any direction as far as Migdal Eder*, that it's reasonable to assume they came *from Jerusalem*. The sense of the word for found is that the animal was previously lost -- unattended, unclaimed. The only reason Migdal Eder seems to be mentioned is as a landmark for distance from Jerusalem (about six miles).  
+
+2. Shekalim 7:4 doesn't say anything *at all* about shepherds. This entire passage merely states that any unattended animals within about six miles of Jerusalem in any direction are assumed to have come from Jerusalem, and that the ones from Jerusalem were probably meant to be sacrifices, so this one probably was too -- so if you run across one you can pluck it up and offer it.  
+
+There is no logical pathway between Shekalim 7:4 and the conclusion that special shepherds watched over flocks of lamb and goat in Migdal Eder that were specifically raised for sacrifice. Edersheim just imagined this to be the case and declared that it was supported by the Mishnah which isn't a valid information source for early 1st Century CE practices anyway. 
+
+***The entire premise of this narrative was invented in 1883. No data from the ancient world support this notion and Edersheim's 1883 work is the first record of it.***
+
+But Edershiem's proposition doesn't quite provide all the details of the narrative we're examining here. There was no mention of lambs being swaddled and placed in mangers. So where does that come from? From the 2012 book *Jesus: a Theography*. I don't have access to their text but @nunally_modern_2023 reproduces relevant sections:
+
+>But before they were slaughtered, each lamb was required to be a pet in the family for at least four days. So the day after the final Sabbath before Passover, shepherds from the Bethlehem hills drove thousands of lambs into Jerusalem, where they were taken in by Jewish families for at least two days and treated as members of the family. Before sacrificing the lamb, the Jewish priest would ask, “Do you love this lamb?” If the family didn’t love the lamb, there would be no sacrifice (Sweet/Viola, p. 66).  
+
+Really? This procedure is not extant in the Bible or even the Mishnah -- so where did Sweet and Viola get it?
+
+>Bethlehem’s priestly shepherds had to learn and follow special techniques and rituals during the lambing season. Bethlehem lambs born for slaughter were special lambs. To prevent harm and self-injury from thrashing about after birth on their spindly legs, newborn lambs were wrapped in swaddling cloths. Then they were placed in a manger or feeding trough, where they could calm down out of harm’s way (Sweet/Viola, p. 67).
+
+Harm and self injury? Are there any data suggesting new born lambs injure themselves from thrashing around immediately upon birth? A modern study [@holmoy_early_2017] of 270 lamb deaths that occurred within 5 days of birth found trauma to be the causative agent in 20% of cases; of these the most frequent cause of trauma was difficult birthing that required human assistance -- 60% of all trauma deaths. The authors report that "traumatic injuries to the lamb may occur during birth, particularly in cases of fetopelvic disproportion. Lambs confined indoors may be trapped in pen hurdles, and small or inappropriately shaped lambing pens may increase the risk of injuries inflicted by ewes." They list no other causes for lamb trauma and while this paper was limited to trauma that resulted in death, the notion that a new born lamb would thrash around and fracture a limb or incur some other serious injury that qualifies as a "blemish" doesn't seem plausible.  @simcock_nadis_2019 indicates that immediate suckling is imperative to survival because lambs require "50mls [of colostrum (ewe's milk)] per kg of body weight [typical birth weights are 3-6 kg] in the first two hours after birth." This doesn't seem possible if the lamb is tightly wrapped in cloth and sequestered in a stone trough. I asked a representative of [Jenkins Farms](https://www.facebook.com/jenkinsfarmsgrantville) (a small farm in Georgia) about pathways for baby goat injuries and preventive measures^[Complete exchange for transparency. **Q:** can you enumerate a list of possible injury mechanisms or pathways for physical injury (sprains, fractures etc.) that baby goats experience or might experience if you're not careful with them? and what kinds of precautions do you take with newborn goats to prevent injury if any? **A:** Baby goats find themselves in jeopardy for many reasons. They are very susceptible to dying if they get cold or wet. If they get cold and wet it’s almost a death sentence. They are very curious and like to get into things like water troughs (see above statement). They get into the mineral feeder and then can’t get out and die. They will chew on hay string and swallow it and eventually die. And then if their diet changes or the weather changes then it can upset their stomachs and they die. If they lay out in the sun after drinking a lot of milk they can get a sour stomach and die. Sprains and injuries will heal on their own or we amputate. Mostly the newborns survive and if we have babies coming we give them access to shelters and the moms do the rest. If they are orphans it’s a lot harder.]. The response indicated they: are susceptible to hypothermia (if they get wet and cold they die); may get trapped in equipment or other places and die; may swallow hay string and die, eat a lot of milk and sit out in the sun and die; that sprains and strains typically heal on their own, but sometimes they have to amputate legs (no indication of what causes these strains and sprains). The response to preventative measures was that they provide the animals with a sheltered place and let the mothers do the work. 
+
+Did Sweet and Viola just make this up? I think so. @nunally_modern_2023 points out that they never cite any sources to support the claims in their 2012 book and he exhaustively examines specific claims therein, firmly concluding 
+
+> * The assertion by Edersheim (and a plethora of others who follow him) on the basis of BT Bava Kama 80a^[This is Rabbinic commentary composed in the 5th - 6th Century CE and is what Edersheim appeals to to suggest that normal shepherds weren't allowed to raise flocks in Bethlehem so it must have been priests who must have had special permission -- you can read it [here](https://www.sefaria.org/Bava_Kamma.80a?lang=bi&with=About&lang2=en) ], that the sheep being kept by the shepherds of Bethlehem/Migdal Eder had to have been a special herd destined for the temple has to be rejected. The evidence introduced above demands it.The popularity of the NBN, the persuasiveness of the presentation of its advocates, the warm feeling experienced by those who embrace it, and the sense of greater importance that comes with having insider knowledge—NONE of these are worth the abandonment of our belief in absolute truth based on evidence.
+* These and all the other incredibly detailed additions to the story of Jesus’ birth that are floating around today would be great if they were true, but they are simply the products of the fertile imaginations of modern-day midrashists.  Our response to all who would abridge, edit, or add to the Word of God as written, or overthrow hundreds of years of interpretation must be “Show us your evidence and then we will evaluate it for ourselves!”  If nothing more than conjecture, ramblings from unaccountable authors on non-peer-reviewed websites, and a titillating feel-good story are all they have to offer, they are rightly to be ignored.
+* There were no priestly shepherds, no special lambs, and no special techniques that anyone had to learn to protect them.  If there was evidence for this in ancient literature, this would have been produced by those who make such claims.
+* To be clear, there is never a place ANYWHERE in ancient Jewish literature of ANY kind, whether in the Bible, the Dead Sea Scrolls, the intertestamental Apocrypha, the intertestamental Pseudepigrapha, Philo of Alexandria, Josephus Flavius, or ANYWHERE in the voluminous Rabbinic Literature that suggests that any lambs anywhere were ever swaddled.  Again, this is why no source is ever cited by promoters of the NBN when making this point.  Further, both Palestinian and Jewish shepherds in Israel will tell you that this is madness—within hours, a newborn lamb that was swaddled and laid in a manger would be dead.  While teaching in Israel, I spoke to shepherds in the area of Jerusalem and Bethlehem.  When asked if they were aware of an instance in which it would be beneficial to swaddle newborn lambs, without exception, their response was, “What?  They’d starve in two hours!”  The story as being told today is not only never documented by reference to ancient literature; it is also patently absurd on the practical level, life experience, and common sense.
+
+I think that's enough of that, but this study, like most studies, presents tangential topics that are relevant to the discussion above, and that I think are critical context for understanding how and why stories like this emerge and propagate. 
+
+
+### Second Temple Sacrificial Practices in the Context of the Ancient World
+
+While not directly linked to the analysis of the narrative in question, a review of Jewish Temple sacrificial practices is instructive -- if Jesus is meant to be 
+
+>THE PERFECT LAMB OF GOD! The Messiah who would sacrifice His life for the sins of the whole world. 
+
+and Christians liken Jesus to the paschal sacrificial animal, then what *was* the less perfect, less powerful, baby sheep or goat that was sacrificed on the Day of Atonement each year all about? How did that sacrificial practice fit in with other sacrificial practices in Judaism? with Greco-Roman animal sacrifices? with Mesopotamian animal sacrificial cults?
+
+Israelite sacrificial practices evolved over centuries before reaching the exact form practiced around the time Jesus was likely born, but all of their elements (altar, temple, sacrificial system) are "rooted in the pagan cultures of the ancient Near East" [@haran_temples_1978]. The most obvious and directly correlated source is the Sumerian/Akkadian/Babylonian cultures in Mesopotamia that originate as early as the 4th millennium BCE and formally end in 539 BCE at the hands of the Persians. This period entirely encompasses the development of Israel as a people and Kingdom. 
+
+The development of a coherent group of people known as Israel in the Southern Levant almost certainly occurred after 1350 BCE and before 1200 BCE. The first mention of Israel as a coherent people group for which data exists is around 1207 BCE on the [Merneptah Stele](https://en.wikipedia.org/wiki/Merneptah_Stele), a large inscription on stone of Egyptian origin that describes Merneptah's conquest of various peoples in the Levant including Israel [@wright_why_2023]. The specific language of the Stele indicates Israel was not yet a nation or kingdom, but it's certain that a coherent people group called Israel were known in the southern Levant around 1207. It is also almost certain that no such group existed at large scale around 1350 BCE based on references to places and names from the Amarna Letters^[The Amarna Letters include 380 clay tablets written in Akkadian cuneiform that are mostly government correspondence from the local city "mayors" who administered small cities in Canaan on behalf of the Egyptian Pharoh. The letters mostly reflect complaints from the mayors about local security and other mayors, and requests to Pharoh to rectify these complaints. The data of interest is that though the language is Akkadian -- the dialect is Canaanite, and no Biblical or Jewish names occur in the correspondence -- so it doesn't seem likely that any significant Israelite presence in Canaan existed in the mid-14th century BCE when these letters were composed [@wright_why_2023]. Of course this is problematic for the story of the Exodus and the conquest of Cannan. While the Masoretic Text and Septuagint disagree with each other and with Flavius Josephus (who disagrees with himself) regarding the timelines [@eaves_chronological_2023], the Biblical and ancient source timelines require dates between the 16th and 14th century BCE -- before Israel as a people existed.] that should have included Israel and its prominent figures if such a people were extant at the time [@wright_why_2023].^[This data conflict with the Biblical timeline for the Exodus and conquest of Canaan which, if the Biblical account is historical, should have already occurred. But almost no scholar of history or critical scholar of the Hebrew Bible believes the Exodus to be historical (more on this in the next section).] 
+
+The Mesopotamian gods Marduk, Sarpanitum, Nabu, Nanay, and others among the pantheon each required their own specific daily diet of animal sacrifice (bulls, sheep, birds, fish) along with fruits, plants, grains, and beer [@scurlock_animal_2002]. Babylonians "fed" their gods twice a day every day and while the presentation and disposition of these offering was different than the Iraelite practice^[the Bablyonian feasts were not burned, but left for a while then redistributed], "Like their ancient Mesopotamian counterparts, Israelite holocaust offerings were imagined as divine meals, presented twice daily at dawn and dusk, with extra animals offered weekly on the Sabbath, monthly at the new moon, and annually on days set aside as festivals." [@scurlock_techniques_2006]. The Mesopotamian sacrificial cult included sacrifices for different purposes including "covenant" sacrifices used to establish a contractual style relationship with a god (usually followed by daily feeding), "occasional" sacrifices for specific favors or requests, "divination" sacrifices to discern truth, and "treaty" sacrifices to ensure the sanctity of an oath [@scurlock_techniques_2006].  
+
+Sacrifices to **`r yahweh`** (Yahweh)^[The Hebrew here is the Tetragrammaton that is un-pronounced, or pronounced "Adonai" for "lord". The biblical scribes began using this placeholder after the pronunciation or writing of the divine name became forbidden around the 6th century BCE.  Scholars estimate it represents a verbalization like "Yahweh" -- the proper name of the patron deity of Israel in the Hebrew Bible)] in ancient Israel were also conceptualized as food; the authors of the Bible refer to sacrificial items as God's "food" (Leviticus 3:11, 21:21-22, Numbers 28:2), and to the altar as "The Lord's Table" (see Ezekiel 41:22, 44:16, Malachi 1:7). Like the Mesopotamian gods, **`r yahweh`** also required feeding twice a day -- a diet of 2 lambs (one in the morning and one in the evening) with flour, oil, grain, and wine (see Exodus 29:38–42 and Numbers 28:1–8). There were also different categories of sacrifice -- the guilt or sin offerings, vow offerings, and the covenant offering (the Passover). The Passover sacrifice only occurred once a year and maintained the contractual relationship between God and Israel established during the Exodus. 
+
+Hittite, Eyptian, Greco-Roman sacrificial practices were similar. @smith_common_1952 notes that "The similarities of the sacrificial cult of Uruk to that described in the P material of the OT^[Again Exodus was finally compiled and redacted by P (see previous notes on Exodus passage above).] are clear. Even of later times, when the Jews were self-consciously insisting on their difference from the heathen, Lieberman^[S. Lieberman, Hellenism in Jewish Palestine, N. Y., 1950, p. 130, n. 60] can remark, 'There was a general pattern in ancient world of temples and sacrifices ... which the Jews shared'". In Greece and Rome it was the "general custom to burn the whole victim (ὁλοκαυτεῖν) upon the altars of the gods, and the same was in some cases also observed in later times (Xenoph. Anab. VII.8 §5), and more especially in sacrifices to the gods of the lower world, and such as were offered to atone for some crime that had been committed (Apollon. Rhod. III.1030, 1209)"  [@schmitz_sacrificium_1875]. Greek practices varied by city-state but generally the animals had to be "healthy, beautiful and uninjured" [@schmitz_sacrificium_1875]. 
+
+But the Passover sacrifice was a bit particular and its association with Christianity is interesting. Let's revisit. 
+
+The Passover was an annual reminder of the Exodus when, in the story, **`r yahweh`** (Yahweh) killed every first born Egyptian from the Pharaoh to the slaves to the animals (Exodus 11:4-5). To avoid **`r yahweh`** (Yahweh's) death, the Israelites had to kill a lamb and smear its blood on the doorposts so that **`r yahweh`** (Yahweh) would know to "pass over" that house. The ritual by the first Century was particular. Families would offer lambs or kids, slaughter them, the preists would and catch the blood in little bowls and sprinkle it on the altar in the Temple. Fatty portions of the animal were reserved for **`r yahweh`** (Yahweh) and burned on the altar [*And the priest shall burn them upon the altar: it is the food of the offering made by fire for a sweet savour: all the fat is the Lord's.* (Leviticus 3:16)]. Everyone had to be ritually clean to participate. 
+
+
+So what do we make of all this? A few particular observations are important 
+
+* *That* animal sacrifice to gods to seek favors or excuse transgressions was common across cultures in ancient Mediterranean cultures (all of the above is vaguely contemporaneous)
+* *That* the general form and function of the sacrifices was at least broadly similar across cultures and to all the various gods, some sacrifices imagined as food for the goods, some sacrifices entirely burned on an altar)
+* *That* 
+
+
+
+
+## Imaginative Judeo-Christian Innovation is Not Rare or New
+
+The discussion above illustrates that the lamb symbology narrative introduced at the beginning is a modern fiction that originated in the 19th Century, was embellished and augmented in 2012 by people with the knowledge and capabilities to propagate it further, and is now firmly entrenched in modern Christian mythology (it's even in *The Chosen* movie series). But the process of inventing narrative and/or embellishing it over time is not *at all* unusual in modern times or throughout the history of the Judeo-Christian religious tradition^[Or in all of human story telling culture -- I would argue that the  cognitive and psychological processes involved in the embellishment of religious traditions are no different than ones that cause fish stories to grow, and motivate Hollywood Studios to reboot old stories with new settings and augmented thematic elements.]. The subsections below illustrate a few examples. While each of these really demands its own version of this document, the constraints of time and energy limit these discussions to cursory introductions.
+
+
+### Other Modern Examples
+
+Modern tales of miracle and prophecy and revealed secrets abound in the modern age. The sections below illustrate a few examples of demonstrably nonsense:
+
+#### **A Bible in Dalton, GA Exudes Magic Healing Oil After President Donald J. Trump's 2017 Inauguration**
+
+In Dalton, GA, a man named Jerry Pearce "fell down on the floor for 45 minutes in a kind of catatonic state that he describes as being 'out in the Spirit.'" during a prayer session shortly after President Donald Trump's inauguration in 2017 [@graham_bible_2020]. A few days later his Bible allegedly started exuding oil. First just a bit, then gallons, then hundreds of gallons. The oil apparently possessed magical powers. A reporter [@graham_bible_2020] who attended one of the weekly events where the oil was distributed described 
+
+>A slight white man said he was heading to China soon and wanted to bring the oil with him. He alluded to the possibility that the oil could cure the coronavirus: “I look forward to bringing back a good report!” There were stories about the oil healing arthritis and dissolving tumors. Others said their vials of oil had spontaneously refilled. One woman said she had given it to a friend who traveled to North Korea and slathered three rocks there with oil, including one representing North Korea and one representing the United States. “Right after that was when Trump met with Kim Jong-un,” she said. The crowd murmured in awe.
+
+Really? My mother possesses three vials of this oil, given to her by friends after a car accident. I look at them when I'm visiting sometimes but haven't noticed them refilling themselves. 
+
+Oddly enough, a reporter at the Chattanooga Times Free Press covering the story was eventually directed to employees at the local Tractor Supply who visually identified Jerry as regularly buying gallons of mineral oil. Two independent Fourier Transform Infrared spectroscope (FTIR) profiles of the oil developed in two different departments at the University of Tennessee in Chattanooga "indicate a petroleum derived product, particularly mineral oil." [@massey_ministry_2020] -- see the actual lab report embedded in the news article. Pearce initially denied buying mineral oil and stated that the Tractor Supply employees were lying, but after the Times reporting was published, Flowing Oil Ministries (the group organizing events related to the oil) revealed that the Bible had recently stopped producing oil. Pearce then admitted to buying oil just that last time stating [@massey_ministry_2020]:
+
+>"I was going to pour that oil on the Bible when the Bible quit producing oil," Pearce said. "And the Lord checked my spirit on it."
+
+Of course. 
+
+#### **A retired Nurse Anesthetist Recovers the Actual Ark of the Covenant from Israel**
+
+See Ron Wyatt for a litany of nonsense. The short version is that he claimed to have found artifacts like: chariot Wheels at the bottom of the Red Sea and  the actual Ark of the Covenant, and even Jesus' blood which was still alive (he did not). 
+
+@jackson_ron_nodate provides a list of his claims, including that he discovered :
+
+>* Noah’s Home and a Flood-inscription at that site
+* Fences from Noah’s farm
+* Anchor Stones from Noah’s Ark
+* Laminated Deck Timber from the Ark
+* Noah’s Altar
+* Tombs with Tombstones of Noah and his wife
+* The precise location of the Red Sea Crossing
+* Wheels from Egyptian Chariots involved in the pursuit of the Israelites from Egypt [for a detailed discussion see [Bible Archeology Report](https://biblearchaeologyreport.com/2018/10/11/fake-news-in-biblical-archaeology/).]
+* The Book of the Law written by Moses on Animal Skins
+* Gold from the Golden Calf fashioned by Aaron
+* The Ark of the Covenant
+* Tables of the Ten Commandments
+* The Tabernacle’s Table of the Showbread
+* Goliath’s Sword,
+* Jesus’ Tomb and the Stone Seal of the Tomb,
+* A sampling of Christ’s Dried Blood, proving the doctrine of the Virgin Birth by means of a “chromosome count,” etc.
+
+
+
+#### **`r yahweh` (YHWH - Yahweh -- the name of God) is Encoded Into Deoxyribonucleic Acid (DNA)**
+
+This nonsense promulgates all over the place. A few examples:
+
+* https://erevshabbat.org/en/yhwh-is-genetically-coded-into-us/
+* https://www.facebook.com/ChristafariBand/posts/did-you-know-that-the-dna-molecule-has-the-name-yahweh-written-on-it-the-dna-mol/862817655215243/
+* https://www.christianlearning.com/yahweh-is-embedded-in-our-dna/
+
+The short version of the claim is that the spirals of the helix are joined by sulfur bridges in a pattern consisting of a bridge every 10 segments, 5 segments, 6 segments, 5 segments and then repeating, and that the alpha-numeric designations (gematria -- Hebrew numerology) for the Hebrew of `r yahweh` is 10-5-6-5, so wallah -- `r yahweh` is encoded into human DNA which must mean God put his signature on his master artwork -- humans. 
+
+*Every component of this claim related to DNA is absurdly false.*
+
+A refresher on the structure of DNA is available from [Nature](https://www.nature.com/scitable/topicpage/discovery-of-dna-structure-and-function-watson-397/) [@pray_discovery_2008], but some basics are as follows:
+
+* DNA bases are one of four nucleic acids: adenine [A], guanine [G]), cytosine [C], thymine [T]
+* Each base corresponds with a bonding pair C-G, or A-T (or G-C, T-A)
+* *Every* base must be bonded or the molecule would disintegrate
+* Nucleic acids form Hydrogen bonds -- a dipole-dipole electromagnetic bond^[For a refresher see [here](https://www.chem.purdue.edu/gchelp/liquids/hbond.html#:~:text=Hydrogen%20bonding%20is%20a%20special,and%20another%20very%20electronegative%20atom.) ]
+
+There are no sulfur bridges or gaps between such bridges between base pairs in a DNA molecule. 
+
+Where did this originate?
+
+From a scientist named Dr. Yeshayahu Rubenstein who, in a video in 2014, claimed to have viewed DNA through a microscope in 1986, observed these bridges, and published a paper about it in the journal, *Nature*^[One of, if not the most, prestigious and preeminent science journals. When Watson and Crick proposed a "Molecular Structure of Nucleic Acids" [@watson_molecular_1953], the structure was theorized from inferential data, but they published the result in Nature.]. No such paper exists in *Nature* and the first direct image of DNA was obtained with a transmission electron microscope in 2012 [@gentile_direct_2012].
+
+A discussion of this nonsense is available on Israel365 News [@berkowitz_theory_2023]
+
+
+#### **The Garden of Eden is Actually in Florida**
+
+
+
+
+
+Innumerable other examples abound and innumerable new ones spawn continuously. Social media increases the spawning and propagation rate but we can't blame it on the internet because it's been happening throughout the entire history of Judeo-Christianity. And critically, it happens in Judeo-Christianity because it happens in all human story telling. This phenomenon is not unique to religion. How many different versions of Arthurian legends are there? How many fictions have been created around the historical events of the Roman Empire -- how many people do you personally know who like to embellish or fabricate stories? Most people probably know at least one.
+
+We will examine some examples from Antiquity in the following section. 
+
+### Examples from Antiquity
+
+#### **Goliath was 10 ft tall**
+
+
+
+#### **Capture the Relics**
+
+In *Christianity: The First Three Thousand Years
+
+>There had long been other monastic Rules known in the Frankish territories. Why did Benedict’s prevail? One major motivation arose from a dramatic act of theft. In the central Loire valley, at the heart of France, there was a monastery called Fleury. Its much later Romanesque church still stands, a monumental tribute to the prestige of an ancient monastic tradition and the product of a hugely successful pilgrimage based on that theft, which is also commemorated in Fleury’s alternative name, Saint-Benoît-sur-Loire. Towards the end of the seventh century the monks of Fleury had mounted an expedition far into the south of Italy, to Monte Cassino, and there they clandestinely excavated the body of Benedict himself, plus the corpse of his even more shadowy sister and fellow religious, Scholastica. The consecrated raiding party bore their swag of bones back in triumph to the Loire, and there Benedictine monks still tend them in a crypt in their great church, to the continuing mortification of the Benedictines of Monte Cassino. Benedict had not put up any resistance to his abduction, so it was reasonable to suppose that he approved of it, and thus he gave his formidable blessing to the whole people of Francia....
+>The enterprise of the monks of Fleury was not limited to burgling Italian cemeteries; as early as the eighth century, Fleury drew on its de facto possession of the bones of Benedict to negotiate the right to appeal directly to the pope against any bishop in the Frankish Church, and during the ninth century the abbey continued to enhance this useful weapon through creative manuscript forgeries. Popes were not slow to reward Fleury’s succession of consecrated crimes with further privileges, and in 997 the abbey pulled off a triumphant coup: it gained papal recognition as the premier monastery in France and custodian of St Benedict. A subsequent pope in 1059 issued a similar privilege for Italy to the indignant monks of Monte Cassino, who now claimed that Benedict had not gone missing at all.
+
+
+
+#### **The Flood**
+The flood story in Genesis is almost certainly an appropriate of the of the flood story in the Sumerian [Epic of Gilgamesh](https://www.arthistoryproject.com/timeline/the-ancient-world/mesopotamia/the-epic-of-gilgamesh/gilgamesh-5-the-story-of-the-flood/) -- generally thought to be the oldest work of written literature known. 
+
+
+
+
+>There was Anu,-lord of the firmament, their father, and warrior Enlil their counsellor, Ninurta the helper, and Ennugi watcher over canals; and with them also was Ea. In those days the world teemed, the people multiplied, the world bellowed like a wild bull, and the great god was aroused by the clamour. Enlil heard the clamour and he said to the gods in council, “The uproar of mankind is intolerable and sleep is no longer possible by reason of the babel.” So the gods agreed to exterminate mankind. Enlil did this, but Ea because of his oath warned me in a dream. He whispered their words to my house of reeds, “Reed-house, reed-house! Wall, O wall, hearken reed-house, wall reflect; O man of Shurrupak, son of Ubara-Tutu; tear down your house and build a boat, abandon possessions and look for life, despise worldly goods and save your soul alive. Tear down your house, I say, and build a boat. These are the measurements of the barque as you shall build her: let hex beam equal her length, let her deck be roofed like the vault that covers the abyss; then take up into the boat the seed of all living creatures.”
+
+‘When I had understood I said to my lord, “Behold, what you have commanded I will honour and perform, but how shall I answer the people, the city, the elders?” Then Ea opened his mouth and said to me, his servant, “Tell them this: I have learnt that Enlil is wrathful against me, I dare no longer walk in his land nor live in his city; I will go down to the Gulf to dwell with Ea my lord. But on you he will rain down abundance, rare fish and shy wild-fowl, a rich harvest-tide. In the evening the rider of the storm will bring you wheat in torrents.”
+
+‘In the first light of dawn all my household gathered round me, the children brought pitch and the men whatever was necessary. On the fifth day I laid the keel and the ribs, then I made fast the planking. The ground-space was one acre, each side of the deck measured one hundred and twenty cubits, making a square. I built six decks below, seven in all, I divided them into nine sections with bulkheads between. I drove in wedges where needed, I saw to the punt poles, and laid in supplies. The carriers brought oil in baskets, I poured pitch into the furnace and asphalt and oil; more oil was consumed in caulking, and more again the master of the boat took into his stores. I slaughtered bullocks for the people and every day I killed sheep. I gave the shipwrights wine to drink as though it were river water, raw wine and red wine and oil and white wine. There was feasting then as -there is at the time of the New Year’s festival; I myself anointed my head. On the seventh day the boat was complete.
+
+-’Then was the launching full of difficulty; there was shifting of ballast above and below till two thirds was submerged. I loaded into her all that 1 had of gold and of living things, my family, my kin, the beast of the field both wild and tame, and all the craftsmen. I sent them on board, for the time that Shamash had ordained was already fulfilled when he said, “in the evening, when the rider of the storm sends down the destroying rain, enter the boat and batten her down.” The time was fulfilled, the evening came, the rider of the storm sent down the rain. I looked out at the weather and it was terrible, so I too boarded the boat and battened her down. All was now complete, the battening and the caulking; so I handed the tiller to Puzur-Amurri the steersman, with the navigation and the care of the whole boat.
+
+‘With the first light of dawn a black cloud came from the horizon; it thundered within where Adad, lord of the storm was riding. In front over hill and plain Shullat and Hanish, heralds of the storm, led on. Then the gods of the abyss rose up; Nergal pulled out the dams of the nether waters, Ninurta the war-lord threw down the dykes, and the seven judges of hell, the Annunaki, raised their torches, lighting the land with their livid flame. A stupor of despair went up to heaven when the god of the storm turned daylight to darkness, when he smashed the land like a cup. One whole day the tempest raged, gathering fury as .it went, it poured over the people like the tides of battle; a imam could not see his brother nor the people be seen from heaven. Even the gods were terrified at the flood, they fled to the highest heaven, the firmament of Ann; they crouched against the walls, cowering like curs. Then Ishtar the sweet-voiced Queen of Heaven cried out like a woman in travail: “Alas the days -of old are turned to dust because I commanded evil; why did I command thus evil in the council of all the gods? I commanded wars to destroy the people, but are they not my people, for I brought them forth? Now like the spawn of fish they float in the ocean.” The great gods of heaven and of hell wept, they covered their mouths.
+
+‘For six days and six nights the winds blew, torrent and tempest and flood overwhelmed the world, tempest and flood raged together like warring hosts. When the seventh day dawned the storm from the south subsided, the sea grew calm, the, flood was stilled; I looked at the face of the world and there was silence, all mankind was turned to clay. The surface of the sea stretched as flat as a roof-top; I opened a hatch and the light fell on my face. Then I bowed low, I sat down and I wept, the tears streamed down my face, for on every side was the waste of water. I looked for land in vain, but fourteen leagues distant there appeared a mountain, and there the boat grounded; on the mountain of Nisir the boat held fast, she held fast and did not budge. One day she held, and -a second day on the mountain of Nisir she held fast and did not budge. A third day, and a fourth day she held fast on the mountain and did not budge; a fifth day and a sixth day she held fast on the mountain. When the seventh day dawned I loosed a dove and let her go. She flew away, but finding no resting-place she returned. Then I loosed a swallow, and she flew away but finding no resting-place she returned. I loosed a raven, she saw that the waters had retreated, she ate, she flew around, she cawed, and she did not come back. Then I threw everything open to the four winds, I made a sacrifice and poured out a libation on the mountain top. Seven and again seven cauldrons I set up on their stands, I heaped up wood and cane and cedar and myrtle. When the gods smelled the sweet savour, they gathered like flies over the sacrifice. Then, at last, Ishtar also came, she lifted her necklace with the jewels of heaven that once Anu had made to please her. “O you gods here present, by the lapis lazuli round my neck I shall remember these days as I remember the jewels of my throat; these last days I shall not forget. Let all the gods gather round the sacrifice, except Enlil. He shall not approach this offering, for without reflection he brought the flood; he consigned my people to destruction.”
+
+
+### The Exodus
+
+I enjoyed watching *The Ten Commandments* movie when I was a kid and never really thought much about it other than it being a Bible story. I always interpreted the supernatural elements of the Bible as mythological storytelling in the same way that Thomas Jefferson did^[In the Presidential Election of 1800 Jefferson's political opponents accused him of being an atheist because of this -- he constructed what is now known as *The Jefferson Bible* which relates the stories of Jesus' teachings on morality and ethics but strips out the miracles and magic. For an excellent discussion I recommend *Religion in American Politics* by Frank Lambert [@lambert_religion_2008] -- or consult your favorite search engine.]. Some Bible stories are likely constructed around real people and events, but there are no data whatsoever to support the historicity of the Exodus and the conquest of Caanan by Israel. 
+
+If you go to Jerusalem and visit the Israel Museum exhibit called [Pharaoh in Canaan: The Untold Story](https://museum.imj.org.il/en/exhibitions/2016/pharaoh-in-canaan/) you would find 16 sub-exhibits on different aspects of the Egyptian presence in Canaan. Each of these exhibits are filled with artifacts and research except one. The exhibit on the Exodus "is an empty room with exactly one exhibit on display: a movie featuring co-curator and Israel Museum Egyptologist Dr. Daphna Ben-Tor, who explains that the hall is empty because there is no archaeological evidence whatsoever to support the biblical tale" [@hasson_new_2016]. 
+
+  
+
+
+### The Image and Conceptualization of the God of the Christian and Hebrew Bibles
+
+### The Authors of the Gospels
+
+### The Trinity 
+
+The Doctrine of the Trinity is a post-Biblical innovation that wasn't finalized in Christian theology until the 5th or 6th century CE or so (strictly speaking it still isn't finalized across all denominations, and significant disagreement continues -- some modern day churches still reject it). Readers astutely familiar with the King James Version may refute this suggestion by immediately thinking of 1 John 5:7
+
+> (KJV) **5** Who is he that overcometh the world, but he that believeth that Jesus is the Son of God? **6** This is he that came by water and blood, even Jesus Christ; not by water only, but by water and blood. And it is the Spirit that beareth witness, because the Spirit is truth. **7** **For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one.** **8** And there are three that bear witness in earth, the Spirit, and the water, and the blood: and these three agree in one.
+
+Plain as day in verse 7, but doesn't it seem just a little out of place? Verse 6 mentions water and blood and Spirit. Verse 8 again is describing Spirit, water, and blood. Verse 7 seems disconnected with verses 6 and 8. If we look at some modern translations:
+
+> (NASB) **5** Who is the one who overcomes the world, but the one who believes that Jesus is the Son of God? **6** This is the One who came by water and blood, Jesus Christ; not with the water only, but with the water and with the blood. It is the Spirit who testifies, because the Spirit is the truth. **7** For there are three that testify: **8** the Spirit and the water and the blood; and the three are in agreement. 
+
+>(NRSVU) **5** Who is it who conquers the world but the one who believes that Jesus is the Son of God? Testimony concerning the Son of God **6** This is the one who came by water and blood, Jesus Christ, not with the water only but with the water and the blood. And the Spirit is the one that testifies, for the Spirit is the truth. **7** There are three that testify: **8** the Spirit and the water and the blood, and these three agree.
+
+>(NIV) **5** Who is it that overcomes the world? Only the one who believes that Jesus is the Son of God. **6** This is the one who came by water and blood—Jesus Christ. He did not come by water only, but by water and blood. And it is the Spirit who testifies, because the Spirit is the truth. **7** For there are three that testify: **8** the Spirit, the water and the blood; and the three are in agreement.
+
+There is nary a Trinity to be found -- ***the reason it is not found in modern translations is because it wasn't in the original text.*** 
+
+The additional text we find in the KJV is known as the *Comma Johanneum*. The reasons for thinking it wasn't in the original text are *that*
+
+* of the ~500 Greek manuscripts in existence that contain 1 John 5, the *Comma Johanneum* is only found in at most *ten*^[Counts vary between 8 and 10 -- some of these are marginal notes that were demonstrably added long after the manuscript itself was constructed -- for example @metzger_text_2005 do not include GA 177 in their count of eight. GA 177 is an 11th century manuscript but the Comma in it was added as a marginal note around 1785 and the form of the text (with chapter and verse indicate it was added based on a printed edition -- so not really a manuscript witness).] [@metzger_text_2005], [@hixson_evangelical_2020] . 
+* *that* seven of these ten are 14-18th century CE manuscripts; one is 10th Century, one is 11th Century, and one is 12th Century [@hixson_evangelical_2020]. 
+* *that* in six of these ten -- it is written in the margins [@metzger_text_2005], [@hixson_evangelical_2020]. 
+* *that* some of these marginal notes were demonstrably added much later
+  - GA 221 is the 10th Century manuscript with the marginal note but an 1854 description of it in a catalog specifically indicated it did not include the *Comma* [@hixson_evangelical_2020].
+  - GA 177 is an 11th century manuscript but the Comma in it was added as a marginal note around 1785 -- we know because the scribe making the notes in that manuscript signed and dated one of them [@hixson_evangelical_2020].
+  - GA 88 is the 12th Century but the marginal note is written in a 16th century style [@metzger_text_2005] and it spells out both "Father" and "Spirit" which @hixson_evangelical_2020 points out are usually abbreviated in manuscripts, suggesting the annotator was using a printed Bible later than Erasmus' 2nd Edition for the text of the *Comma*. You can observe the abbreviation of *Spiritus* as "SPS" in Figure \@ref(fig:JC) below.
+  - GA 429 is 14th Century but the text of the *Comma* in the margins exactly follows the printed text of Erasmus' 3rd printed edition which puts the addition after 1522. 
+* *that* the earliest *possible* reference to the text is from Cyprian in the late 3rd century [@wallace_comma_2004] - but  what he actually quotes is that "and these three are one". Cyprian was arguing for the Trinity here during the debates surrounding the nature of Jesus' Divinity and if the *Comma* text was known to him, it doesn't make sense that he would only quote "and these three are one" and since Cyprian was writing in Latin -- what he quotes is exactly the rendering of the end of verse 8 about the water, blood, and spirit -- "et tres unum sunt" (See Figure \@ref(fig:JC) below)
+
+* *that* the earliest exact reference to the *Comma* text as part of 1 John is in a Latin treatise from the 4th century. 
+* *that* if we consider actual Bible manuscripts in languages other than Greek we find that:
+  - It doesn't appear in any manuscript of the Vulgate that dates earlier than about 800 CE [@metzger_text_2005]. For example *Codex Fuldensis*^[Made between 541 and 546 CE, Codex Fuldensis does not include the Comma, but fascinatingly, does not include the 4 Gospels either -- Fuldensis includes the Diatessaron. The Diatessaron is a 2nd Century harmonization of the 4 Gospels into a single narrative, created by Tatian. It was popular in Syriac for a while but eventually died out in favor of preserving the 4 separate texts. See (https://en.wikipedia.org/wiki/Diatessaron)] or *Codex Amiatinus*. 
+  - It doesn't appear in any other Latin manuscript that dates prior to the 5th Century CE. 
+  - It doesn't appear in any *ancient* manuscript in Syriac, Coptic, Armenian, Ethiopic, Arabic, or Slavonic [@wallace_comma_2004].
+
+```{r JC, fig.width=10, fig.cap="Codex Sangallensis 63 (277); Latin, 9th Century. (Codex Sangallensis 63, Public domain, via Wikimedia Commons -- https://commons.wikimedia.org/wiki/File:Cod._Sangallensis_63_(277).jpg). The Codex dates to the 9th Century but the Comma was added later. The overlayed text and green arrows are my annotations, with translation from (https://vulgate.org/nt/epistle/1john_5.htm). The text in darker ink at the bottom of the page associated with the annotation mark on the left side is the Comma."}
+
+knitr::include_graphics("jc_bottom_close.jpg")
+
+```
+
+
+The most likely origin for the Comma is someone reading and writing in Latin in the Western Empire in the mid 2nd to early 3rd century CE who made an annotation on 1 John 5:7-8 thinking that pattern of thought (three witnesses that agree in one, or "are one" as it's usually rendered in Latin) made a good argument in support of the concept of Trinity (which was as yet still being debated and formed). That text was likely used in arguments, copied into other manuscripts -- added into manuscripts by others who heard it, and eventually assimilated in the Latin tradition, and later still assimilated into the Greek tradition. Erasmus didn't include the *Comma* in the first or second editions of the *Textus Receptus* (printed Greek New Testament developed in the early 1500's) because at the time there was **no** known Greek manuscript evidence for it.  
+
+An article on the *Comma* in manuscript Gregory-Aland 177 (as mentioned above in the notes) states that while "the manuscript basis for this Trinitarian formula is rather paltry, it has infected the history of the English Bible in a huge way, functioning as a rally point for King James Only advocates" [@csntm_comma_2010]. Why do we suppose that is? I'll come back to this question in the final section of this document. 
+
+But this is all digression.
+
+All of the above is required to demonstrate that the concept of the Trinity is post-biblical and that no Biblical passages in the original texts as best we can reconstruct them describe a Triune God. No such Doctrine existed formally within Christianity until 325 CE when it was determined by majority vote. So what was the thinking in early Christianity before that? 
+
+The Gospels are not precise respecting Jesus' Divinity and exactly how he is supposed to relate to capital G God, **`r yahweh`** (Yahweh), the God of Israel, and this presented a problem for the Monotheistic Jews who were first grappling with what Jesus was actually supposed to be. A few of the different concepts competing in the marketplace of religious theologies included
+
+* [*Docetism*](https://en.wikipedia.org/wiki/Docetism) - The notion that the human form of Jesus was basically an illusion created by God -- but that Jesus had no real humanity or human flesh. Docetism was practiced at least as early as the late 2nd Century CE because we have, in the writings of Eusebius, a record of a letter from Bishop Serapion of Antioch from around the year 200 describing a community in Rhossus using the Gospel of Peter. The Gospel of Peter is now universally recognized as an early 2nd Century forgery. At the time Serapion deemed it "for the most part Orthodox, but [containing] 'additions' to the Gospel story that he considered spurious and dangerous...he forbade future use of the book" [@erhman_forgery_2013]. It is unclear exactly what these passages were but some hint of Docetism is indicated in the historical record. Docetic concepts propagated in numerous other books that were popular at the time that did not become canonical. The movement was significant enough that it was explicitly condemned as heresy at the First Council of Nicaea in 325
+* [Modalism](https://en.wikipedia.org/wiki/Modalistic_Monarchianism) argued that God was one God in a strict sense and that the notion of three consubstantial but independent and separate entities equated to polytheism. So in this view there was only one God that was entirely God himself but that God could operate in different "modes". So in this scheme Father, Son, Holy Spirit are like titles describing the same entity when it's doing different things. This view is still practiced today by Oneness Pentecostals and interestingly enough, they also use 1 John 5:7-8 as an evidence to support their concept. 
+* A long detailed history of thought progression is available at the [Standford Encylopedia of Philosophy](https://plato.stanford.edu/entries/trinity/trinity-history.html#ProNicCon)
+
+But the main point of history I want to highlight is the debate leading up to First Nicaea in 325 -- 
+
+
+
+`r arian` [homoiousios -- similar essence]
+
+
+`r athanasius` [homoousios -- same essence, *consubstantial*]
+
+
+#### That David Killed Goliath
+
+
+
+#### The Bible as the *Inspired* Word of God
+
+
+#### The Creation Story in Genesis 1
+
+
+
+
+
+
+
+
+   
+
+
+   
+   
+If we believe the author of Luke's narrative in place of the stories from the authors of Mark or Matthew^[The earliest Gospel, Mark, most likely written around 70 CE, doesn't contain any birth narrative at all -- we only hear that Jesus "came from Nazareth". The author of Mark doesn't mention Bethlehem at all. Matthew was likely written in the 80's CE and doesn't mention mangers or shepherds or their accommodations at all -- in Matthew we get astrologers from Iran who follow the star in the east that led them around until it hovered over "the place where the child was" like a quest marker in a video game, but no description of that place. I'm aware of apologist arguments that the three stories are harmonious, and it seems to be true that it's not logically or physically impossible for events in those three stories to all have occurred, but the assertion that the narrative in Matthew and in Luke are both accurate and both occurred directly contradicts the plain sense of the text and the interpretation any reasonable observer would reach upon consuming both narratives without a powerful presupposition of the Bible's Inerrancy and Univocality.], the manger in which Jesus reposed would have been in the 1st floor courtyard of a traditional Palestinian family "Four room house" (on why the common English translation of κατάλυμα in Luke 2:7 is "inn", but the most likely meaning intended by the author was guest room in family house -- see @mickelson_improbable_2015, @carlson_accommodations_2010,  @swan_away_2014, @lefebvre_jesus_2021 or consult the Google for many more). And it seems likely that a manger would have been in the first floor courtyard where animals would have been kept and where fodder would have been stored [@botha_houses_1998]. 
+
+
+## The Counter Arguments
+
+The review and compilation of this material and the construction of this document consumed `r round(hrs_spent)` hours of my time. While this labor was augmented by having previously read perhaps 5,000 pages of Biblical scholarship and history related to the Ancient Near East, Judaism, and early Christianity -- mostly in the last six years or so -- it is still a staggeringly *little* amount of time^[An analysis I might perform on behalf of the Department of Defense usually consumes between 1,000 and 3,000 hours.]. That amount of study *barely* breaches the surface of the vast aquifer of ignorance in which most of humanity wallows about, submerged, for most of the time. Actual biblical scholars who study a specific time period or topic for a couple of decades have likely read on the order of 200,000 - 400,000 pages of reference material, have studied the source texts in their original languages, and argue among themselves about what they think the data most likely mean -- these arguments change with new archaeological discoveries and with new analytic techniques. 
+
+I include this section only to state that for all of the points in this document that refute the magic and miracle of the Biblical tradition, you will find apologetic^[For those new to the academic study of the Bible, "apologetics" is term used to describe arguments constructed in the defense of something -- opposed to polemics which are arguments against something.] counter arguments -- I have read at least a dozen of them in the course of writing this. I do not find the apologetic counter arguments at all convincing because they are frequently logically fallacious, almost always seek to find an interpretation of the data that makes the biblical tradition "not impossible" rather than trying to find the most likely interpretation of the data, and always start from the conclusion that the Bible is the Inspired Inerrant Word of God and that all of it is true and consistent in every way ^[Many state this assumption plainly in their arguments. For example, @wright_epic_2019 concludes that the Exodus actually occurred and that it occurred in 1446 BCE (the Biblical timeline). He reaches these conclusions "based on my view of the nature of Biblical “Inspiration,” “Inerrancy,” as well as textual, literary, philosophical, historical and archaeological considerations". History and archaeology come last and they are but bits of data sprinkled on top of a dogma cake to make it look edible.]. These arguments are not scholarship or critical thinking; they do not seek knowledge or truth; they seek only to justify *beliefs*, the refutation of which would be unpleasant and uncomfortable for the apologist. A reasonably thorough treatment would require an entire book, but I want to examine just one example I encountered while writing this document. 
+
+A question posted to the [Biblical Hermeneutics Stack Exchange](https://hermeneutics.stackexchange.com/questions/60884/zechariah-s-vision-one-or-two-donkeys) solicited thoughts on why Matthew's account of Jesus' entry into Jerusalem includes two donkeys when the other Gospels only include one. University of Georgia professor Wayne @coppins_sitting_2012 provides a succinct summary of the arguments on how to interpret this conundrum. From my reading of this and other sources the most likely reason is that while the Hebrew of Zechariah 9:9 certainly describes one animal in a poetic "parallelism" that is common in Hebrew literature (describing something in two ways for emphasis, tone, meter, poetry etc), an unclear or erroneous translation of the Hebrew in the Greek Septuagint (what Matthew's author and his audience would have been referencing) indicates two animals [@cargill_jesuss_2022]. 
+
+Here we have a translation of the Hebrew from [Sefaria](https://www.sefaria.org/Zechariah.9.10?lang=bi):
+
+>גִּילִ֨י מְאֹ֜ד בַּת־צִיּ֗וֹן הָרִ֙יעִי֙ בַּ֣ת יְרוּשָׁלַ֔͏ִם הִנֵּ֤ה מַלְכֵּךְ֙ יָ֣בוֹא לָ֔ךְ צַדִּ֥יק וְנוֹשָׁ֖ע ה֑וּא עָנִי֙ וְרֹכֵ֣ב עַל־חֲמ֔וֹר וְעַל־עַ֖יִר בֶּן־אֲתֹנֽוֹת׃
+
+
+>Rejoice greatly, Fair Zion;
+Raise a shout, Fair Jerusalem!
+Lo, your king is coming to you.
+He is victorious, triumphant,
+Yet humble, riding on a donkey,
+On a jackass foaled by a jenny.
+
+and another from [mechon-mamre](https://mechon-mamre.org/p/pt/pt2309.htm)
+
+>Rejoice greatly, O daughter of Zion, shout, O daughter of Jerusalem; behold, thy king cometh unto thee, he is triumphant, and victorious, lowly, and riding upon an ass, even upon a colt the foal of an ass.
+
+Both of these translations describe one animal in two ways. Genesis 49:11 illustrates the same pattern describing a donkey. But the Greek of the [Septuagint](http://qbible.com/brenton-septuagint/zechariah/9.html) didn't clearly convey that grammar and when we see Septuagint translations in English we usually find something like:
+
+>χαῖρε σφόδρα θύγατερ Σιων κήρυσσε θύγατερ Ιερουσαλημ ἰδοὺ ὁ βασιλεύς σου ἔρχεταί σοι δίκαιος **καὶ** σῴζων αὐτός πραῢς **καὶ** ἐπιβεβηκὼς ἐπὶ ὑποζύγιον **καὶ**[and] πῶλον νέον [emphasis added]
+
+>Rejoice greatly, O daughter of Zion; proclaim [it] aloud, O daughter of Jerusalem; behold, the King is coming to thee, just, **and** a Saviour; he is meek **and** riding on an ass, **and** a young foal [emphasis added].
+
+which reflects what the author of Matthew was seeing in Greek -- two animals^[Or, at the very least, *maybe* two animals. There are some arguments that the usage of καὶ is ambiguous and could be interpreted as "even". The crux is that the text of the Greek version of Zechariah *could* be interpreted as describing two animals.] While it's  nonsensical to suggest Jesus entering Jerusalem astride two animals like a circus performer, the language here is ambiguous and some people have interpreted it that way^[Or after realizing how absurd that seems, conjure the notion that Jesus rode first one, then got off and rode the other the remainder of the way because of reasons that (like this Lamb narrative), have no basis in the texts of the ancient world and are just made up. See an example [here](https://taylormarshall.com/2017/04/christ-ride-donkey-colt-time.html#:~:text=This%20seems%20ridiculous%2C%20but%20I,be%20Christophoroi%20%E2%80%93%20Christ%2Dbearers.). The source of this fantasy is commentary by Cornelius a Lapide, a Jesuit priest who died in 1637.]. With the existence of the Hebrew texts to inform the meaning of the Greek, it is patently absurd to understand the prophecy as referring to two animals. The KJV English similarly indicates two animals -- ["lowly, and riding upon an ass, and upon a colt the foal of an ass"](https://www.biblegateway.com/passage/?search=Zechariah%209&version=KJV). But modern translations in English based on the Hebrew text and with the advantage of scholarship regarding the Septuagint translation correct this *f aux pas* (e.g see New King James, NIV, NRSV, ESV, ASB etc. for Zechariah 9:9).
+
+So why does Matthew include two animals in its version of the story when Mark and Luke and John only include one? It's not possible for us to know, but there are two reasons that seem likely. 
+
+#### Prophecy Fullfillment
+
+Much of the content in Matthew has Jesus fulfilling prophecy to the letter as written in the Old Testament. By [one count](https://www.christourlife.online/02-jesus-as-the-fulfillment-of-scripture#:~:text=The%20Gospels%20teach%20us%20that,does%20so%20on%20three%20occasions.), Matthew has Jesus fulfilling 13 specific prophecies compared to just three in Mark.
+
+Matthew clearly seeks to check every prophetic box possible and since his readers were reading in Greek, they were reading the Septuagint, and since they Septuagint says two, Matthew says two, even if the author of Matthew knows the Septuagint only says two because of a grammar ambiguity that arose in the translation from the Hebrew. Matthew's grammar is sufficiently ambiguous that it can be interpreted as literally saying Jesus is sitting on both animals, or that the clothes go on both and then Jesus sits on the clothes (presumably the clothes only on one of two animals). So Matthew's author wrote to close any possible prophecy loophole by rendering the text such that it can be interpreted in two ways. This is the mostly likely interpretation of the data.
+
+But back to our [Biblical Hermeneutics Stack Exchange](https://hermeneutics.stackexchange.com/questions/60884/zechariah-s-vision-one-or-two-donkeys) discussion and the point I want illuminate. User \@Xeno provided an answer that asserts there must have been two animals in the actual event, and Mark, Luke, and John just didn't bother to mention them. When challenged on their reasoning user \@Xeno explained that:
+
+>Basically, if we suggest Scripture contains errors "here and there," then it is not inspired. I could then find no reason to believe it. 
+
+...and so people do not think critically, people *must* not think critically -- they must think *creatively*, or *magically* to find any way possible to make the data fit the dogma (of Inspiration, of Inerrancy etc.). 
+
+I've seen that pattern of thought many many times and it is so demoralizing to me. I further suggest this pattern of thinking is detrimental for the human condition because we have a significant portion of the population who are conditioned to accept what they are told, not to think too hard about it, and are socially rewarded for this conformance.  
+
+
+
