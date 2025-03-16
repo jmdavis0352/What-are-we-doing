@@ -11,7 +11,7 @@ output:
     self_contained: false 
 citation: false
 bibliography: Shepherd.bib 
-draft: false
+draft: true
 
 ---
 
@@ -25,6 +25,11 @@ harus <- enc2utf8('חָר֣וּץ')
 yahweh <- enc2utf8('יהוה')
 arian <- enc2utf8('ὁμοιούσιος')
 athanasius <- enc2utf8('ὁμοούσιος')
+
+library(metathis)
+
+meta() %>% meta_social(image = "https://jmdavis0352.github.io/What-are-we-doing/Pasteur.png")
+
 
 ```   
 
