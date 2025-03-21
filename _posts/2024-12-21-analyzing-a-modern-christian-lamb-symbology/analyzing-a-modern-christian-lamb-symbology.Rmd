@@ -2,6 +2,8 @@
 title: "Analyzing a Modern Example of Christian Lamb-Symbology Narrative"
 description: |
   The practice of symbolizing Jesus as the paschal lamb or associating him with other Jewish Temple elements is evident in our earliest manuscript evidence from Christianity (the authentic Pauline epistles, mostly written in the 50's CE). Just as Christology and eschatology evolve over the centuries to address theological or dogmatic problems, this symbolism similarly evolves as Christian writers innovate to inject renewed interest and, more recently, to get subscribers, views, shares, likes, and clicks - the better to spread the good news with. Here we examine one such modern symbological narrative to study how these innovations originate.   
+base_url: https://jmdavis0352.github.io/What-are-we-doing/
+preview: https://jmdavis0352.github.io/What-are-we-doing/manger.jpg 
 author:
   - name: Jonathan M. Davis
     url: {}
@@ -11,14 +13,14 @@ output:
     self_contained: false 
 citation: false
 bibliography: Shepherd.bib 
-draft: true
+
 
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-hrs_spent <-  74.5
+hrs_spent <-  75.4
 
 shabur <- enc2utf8("שָׁבַר")
 harus <- enc2utf8('חָר֣וּץ')
@@ -28,7 +30,7 @@ athanasius <- enc2utf8('ὁμοούσιος')
 
 library(metathis)
 
-meta() %>% meta_social(image = "https://jmdavis0352.github.io/What-are-we-doing/Pasteur.png")
+meta() %>% meta_social(image = "https://jmdavis0352.github.io/What-are-we-doing/manger.jpg")
 
 
 ```   
@@ -180,7 +182,7 @@ While not directly linked to the analysis of the narrative in question, a review
 
 >THE PERFECT LAMB OF GOD! The Messiah who would sacrifice His life for the sins of the whole world. 
 
-and Christians liken Jesus to the paschal sacrificial animal, then what *was* the less perfect, less powerful, baby sheep or goat that was sacrificed on the Day of Atonement each year all about? How did that sacrificial practice fit in with other sacrificial practices in Judaism? with Greco-Roman animal sacrifices? with Mesopotamian animal sacrificial cults?
+and Christians liken Jesus to the sacrificial animal, then what *was* the less perfect, less powerful, baby sheep or goat that was sacrificed on the Day of Atonement each year all about (The Passover)? What were the sin offerings and how did they work? How did these sacrificial practices fit in with other sacrificial practices in Judaism? with Greco-Roman animal sacrifices? with Mesopotamian animal sacrificial cults?
 
 Israelite sacrificial practices evolved over centuries before reaching the exact form practiced around the time Jesus was likely born, but all of their elements (altar, temple, sacrificial system) are "rooted in the pagan cultures of the ancient Near East" [@haran_temples_1978]. The most obvious and directly correlated source is the Sumerian/Akkadian/Babylonian cultures in Mesopotamia that originate as early as the 4th millennium BCE and formally end in 539 BCE at the hands of the Persians. This period entirely encompasses the development of Israel as a people and Kingdom. 
 
@@ -273,7 +275,7 @@ A refresher on the structure of DNA is available from [Nature](https://www.natur
 * *Every* base must be bonded or the molecule would disintegrate
 * Nucleic acids form Hydrogen bonds -- a dipole-dipole electromagnetic bond^[For a refresher see [here](https://www.chem.purdue.edu/gchelp/liquids/hbond.html#:~:text=Hydrogen%20bonding%20is%20a%20special,and%20another%20very%20electronegative%20atom.) ]
 
-There are no sulfur bridges or gaps between such bridges between base pairs in a DNA molecule. 
+There are no sulfur bridges or gaps between such bridges between base pairs in a DNA molecule. This is entirely ficticious.
 
 Where did this originate?
 

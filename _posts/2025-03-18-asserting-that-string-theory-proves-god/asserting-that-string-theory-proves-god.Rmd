@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 library(metathis)
 
-meta() %>% meta_social(image = "https://jmdavis0352.github.io/What-are-we-doing/STheory.png")
+meta() %>% meta_social(image = "https://jmdavis0352.github.io/What-are-we-doing/Stheory.png")
 
 
 ```
