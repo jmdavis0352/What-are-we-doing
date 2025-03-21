@@ -18,7 +18,7 @@ draft: true
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-hrs_spent <-  74.
+hrs_spent <-  74.5
 
 shabur <- enc2utf8("שָׁבַר")
 harus <- enc2utf8('חָר֣וּץ')

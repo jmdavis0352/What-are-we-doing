@@ -35,7 +35,7 @@ Memes excel at attracting attention and focus for short duration, high impact in
 ### What's in a Meme?
 Frequently, memes contain misleading information, misinformation, logical fallacies, and manipulative intent. I recently came across the following:
 
-```{r pasterur, preview=TRUE }
+```{r pasterur}
 knitr::include_graphics('LPMeme.jpg')
 
 ```
