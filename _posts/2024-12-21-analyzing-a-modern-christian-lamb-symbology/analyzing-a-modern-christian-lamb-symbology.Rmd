@@ -7,6 +7,7 @@ preview: https://jmdavis0352.github.io/What-are-we-doing/manger.jpg
 author:
   - name: Jonathan M. Davis
     url: {}
+    affiliation: Not a biblical scholar, but a resonably competent Googler
 date: 2024-12-21
 output:
   distill::distill_article:
@@ -20,7 +21,7 @@ bibliography: Shepherd.bib
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-hrs_spent <-  75.4
+hrs_spent <-  78.5
 
 shabur <- enc2utf8("שָׁבַר")
 harus <- enc2utf8('חָר֣וּץ')
@@ -182,7 +183,7 @@ While not directly linked to the analysis of the narrative in question, a review
 
 >THE PERFECT LAMB OF GOD! The Messiah who would sacrifice His life for the sins of the whole world. 
 
-and Christians liken Jesus to the sacrificial animal, then what *was* the less perfect, less powerful, baby sheep or goat that was sacrificed on the Day of Atonement each year all about (The Passover)? What were the sin offerings and how did they work? How did these sacrificial practices fit in with other sacrificial practices in Judaism? with Greco-Roman animal sacrifices? with Mesopotamian animal sacrificial cults?
+and Christians liken Jesus to the sacrificial animal, then what *was* the less perfect, less powerful, baby sheep or goats that were ritually slaughtered "for sins" all about? What were the sin offerings and how did they work? How did these sacrificial practices fit in with other sacrificial practices in Judaism? with Greco-Roman animal sacrifices? with Mesopotamian animal sacrificial cults?
 
 Israelite sacrificial practices evolved over centuries before reaching the exact form practiced around the time Jesus was likely born, but all of their elements (altar, temple, sacrificial system) are "rooted in the pagan cultures of the ancient Near East" [@haran_temples_1978]. The most obvious and directly correlated source is the Sumerian/Akkadian/Babylonian cultures in Mesopotamia that originate as early as the 4th millennium BCE and formally end in 539 BCE at the hands of the Persians. This period entirely encompasses the development of Israel as a people and Kingdom. 
 
@@ -215,7 +216,7 @@ The discussion above illustrates that the lamb symbology narrative introduced at
 
 ### Other Modern Examples
 
-Modern tales of miracle and prophecy and revealed secrets abound in the modern age. The sections below illustrate a few examples of demonstrably nonsense:
+Modern tales of miracle and prophecy and revealed secrets abound in the modern age. The sections below illustrate a few examples of demonstrable nonsense:
 
 #### **A Bible in Dalton, GA Exudes Magic Healing Oil After President Donald J. Trump's 2017 Inauguration**
 
@@ -225,7 +226,7 @@ In Dalton, GA, a man named Jerry Pearce "fell down on the floor for 45 minutes i
 
 Really? My mother possesses three vials of this oil, given to her by friends after a car accident. I look at them when I'm visiting sometimes but haven't noticed them refilling themselves. 
 
-Oddly enough, a reporter at the Chattanooga Times Free Press covering the story was eventually directed to employees at the local Tractor Supply who visually identified Jerry as regularly buying gallons of mineral oil. Two independent Fourier Transform Infrared spectroscope (FTIR) profiles of the oil developed in two different departments at the University of Tennessee in Chattanooga "indicate a petroleum derived product, particularly mineral oil." [@massey_ministry_2020] -- see the actual lab report embedded in the news article. Pearce initially denied buying mineral oil and stated that the Tractor Supply employees were lying, but after the Times reporting was published, Flowing Oil Ministries (the group organizing events related to the oil) revealed that the Bible had recently stopped producing oil. Pearce then admitted to buying oil just that last time stating [@massey_ministry_2020]:
+A reporter at the Chattanooga Times Free Press covering the story was eventually directed to employees at the local Tractor Supply who visually identified Jerry as regularly buying gallons of mineral oil. Two independent Fourier Transform Infrared spectroscope (FTIR) profiles of the oil developed in two different departments at the University of Tennessee in Chattanooga "indicate a petroleum derived product, particularly mineral oil." [@massey_ministry_2020] -- see the actual lab report embedded in the news article. Pearce initially denied buying mineral oil and stated that the Tractor Supply employees were lying, but after the Times reporting was published, Flowing Oil Ministries (the group organizing events related to the oil) revealed that the Bible had recently stopped producing oil. Pearce then admitted to buying oil just that last time stating [@massey_ministry_2020]:
 
 >"I was going to pour that oil on the Bible when the Bible quit producing oil," Pearce said. "And the Lord checked my spirit on it."
 
@@ -233,7 +234,7 @@ Of course.
 
 #### **A retired Nurse Anesthetist Recovers the Actual Ark of the Covenant from Israel**
 
-See Ron Wyatt for a litany of nonsense. The short version is that he claimed to have found artifacts like: chariot Wheels at the bottom of the Red Sea and  the actual Ark of the Covenant, and even Jesus' blood which was still alive (he did not). 
+See Ron Wyatt for a litany of nonsense. The short version is that he claimed to have found artifacts like: chariot wheels at the bottom of the Red Sea and  the actual Ark of the Covenant, and even Jesus' blood which was still alive (he did not). He never produced such artifacts or provided evidence to archaeologists.  
 
 @jackson_ron_nodate provides a list of his claims, including that he discovered :
 
@@ -254,7 +255,13 @@ See Ron Wyatt for a litany of nonsense. The short version is that he claimed to 
 * Jesus’ Tomb and the Stone Seal of the Tomb,
 * A sampling of Christ’s Dried Blood, proving the doctrine of the Virgin Birth by means of a “chromosome count,” etc.
 
+If you visit Israel and go to the Garden Tomb Association they may provide you with this statement:
 
+```{r GT, fig.cap="Source: Wikimedia Common, Public Domain, https://upload.wikimedia.org/wikipedia/commons/c/c1/Jerusalem_Garden_Tomb_Official_Disclaimer_of_Ron_Wyatt%27s_Absurd_Claims_%2843251231202%29.jpg"}
+
+knitr::include_graphics('gt_letter.jpg')
+
+```
 
 #### **`r yahweh` (YHWH - Yahweh -- the name of God) is Encoded Into Deoxyribonucleic Acid (DNA)**
 
@@ -264,7 +271,7 @@ This nonsense promulgates all over the place. A few examples:
 * https://www.facebook.com/ChristafariBand/posts/did-you-know-that-the-dna-molecule-has-the-name-yahweh-written-on-it-the-dna-mol/862817655215243/
 * https://www.christianlearning.com/yahweh-is-embedded-in-our-dna/
 
-The short version of the claim is that the spirals of the helix are joined by sulfur bridges in a pattern consisting of a bridge every 10 segments, 5 segments, 6 segments, 5 segments and then repeating, and that the alpha-numeric designations (gematria -- Hebrew numerology) for the Hebrew of `r yahweh` is 10-5-6-5, so wallah -- `r yahweh` is encoded into human DNA which must mean God put his signature on his master artwork -- humans. 
+The short version of the claim is that the spirals of the helix are joined by Sulfur bridges in a pattern consisting of a bridge every 10 segments, 5 segments, 6 segments, 5 segments and then repeating, and that the alpha-numeric designations (gematria -- Hebrew numerology) for the Hebrew of `r yahweh` is 10-5-6-5, so wallah -- `r yahweh` is encoded into human DNA which must mean God put his signature on his master artwork -- humans. 
 
 *Every component of this claim related to DNA is absurdly false.*
 
@@ -273,7 +280,7 @@ A refresher on the structure of DNA is available from [Nature](https://www.natur
 * DNA bases are one of four nucleic acids: adenine [A], guanine [G]), cytosine [C], thymine [T]
 * Each base corresponds with a bonding pair C-G, or A-T (or G-C, T-A)
 * *Every* base must be bonded or the molecule would disintegrate
-* Nucleic acids form Hydrogen bonds -- a dipole-dipole electromagnetic bond^[For a refresher see [here](https://www.chem.purdue.edu/gchelp/liquids/hbond.html#:~:text=Hydrogen%20bonding%20is%20a%20special,and%20another%20very%20electronegative%20atom.) ]
+* Nucleic acids form Hydrogen bonds -- a dipole-dipole electromagnetic bond that does not involve Sulfur^[For a refresher see [here](https://www.chem.purdue.edu/gchelp/liquids/hbond.html#:~:text=Hydrogen%20bonding%20is%20a%20special,and%20another%20very%20electronegative%20atom.) ]
 
 There are no sulfur bridges or gaps between such bridges between base pairs in a DNA molecule. This is entirely ficticious.
 
@@ -286,17 +293,67 @@ A discussion of this nonsense is available on Israel365 News [@berkowitz_theory_
 
 #### **The Garden of Eden is Actually in Florida**
 
+It is not. 
+
+For background see:
+
+* https://www.exploresouthernhistory.com/apalachicolabluffs2.html
+* https://www.the-independent.com/news/world/americas/florida-garden-eden-claim-tree-b2564133.html
+
+or consult your favorite search engine. 
+
+The author of this nonsense (Elvy Callaway) made the connection because of a the tree in Florida called the [Torreya Tree](https://en.wikipedia.org/wiki/Torreya_taxifolia), which is commonly referred to as "Gopher Wood" and because he found an area where a river split into four headwaters. 
+
+The King James English translation for Genesis 6:14 is
+
+> Make thee an ark of gopher wood
+
+The reason Callaway thought the Torreya must be the Biblical "gopher wood" is because the species is very old -- nearly extinct today. But "gopher wood" was just a quasi random guess by the King James translators. Modern translations usually state "cypress" (NRSVU for example), but the Hebrew here is not really understood. No one actually knows what the word means anymore or what type of wood the word actually refers to but most scholars think it was likely cedar or cypress because those were available, but the meaning of the Hebrew word here (heb) is not certain [@society_of_biblical_literature_sbl_2023]. 
+
+Callaway just baldly ignores that the Bible specifically states two of the four rivers are the Tigris and Euphrates, bounding ancient Mesopotamia -- which makes so much sense given that this is a story written by people in and around Mesopotamia.  
+
+#### **Donald Trump is actually Jesus?**
+
+Without further comment:
+
+[President Donald J. Trump, The Son of Man - The Christ, by Helgard Müller](https://www.amazon.com/President-Donald-Trump-Son-Man/dp/1977249752/ref=sr_1_1?crid=9TH3455K8UZ6&dib=eyJ2IjoiMSJ9.HB9qNZ2Jql4bLaYYikeQIfB6HIspgBErwKck-G5Xvamy5mSedO8ZomPO5JS9tLapGxpm_t3IHReJLsUxl5sa7gbOUk_O8X_DtG1qiloOwvmq1qG18tmULTPr8mTI_I8Q0yU4HCC-xk-fLwjkjumZE-MEGR08C8QHGBNwFb7XBEWsCSVh1XEY-Mq5KhWlN01mUV5A-zBH2-cbL37cNgydwiy_P5Vm05-MVNUsmad748w.mtBnxMYE5F8b5ao0fGIqKsjfJQIP4125eSK2qK0H8_k&dib_tag=se&keywords=trump+son+of+man+book&qid=1742607044&sprefix=trump+son+of+%2Caps%2C102&sr=8-1)
+
+And also
+
+[ChristTrump, by Christopher John MOLLUSO](https://www.amazon.com/CHRISTRUMP-Persecution-Christopher-John-MOLLUSO/dp/B0D3WNKRTB/ref=pd_sbs_d_sccl_2_19/132-3409659-7283142?pd_rd_w=MQhes&content-id=amzn1.sym.468038a7-7f5c-443f-a245-916388eb61fa&pf_rd_p=468038a7-7f5c-443f-a245-916388eb61fa&pf_rd_r=X1T53AAKEYPWSYPZ44VN&pd_rd_wg=rkBnL&pd_rd_r=9475dc99-59e1-40b0-8277-632a3f5bf245&pd_rd_i=B0D3WNKRTB&psc=1#customerReviews)
+
+#### **No Wait, Donald Trump is the Anti-Christ, and so is everyone else**
+
+[The Fourth Beast: Is Donald Trump The Antichrist?, by Lawrence R Moelhauser ](https://www.amazon.com/Fourth-Beast-Donald-Trump-Antichrist/dp/1535406496/ref=pd_lutyp_ci_mcx_mr_typ_d_d_sccl_2_6/132-3409659-7283142?pd_rd_w=5qb6o&content-id=amzn1.sym.6d5cc53c-d973-4a51-b7c1-260d7f897f5a:amzn1.symc.823e1c6a-2574-48c0-adf8-391b275ad0d6&pf_rd_p=6d5cc53c-d973-4a51-b7c1-260d7f897f5a&pf_rd_r=1E0AB5VH9GH7ZE8HQSP4&pd_rd_wg=ar2gl&pd_rd_r=98bd5390-e828-4a8e-bac5-65e14123e2d5&pd_rd_i=1535406496&psc=1)
+
+Here is another one (possibly intended as satire; I haven't read it so can't comment)
+
+[Trump Antichrist, by Lucius HaSatan Esq.](https://www.amazon.com/Trump-Antichrist-Lucius-HaSatan-Esq/dp/B09Q51Y2PT/ref=pd_sbs_d_sccl_2_9/132-3409659-7283142?pd_rd_w=MQhes&content-id=amzn1.sym.468038a7-7f5c-443f-a245-916388eb61fa&pf_rd_p=468038a7-7f5c-443f-a245-916388eb61fa&pf_rd_r=X1T53AAKEYPWSYPZ44VN&pd_rd_wg=rkBnL&pd_rd_r=9475dc99-59e1-40b0-8277-632a3f5bf245&pd_rd_i=B09Q51Y2PT&psc=1)
+
+But the Antichrist is also probably:
+
+* [Elon Musk](https://baptistnews.com/article/the-antichrist-is-coming-and-is-already-here/)
+* Barack Obama [@pyszczynski_is_2010]
+* [Many many others](https://rationalwiki.org/wiki/List_of_people_accused_of_being_the_Antichrist#)
+* One 12th century abbot --  Joachim of Fiore (c. 1135-1202) -- was famous among the local clergy as a "prophet of the Antichrist" and wrote extensively about many Antichrists he believed were coming soon [@lerner_antichrists_1985] 
 
 
 
 
 Innumerable other examples abound and innumerable new ones spawn continuously. Social media increases the spawning and propagation rate but we can't blame it on the internet because it's been happening throughout the entire history of Judeo-Christianity. And critically, it happens in Judeo-Christianity because it happens in all human story telling. This phenomenon is not unique to religion. How many different versions of Arthurian legends are there? How many fictions have been created around the historical events of the Roman Empire -- how many people do you personally know who like to embellish or fabricate stories? Most people probably know at least one.
 
-We will examine some examples from Antiquity in the following section. 
+We will examine some examples from Antiquity in the following section. These examples illustrate instances of dishonest fabrication, but also of routine embellishment and innovation 
 
 ### Examples from Antiquity
 
 #### **Goliath was 10 ft tall**
+
+The KJV English of 
+
+#### **That David Killed Goliath**
+
+
+#### **Forgeries**
 
 
 
@@ -330,16 +387,32 @@ The flood story in Genesis is almost certainly an appropriate of the of the floo
 
 ### The Exodus
 
-I enjoyed watching *The Ten Commandments* movie when I was a kid and never really thought much about it other than it being a Bible story. I always interpreted the supernatural elements of the Bible as mythological storytelling in the same way that Thomas Jefferson did^[In the Presidential Election of 1800 Jefferson's political opponents accused him of being an atheist because of this -- he constructed what is now known as *The Jefferson Bible* which relates the stories of Jesus' teachings on morality and ethics but strips out the miracles and magic. For an excellent discussion I recommend *Religion in American Politics* by Frank Lambert [@lambert_religion_2008] -- or consult your favorite search engine.]. Some Bible stories are likely constructed around real people and events, but there are no data whatsoever to support the historicity of the Exodus and the conquest of Caanan by Israel. 
+I enjoyed watching *The Ten Commandments* movie when I was a kid and never really thought much about it other than it being a Bible story. I always interpreted the supernatural elements of the Bible as mythological storytelling in the same way that Thomas Jefferson did^[I dind't know this about Jefferson until a few years ago. Jefferson was a Deist and rejected the notion that Jesus was God and rejected the supernatural in general. In the Presidential Election of 1800 Jefferson's political opponents accused him of being an atheist because of this -- he constructed what is now known as *The Jefferson Bible* which relates the stories of Jesus' teachings on morality and ethics but strips out the miracles and magic. For an excellent discussion I recommend *Religion in American Politics* by Frank Lambert [@lambert_religion_2008] -- or consult your favorite search engine. Thomas Paine was also a Deist and loudly rejected the doctrines and creeds and dogmas of organized religion in the introduction to is 1796 publication "The Age of Reason". He states plainly: "I believe in one God, and no more; and I hope for happiness beyond this life. I believe the equality of man, and I believe that religious duties consist in doing justice, loving mercy, and endeavoring to make our fellow-creatures happy. But, lest it should be supposed that I believe many other things in addition to these, I shall, in the progress of this work, declare the things I do not believe, and my reasons for not believing them. I do not believe in the creed professed by the Jewish church, by the Roman church, by the Greek church, by the Turkish church, by the Protestant church, nor by any church that I know of. My own mind is my own church. All national institutions of churches, whether Jewish, Christian, or Turkish, appear to me no other than human inventions set up to terrify and enslave mankind, and monopolize power and profit" [@paine_writings_1796]. I tend to agree.]. Some Bible stories are likely constructed around real people and events, but there are no data whatsoever to support the historicity of the Exodus and the conquest of Caanan by Israel. 
 
 If you go to Jerusalem and visit the Israel Museum exhibit called [Pharaoh in Canaan: The Untold Story](https://museum.imj.org.il/en/exhibitions/2016/pharaoh-in-canaan/) you would find 16 sub-exhibits on different aspects of the Egyptian presence in Canaan. Each of these exhibits are filled with artifacts and research except one. The exhibit on the Exodus "is an empty room with exactly one exhibit on display: a movie featuring co-curator and Israel Museum Egyptologist Dr. Daphna Ben-Tor, who explains that the hall is empty because there is no archaeological evidence whatsoever to support the biblical tale" [@hasson_new_2016]. 
 
-  
+```{r exodus, out.width = "100%", fig.cap="Source: Israel Museum (https://museum.imj.org.il/en/exhibitions/2016/pharaoh-in-canaan/)"}
+
+knitr::include_graphics('Exodus.png')
+
+```
+
+### **The Image and Conceptualization of the God of the Christian and Hebrew Bibles**
+
+People's conceptualization of the image of God has changed as artwork and philosophy evolve. Two stark examples below illustrate this progression. 
+
+The image in 
 
 
-### The Image and Conceptualization of the God of the Christian and Hebrew Bibles
+```{r YHWH, out.width="100%", fig.cap="A sketch of Pithos A from Kuntillet ‘Ajrud from [@mcclellan_yhwhs_2022]"}
+
+knitr::include_graphics('YHWH_Asherah.png')
+
+```
 
 ### The Authors of the Gospels
+
+The Gospels of Mark, Matthew, Luke and John do not name their own authors. They circulated anonymously for almost a century before authorship was ascribed to them. The first record of a specific author of a writing about Jesus comes from Papias 
 
 ### The Trinity 
 
@@ -394,9 +467,9 @@ The Gospels are not precise respecting Jesus' Divinity and exactly how he is sup
 
 * [*Docetism*](https://en.wikipedia.org/wiki/Docetism) - The notion that the human form of Jesus was basically an illusion created by God -- but that Jesus had no real humanity or human flesh. Docetism was practiced at least as early as the late 2nd Century CE because we have, in the writings of Eusebius, a record of a letter from Bishop Serapion of Antioch from around the year 200 describing a community in Rhossus using the Gospel of Peter. The Gospel of Peter is now universally recognized as an early 2nd Century forgery. At the time Serapion deemed it "for the most part Orthodox, but [containing] 'additions' to the Gospel story that he considered spurious and dangerous...he forbade future use of the book" [@erhman_forgery_2013]. It is unclear exactly what these passages were but some hint of Docetism is indicated in the historical record. Docetic concepts propagated in numerous other books that were popular at the time that did not become canonical. The movement was significant enough that it was explicitly condemned as heresy at the First Council of Nicaea in 325
 * [Modalism](https://en.wikipedia.org/wiki/Modalistic_Monarchianism) argued that God was one God in a strict sense and that the notion of three consubstantial but independent and separate entities equated to polytheism. So in this view there was only one God that was entirely God himself but that God could operate in different "modes". So in this scheme Father, Son, Holy Spirit are like titles describing the same entity when it's doing different things. This view is still practiced today by Oneness Pentecostals and interestingly enough, they also use 1 John 5:7-8 as an evidence to support their concept. 
-* A long detailed history of thought progression is available at the [Standford Encylopedia of Philosophy](https://plato.stanford.edu/entries/trinity/trinity-history.html#ProNicCon)
+* A long detailed history of thought progression is available at the [Standford Encylopedia of Philosophy](https://plato.stanford.edu/entries/trinity/trinity-history.html#ProNicCon) [@tuggy_trinity_2024]
 
-But the main point of history I want to highlight is the debate leading up to First Nicaea in 325 -- 
+But the main point of history I want to highlight is the debate leading up to First Nicaea in 325 -- at this point there were two major factions in the church that were 
 
 
 
@@ -406,7 +479,7 @@ But the main point of history I want to highlight is the debate leading up to Fi
 `r athanasius` [homoousios -- same essence, *consubstantial*]
 
 
-#### That David Killed Goliath
+
 
 
 
