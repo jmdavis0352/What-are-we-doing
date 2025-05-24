@@ -186,7 +186,7 @@ We executed the calculation developed in the previous section at the values of l
 </aside>
 
 
-```{r result,  fig.cap="Sensitivity of system power requirements to laser characteristics", echo=FALSE }
+```{r result, out.width="100%", fig.cap="Sensitivity of system power requirements to laser characteristics", echo=FALSE }
 
 ggplotly(
 
