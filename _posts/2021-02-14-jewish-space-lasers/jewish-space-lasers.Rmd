@@ -11,7 +11,7 @@ author:
 date: 02-15-2021
 output:
   distill::distill_article: 
-    self_contained: false
+    self_contained: true
 bibliography: Lasers.bib
 citation: false
 
@@ -168,6 +168,13 @@ LaserParam$MWatts <- LaserParam$PowerReq/1e6
 LaserParam$GWatts <- round(LaserParam$PowerReq/1e9, 2)
 LaserParam$BeamDiameter <- sqrt(LaserParam$BeamArea/pi)*2
 
+
+library(plotly)
+library(ggsci)
+
+LaserParam$tip <- paste0("Aperture: ", LaserParam$Aperture, "m</br></br>", "Power:", round(LaserParam$GWatts, 2), "(GW)</br>M2:", LaserParam$M2)
+
+
 ```
 
 We executed the calculation developed in the previous section at the values of laser aperture and $M^2$ defined above for a beam with $\lambda = 450nm$ (a lovely vibrant blue). We also examined the effect of wavelength on the requirements between $445nm$ and $490nm$ but the effect is very small compared to the aperture and beam propagation ratio so we did not include those results. Figure \@ref(fig:result) illustrates the relationship between laser aperture and system power requirements for a given beam propagation ratio ($M^2$). Achieving a large aperture will be critical to feasibility. A 40cm aperture requires *at least* `r round(min(LaserParam$GWatts[LaserParam$Aperture == .4]),0)` GW of power in geosynchronous orbit, which doesn't seem feasible, or at least affordable. For reference the Palo Verde nuclear power plant in Arizona is the largest in the U.S with a maximum capacity of about 4 GW.
@@ -179,16 +186,17 @@ We executed the calculation developed in the previous section at the values of l
 </aside>
 
 
-```{r result, preview = TRUE, fig.height=4.5,fig.width=7.5, fig.cap="Sensitivity of system power requirements to laser characteristics", echo=FALSE }
+```{r result,  fig.cap="Sensitivity of system power requirements to laser characteristics", echo=FALSE }
 
-library(plotly)
-library(ggsci)
+ggplotly(
 
-LaserParam$tip <- paste0("Aperture: ", LaserParam$Aperture, "m</br></br>", "Power:", round(LaserParam$GWatts, 2), "(GW)</br>M2:", LaserParam$M2)
-
-ggplotly(ggplot(subset(LaserParam, M2<=20) , 
+  ggplot(subset(LaserParam, M2<=20) ,
                 aes(x = Aperture, y = GWatts, colour = M2)) + geom_line() + scale_colour_viridis_c() +
-           labs(y = 'GigaWatts Required in Orbit', x = 'Laser Aperture (m)')  + scale_y_continuous(breaks = seq(0,max(LaserParam$GWatts),100)))
+           labs(y = 'GigaWatts Required in Orbit', x = 'Laser Aperture (m)')  + scale_y_continuous(breaks = seq(0,max(LaserParam$GWatts),100))
+
+  )
+
+
 
 
 
