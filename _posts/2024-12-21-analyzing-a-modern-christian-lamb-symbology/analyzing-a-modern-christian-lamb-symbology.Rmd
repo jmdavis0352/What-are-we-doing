@@ -1,7 +1,7 @@
 ---
 title: "Analyzing a Modern Example of Christian Lamb-Symbology Narrative"
 description: |
-  The practice of symbolizing Jesus as the paschal lamb or associating him with other Jewish Temple elements is evident in our earliest manuscript evidence from Christianity (the authentic Pauline epistles, mostly written in the 50's CE). Just as Christology and eschatology evolve over the centuries to address theological or dogmatic problems, this symbolism similarly evolves as Christian writers innovate to inject renewed interest and, more recently, to get subscribers, views, shares, likes, and clicks - the better to spread the good news with. Here we examine one such modern symbological narrative to study how these innovations originate.   
+  The practice of symbolizing Jesus as a sacrificial animal (lamb) or associating him with other Jewish Temple elements is evident in our earliest manuscript evidence from Christianity (the authentic Pauline epistles, mostly written in the 50's CE). Just as Christology and eschatology evolve over the centuries to address theological or dogmatic problems, this symbolism similarly evolves as Christian writers innovate to inject renewed interest and, more recently, to get subscribers, views, shares, likes, and clicks - the better to spread the good news with. Here we examine one such modern symbological narrative to study how these innovations originate.   
 base_url: https://jmdavis0352.github.io/What-are-we-doing/
 preview: https://jmdavis0352.github.io/What-are-we-doing/manger.jpg 
 author:
@@ -20,7 +20,7 @@ bibliography: Shepherd.bib
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
  
-hrs_spent <-  129.4
+hrs_spent <-  168
  
 shabur <- enc2utf8("שָׁבַר")
 harus <- enc2utf8('חָר֣וּץ')
@@ -104,8 +104,7 @@ care about the world we live in, about educating ourselves to discover
 the nature of the universe, about how we author the rules of civil
 society, and fundamental to all of these concerns, I care about
 constructing our world views from reasoning that is logically valid and
-premises that are true. The ascertainment of truth however, is difficult
-and time consuming.
+premises that are true. 
 
 ## Results of Superficial Pondering
 
@@ -115,7 +114,7 @@ this letter in a Vietnam Vet's closet after he died that comments
 poignantly on a phenomenon strongly resembling a recent political
 event). This initial impression stemmed from the use of two rhetorical
 devices employed in the first two sentences that are common in
-fabricated stories crafted with to attract attention and promote rapid
+fabricated stories crafted to attract attention and promote rapid
 transmission:
 
 -   The first sentence is an assertion that the content is so compelling
@@ -143,8 +142,7 @@ transmission:
     [@buchborn_chapter_2016]
 
 No human just sharing information they discovered writes this way --
-these are hallmarks of intentionally crafted narrative and in my
-experience, are almost always followed by marketing material, fiction,
+these are hallmarks of content that was engineered to propagate on social media. Such hallmarks, in my experience, are usually followed by marketing material, fiction,
 or fraud. Alone however, these devices don't provide any data regarding
 the value or nature of whatever follows -- but they do make me
 suspicious. The second time I pondered, I pondered with an elevated
@@ -156,7 +154,7 @@ Evaluating content critically is difficult. It requires focus, energy, and an
 active application of all of our knowledge and faculties to examine
 claims and arguments on their own merits. It takes time, work, and care.
 I hypothesize that when we consume media, particularly on social media,
-we are frequently not thinking critically. @munusamy_psychological_2024
+we are frequently not thinking critically. That hypothesis is supported by the findings of researchers. @munusamy_psychological_2024
 conduct a meta analysis of 23 studies examining disinformation
 propagation on social media and assert "There is a lower likelihood
 that social media users will research the content they read or post." I
@@ -172,8 +170,7 @@ media users are less likely to research content they encounter, "Any
 unconfirmed content can therefore be swiftly shared and distributed over
 social media platforms". This phenomenon is a serious societal problem.
 
-The subsections below document my critical analysis of the text of the
-lamb symbology narrative. Several components are problematic or seem
+The subsections below document my critical examination of the text of this content. Several components are problematic or seem
 implausible to me. These elements motivated a more rigorous study.
 
 ### Mangers for Protection?
@@ -210,7 +207,7 @@ narrative, it was because these were:
 > wrap them tightly in cloth and lie them in the manger to keep them
 > safe.
 
-***What are these blemishes that disqualify the animal for ritual
+***Safe from what? What are these blemishes that disqualify the animal for ritual
 slaughter?***
 
 This language certainly refers to the requirements in the Pentateuch
@@ -221,7 +218,7 @@ sacrifice in Judaism?
 The authors of the Hebrew Bible don't provide too much detail but
 relevant verses with specific sections highlighted are below:
 
-Exodus 12:5-13 (NRSVU)
+Exodus 12:5-13 (NRSVUE)
 
 > 5 **Your lamb shall be without blemish, a year-old male; you may take
 > it from the sheep or from the goats.** 6 You shall keep it until the
@@ -261,16 +258,16 @@ Exodus 12:5-13 (NRSVU)
     portions based on grammar and language styles using statistical and
     machine learning algorithms ( [@van_der_schans_clustering_2019],
     [@van_peursen_computational_2023], [@rachmuth_behold-na_2022],
-    [@hallo_approaches_2020] and many many other). Most scholars
+    [@hallo_approaches_2020], [@faigenbaum-golovin_critical_2025] and many many other). Most scholars
     conclude the writings in Exodus were authored during the period
     starting from around 700 BCE and up to around 350 BCE by different
     scribal groups in different places at different times with final
     edits and redaction by P [@society_of_biblical_literature_sbl_2023].
     For a general discussion see [@smith_literary_1996]; for a detailed
-    discussion of P's redeaction of the Plague narratives see
+    discussion of P's redaction of the Plague narratives see
     [@zevit_priestly_1976]
 
-Leviticus 22:21-25 (NRSVU)
+Leviticus 22:21-25 (NRSVUE)
 
 > 21 When anyone offers a sacrifice of well-being to the Lord, in
 > fulfillment of a vow or as a freewill offering, from the herd or from
@@ -289,7 +286,7 @@ Leviticus 22:21-25 (NRSVU)
 [^5]: **The notion that the gods "ate" the sacrifices is not unique to
     writers in Israel -- more on this in a later section.**
 
-Deuteronomy 17:1 (NRSVU)
+Deuteronomy 17:1 (NRSVUE)
 
 > You must not sacrifice to the Lord your God an ox or a sheep that has
 > a defect, anything seriously wrong, for that is abhorrent to the Lord
@@ -336,7 +333,7 @@ An image search reveals many pictures of these troughs, and suggests
 heights from the ground between 12 - 24 inches and basins maybe 4-8
 inches deep, all open from the top. Unless the 1st Century CE shepherds
 needed to protect the lambs from vertically oriented Improvised
-Explosive Devices^[Please forgive a little frivolity -- stone mangers wouldn't actually provide meaningful protection from an IED directly below either -- the stone would almost certainly fracture and augment the shrapnel pattern, and the overpressure from the blast would cause likely internal organ damage. Severe injury or death would be certain.], I'm not sure how they offer protection against
+Explosive Devices^[Please forgive a little frivolity -- stone mangers wouldn't actually provide meaningful protection from an IED directly below either -- the stone would almost certainly fracture and augment the shrapnel pattern, and the overpressure from the blast would cause internal organ damage. Severe injury or death would be certain.], I'm not sure how they offer protection against
 becoming fractured or maimed. Common threats to lambs capable of
 inflicting physical harm would include local predators (canines, hyenas,
 birds etc.)......and I can't really think of anything else -- a lamb
@@ -696,11 +693,13 @@ But, before we move on I want to examine one more point on this lamb narrative, 
 
 > THE PERFECT LAMB OF GOD! The Messiah who would sacrifice His life for the sins of the whole world.
 
-then how are we to understand the analogy to a lamb and how are we to understand these sacrifices? Why is Jesus so frequently referred to as "The Lamb"? Why does Jesus need to sacrifice his human life^[It's a bit strange to say he died or sacrificed his life when he is thought to be an immortal entity that is consubstantial with and fully equal to God who is also **`r yahweh`** (Yahweh), the very God of Israel] to somehow, in some way, offset or pay for or atone for the sins of the world. How does that work? What is the mechanism by which Jesus suffering a terrible death enables salvation? Salvation from what? How do modern Christians understand the status quo if Jesus had not yet spent a while as a human so that humans could murder him? For instance, what was the status quo with respect to salvation in the year 10 CE? 
+then how are we to understand that analogy? 
+
+How are we to understand this "sacrifice"? Why is Jesus so frequently referred to as "The Lamb"? Why does Jesus need to sacrifice his human life^[It's a bit strange to say he died or sacrificed his life when he is thought to be an immortal entity that is consubstantial with and fully equal to God who is also **`r yahweh`** (Yahweh), the very God of Israel] to somehow, in some way, offset or pay for or atone for the sins of the world. How does that work? What is the mechanism by which Jesus  dying horribly enables salvation? Salvation from what? What would be the state of the world if this had not occurred (no human Jesus, no crucifixion)? What was the state of the world in say 10 BCE? 
 
 To gain this understanding, we must study exactly how Jesus is analogized with Second Temple Period animal sacrificial practices in Judaism and how those practices fit within the broader context of animal sacrifice in the the ancient world. 
 
-@regev_temple_2019 provides an exhaustive discussion of how early Christians understood and related to the Temple and elements of the sacrificial cult that operated there until the Romans destroyed it in 70 CE -- around the time the Gospel that would later be attributed to Mark was written. For brevity I will focus on Regev's analysis of how Paul analogizes Jesus as:
+@regev_temple_2019 provides an exhaustive discussion of how early Christians understood and related to the Temple and elements of the sacrificial cult that operated there until the Romans destroyed it in 70 CE^[Around the time the Gospel that would later be attributed to Mark was written.]. For brevity I will focus on Regev's analysis of how Paul analogizes Jesus as:
 
 *
 
@@ -1069,7 +1068,7 @@ and (2) Torreya is commonly known as gopher wood *in English*, by
 *modern Americans*.
 
 But "gopher wood" was just a quasi random guess by the King James
-translators. Modern translations usually state "cypress" (NRSVU for
+translators. Modern translations usually state "cypress" (NRSVUE for
 example), but the Hebrew here is not really understood. No one actually
 knows what the word means anymore or what type of wood the word actually
 refers to but most scholars think it was likely cedar or cypress because
@@ -1194,7 +1193,7 @@ library(ggsci)
 lutzdat$Bible <- 'The Bible'
 lutzdat$Bible[lutzdat$Source != 'Bible'] <- 'Not the Bible'
 
-lutzdat %>% group_by(Bible, Position) %>% summarise(Citations = sum(Citations)) %>% ggplot() + geom_col(aes(x = Bible, y = Citations, fill = Position), position = position_dodge()) + scale_fill_aaas() + geom_label(aes(x = Bible, y = Citations, foo = Position, label = Citations), position = position_dodge(width = .9), hjust = .5) + labs(x = NULL, y = 'Number of Citations Among Published\nPolitical Writings in 1787 and 1788') + theme_minimal() + theme(legend.title = element_blank())
+lutzdat %>% group_by(Bible, Position) %>% summarise(Citations = sum(Citations)) %>% ggplot() + geom_col(aes(x = Position, y = Citations, fill = Bible), position = position_dodge()) + scale_fill_aaas() + geom_label(aes(x = Position, y = Citations, foo = Bible, label = Citations), position = position_dodge(width = .9), hjust = .5) + labs(x = NULL, y = 'Number of Citations Among Published\nPolitical Writings in 1787 and 1788') + theme_minimal() + theme(legend.title = element_blank())
 
 ```
 
@@ -1210,7 +1209,7 @@ A few pages later @barton_myth_1992 continues
 
 >Yet, there was a source the Founders cited *four* times more frequently than either Montesquieu or Blackstone, and *twelve* times more frequently than Locke. What was that source? The Bible! The Bible accounted for 34% of all the Founder's quotes.
 
-It may be that modern commentators like Prager and Kirk and Beck are only experiencing Lutz's work through Barton's lens.
+It may be that modern commentators like Prager and Kirk and Beck are only experiencing Lutz's work through Barton's lens. It may be that Driesbach falls in this category as well. I know that he and Barton are associated because Barton's website includes content credited to Dreisbach and asserts that content is shared by permission of the author^[ [Here](https://wallbuilders.com/resource/a-godless-constitution-a-response-to-kramnick-and-moore/) for example. This is Dreisbach's review of a book that refutes many of people like Barton's claims -- interesting that Dreisbach asserts the authors of this book are practicing shoddy scholarship.]. 
 
 Barton goes on to state that actually, most of the people cited were influenced by the Bible so really, "94% of their quotes are based either directly or indirectly on the Bible"...  [@barton_myth_1992].  
 
@@ -1223,13 +1222,13 @@ No scholar of history would suggest that religion and Christianity were not heav
 
 Beyond the specific claims in this section regarding citations, there exists in the United States a ubiquitous, near inescapable fog of misleading rhetoric regarding the religious perspectives of the founders that has been carefully constructed over decades, possibly over centuries, by people who wish that the United States *was* an overtly Christian Nation, and work to turn it into one (Christian Nationalists -- such as Barton).
 
-On page 130 of my copy of Barton's book, in a section titled "What did the Father's Say to Teach?", he argues that the Founding Father's wanted education to be overtly Christian and focused on the Bible, and he [@barton_myth_1992] states "Notice why Jefferson felt the Bible as being essential in any successful plan of education" and he quotes Jefferson as as saying:
+On page 130 of my copy of Barton's book, in a section titled "What did the Father's Say to Teach?", he argues that the Founding Father's wanted education to be overtly Christian and to heavily incorporate the Bible, and he [@barton_myth_1992] states "Notice why Jefferson felt the Bible as being essential in any successful plan of education" and he quotes Jefferson as as saying:
 
->I have always said, and will always say, that the studious perusal of the sacred volume will make us better citizens"
+>I have always said, and will always say, that the studious perusal of the sacred volume will make us better citizens."
 
-Did Jefferson really think the Bible an essential component of education? He doesn't actually say so in this quote, but let us investigate. 
+Did Jefferson really think the Bible an essential component of any successful education plan? He doesn't actually say so in this quote, but let us investigate. 
 
-The statement above isn't actually primary quote from Jefferson. The statement is attributed to Jefferson in a letter written by Daniel Webster in 1852 which describes a conversation he is reporting to have had with Jefferson *27 years earlier* (see a short discussion at [Monticello](https://www.monticello.org/research-education/thomas-jefferson-encyclopedia/bible-source-liberty-spurious-quotation/)). I think it's plausible Jefferson said something like this. But is that all that Jefferson had to say about teaching the Bible, or education in general or Christianity in general?
+The statement above isn't actually primary quote from Jefferson. The statement is attributed to Jefferson in a letter written by Daniel Webster in 1852 which describes a conversation he is reporting to have had with Jefferson *27 years earlier* (see a short discussion at [Monticello](https://www.monticello.org/research-education/thomas-jefferson-encyclopedia/bible-source-liberty-spurious-quotation/)). As we learn from Monticello -- Webster's statement attributed to Jefferson wasn't quite juicy enough for some Christians and starting around 1952, imaginative innovators started adding an entirely fabricated sentence to precede the quote from Webster: *"The Bible is the source of liberty."* I think it's plausible Jefferson said something like what Webster reports, but that statement doesn't mention education at all -- doesn't provide any context for Jefferson's thinking at all. Is that all that Jefferson had to say about reading the Bible? did he have anything to say about studying the Bible as part of education? or about education in general? or Christianity in general? Does that statement that Barton quotes summarize Jefferson's overall perspective?
 
 We need not speculate. Jefferson wrote exhaustively and kept meticulous records so much of his writing survives.  I'm going to include extended quotations because I want the full context to be evident in this document. They may be long, but for me, they were joyous and inspiring to read. 
 
@@ -1240,27 +1239,32 @@ Thomas Jefferson in *Notes on the State of Virginia, 1784*, discussing a bill es
 
 Thomas Jefferson, in a letter to John Davis (no relation) [@jefferson_thomas_1824] 
 
->   I thank you, Sir, for the copy you were so kind as to send me of the revd mr Bancroft’s Unitarian sermons. I have read them with great satisfaction, and always rejoice in efforts to restore us to primitive Christianity, in all the simplicity in which it came from the lips of Jesus. had it never been sophisticated by the subtleties of Commentators, nor paraphrased into meanings totally foreign to it’s character, it would at this day have been the religion of the whole civilized world. but **the metaphysical abstractions of Athanasius, and the maniac ravings of Calvin, tinctured plentifully with the foggy dreams of Plato, have so loaded it [Christiantiy] with absurdities and incomprehensibilities,** as to drive into infidelity men who had not time, patience, or opportunity to strip it of it’s meretricious trappings, and to see it in all it’s native simplicity and purity. I trust however that the same free exercise of private judgment which gave us our political reformation will extend it’s effects to that of religion, which the present volume is well calculated to encourage and promote.  
+>   I thank you, Sir, for the copy you were so kind as to send me of the revd mr Bancroft’s Unitarian sermons. I have read them with great satisfaction, and always rejoice in efforts to restore us to primitive Christianity, in all the simplicity in which it came from the lips of Jesus. had it never been sophisticated by the subtleties of Commentators, nor paraphrased into meanings totally foreign to it’s character, it would at this day have been the religion of the whole civilized world. but **the metaphysical abstractions of Athanasius, and the maniac ravings of Calvin, tinctured plentifully with the foggy dreams of Plato, have so loaded it [Christianity] with absurdities and incomprehensibilities, as to drive into infidelity men who had not time, patience, or opportunity to strip it of it’s meretricious trappings, and to see it in all it’s native simplicity and purity.** I trust however that the same free exercise of private judgment which gave us our political reformation will extend it’s effects to that of religion, which the present volume is well calculated to encourage and promote.  
 <br>**Not wishing to give offence to those who differ from me in opinion, nor to be implicated in a theological controversy, I have to pray that this letter may not get into print**, and to assure you of my great respect and good will. [Emphasis Added]
 
 
 Thomas Jefferson, in a letter to John Adams, 1823 [@jefferson_thomas_1823]
 
->the truth is that the greatest enemies to the doctrines of Jesus are those calling themselves the expositors of them, who have perverted them for the structure of a system of fancy absolutely incomprehensible, and without any foundation in his genuine words. **and the day will come when the mystical generation of Jesus, by the supreme being as his father in the womb of a virgin will be classed with the fable of the generation of Minerva in the brain of Jupiter.** but we may hope that the dawn of reason and freedom of thought in these United States will do away all this artificial scaffolding, and restore to us the primitive and genuine doctrines of this the most venerated reformer of human errors.
+>**the truth is that the greatest enemies to the doctrines of Jesus are those calling themselves the expositors of them, who have perverted them for the structure of a system of fancy absolutely incomprehensible, and without any foundation in his genuine words. and the day will come when the mystical generation of Jesus, by the supreme being as his father in the womb of a virgin will be classed with the fable of the generation of Minerva in the brain of Jupiter.** but we may hope that the dawn of reason and freedom of thought in these United States will do away all this artificial scaffolding, and restore to us the primitive and genuine doctrines of this the most venerated reformer of human errors.
 
-Thomas Jefferson, in a letter to Alexander Smyth, 1825 [@jefferson_thomas_1825]
+Thomas Jefferson, in a letter to Alexander Smyth, 1825 on the Book of Revelation [@jefferson_thomas_1825]
 
 >I have duly recieved 4 proof sheets of your explanation of the Apocalypse, with your letters of Dec. 29. and Jan. 8. in the last of which you request that, so soon as I shall be of opinion that the explanation you have given is correct, I would express it in a letter to you. from this you must be so good as to excuse me, because I make it an invariable rule to decline ever giving opinions on new publications in any case whatever, no man on earth has less taste or talent for criticism than myself, and least and last of all should I undertake to criticise works on the Apocalypse. **it is between 50. and 60. years since I read it [The Book of Revelation], & I then considered it as merely the ravings of a Maniac, no more worthy, nor capable of explanation than the incoherences of our own nightly dreams.** I was therefore well pleased to see, in your first proof-sheet, that it was said to be not the production of 5th John, but of Corinthus, a century after the death of that Apostle. Yet the change of the Author’s name does not lessen the extravagances of the composition. and come they from whomsoever they may, I cannot so far respect them as to consider them as an allegorical narrative of events, past or subsequent. there is not coherence enough in them to countenance any suite of rational ideas. you will judge therefore from this how impossible I think it that either your exploration, or that of any man in the heavens above, or on the earth beneath, can be a correct one. what has no meaning admits no explanation. and pardon me if I say, with the candor of friendship, that I think your time too valuable, and your understanding of too high an order, to be wasted on these paralogisms. you will percieve, I hope, also that I do not consider them as revelations of the supreme being, whom I would not so far blaspheme as to impute to him a pretension of revelation, couched at the same time in terms which, he would know, were never to be understood by those to whom they were addressed. in the candor of these observations, I hope you will see proofs of the confidence, esteem and respect which I truly entertain for you.
 
-Thomas Jefferson in a letter to Peter Carr, 1787 [@jefferson_thomas_1787]
+Thomas Jefferson in a letter to Peter Carr, 1787 advising him on areas to study in his higher education [@jefferson_thomas_1787]
 
 >Dear Peter
 I have received your two letters of Decemb. 30. and April 18. and am very happy to find by them, as well as by letters from Mr. Wythe, that you have been so fortunate as to attract his notice and good will...[apparently Jefferson is compiling a list of books to send to Peter and possible subjects]... To this sketch I will add a few particular observations...[Jefferson offers opinions on the value of studying (1) Italian, (2) Spanish, (3) moral philosophy and...]
 <br>  
 4. Religion. Your reason is now mature enough to receive this object. In the first place divest yourself of all bias in favour of novelty and singularity of opinion. Indulge them in any other subject rather than that of religion. It is too important, and the consequences of error may be too serious. On the other hand shake off all the fears and servile prejudices under which weak minds are servilely crouched. Fix reason firmly in her seat, and call to her tribunal every fact, every opinion. Question with boldness even the existence of a god; because, if there be one, he must more approve the homage of reason, than that of blindfolded fear. You will naturally examine first the religion of your own country. Read the bible then, as you would read Livy or Tacitus. The facts which are within the ordinary course of nature you will believe on the authority of the writer, as you do those of the same kind in Livy and Tacitus. The testimony of the writer weighs in their favor in one scale, and their not being against the laws of nature does not weigh against them. But those facts in the bible which contradict the laws of nature, must be examined with more care, and under a variety of faces. Here you must recur to the pretensions of the writer to inspiration from god. Examine upon what evidence his pretensions are founded, and whether that evidence is so strong as that it’s falshood would be more improbable than a change of the laws of nature in the case he relates For example in the book of Joshua we are told the sun stood still several hours. Were we to read that fact in Livy or Tacitus we should class it with their showers of blood, speaking of statues, beasts &c., but it is said that the writer of that book was inspired. Examine therefore candidly what evidence there is of his having been inspired. The pretension1 is entitled to your enquiry, because millions believe it. On the other hand you are Astronomer enough to know how contrary it is to the law of nature that a body revolving on it’s axis, as the earth does, should have stopped, should not by that sudden stoppage have prostrated animals, trees, buildings, and should after a certain time have resumed it’s revolution, and that without a second general prostration. Is this arrest of the earth’s motion, or the evidence which affirms it, most within the law of probabilities? You will next read the new testament. It is the history of a personage called Jesus. Keep in your eye the opposite pretensions. 1. Of those who say he was begotten by god, born of a virgin, suspended and reversed the laws of nature at will, and ascended bodily into heaven: and 2. of those who say he was a man, of illegitimate birth, of a benevolent heart, enthusiastic mind, who set out without pretensions to divinity, ended in believing them, and was punished capitally for sedition .... These questions are examined in the books I have mentioned under the head of religion, and several others. They will assist you in your enquiries, but keep your reason firmly on the watch in reading them all. Do not be frightened from this enquiry by any fear of it’s consequences. If it ends in a belief that there is no god, you will find incitements to virtue in the comfort and pleasantness you feel in it’s exercise, and the love of others which it will procure you. If you find reason to believe2 there is a god, a consciousness that you are acting under his eye, and that he approves you, will be a vast additional incitement. If that there be a future state, the hope of a happy existence in that increases the appetite to deserve it; if that Jesus was also a god, you will be comforted by a belief of his aid and love. In fine, I repeat that you must lay aside all prejudice on both sides, and neither believe nor reject any thing because any other person, or description of persons have rejected or believed it. Your own reason is the only oracle given you by heaven, and you are answerable not for the rightness but uprightness of the decision.—I forgot to observe when speaking of the New testament that you should read all the histories of Christ, as well of those whom a council of ecclesiastics have decided for us to be Pseudo-evangelists, as those they named Evangelists, because these Pseudo-evangelists pretended to inspiration as much as the others, and you are to judge their pretensions by your own reason, and not by the reason of those ecclesiastics. Most of these are lost. There are some however still extant, collected by Fabricius which I will endeavor to get and send you.
 
+It seems overwhelmingly evident to me that Jefferson's view of the Bible in education, and education focusing on religion in general is in fact starkly contrary to the view Barton seeks to present -- his book is full of similar quotes -- each would require several pages and tens of hours to examine.
 
-Benjamin Franklin in a letter to Ezra  Stiles  (January  28,  1790) [@franklin_writings_1905]
+What of other prominent Americans from the founding era?
+
+Secretary of Defense [Pete Hegseth](https://www.goodreads.com/work/quotes/93072447-battle-for-the-american-mind-uprooting-a-century-of-miseducation) suggests the following breakdown of religion among some prominent Americans during the founding: *"Christians: John Jay, Patrick Henry, Roger Sherman, John Witherspoon, Benjamin Rush; mixed theology: Benjamin Franklin, Alexander Hamilton, John Adams, George Washington; and Deists: James Madison, Thomas Jefferson, Thomas Paine.”*
+
+See for example Franklin's letter to Ezra  Stiles  (January  28,  1790) [@franklin_writings_1905]
 
 >You desire  to  know  something  of  my  Religion.  It  is  the first  time  I  have  been  questioned  upon  it.  But  I  cannot take  your  Curiosity  amiss,  and  shall  endeavour  in  a  few  Words  to  gratify  it.  Here  is  my  Creed.  I  believe  in  one  God,  Creator  of  the  Universe.  That  he  governs  it  by  his Providence.  That  he  ought  to  be  worshipped.  That  the most  acceptable  Service  we  render  to  him  is  doing  good  to his  other  Children.  That  the  soul  of  Man  is  immortal,  and will  be  treated  with  Justice  in  another  Life  respecting  its Conduct  in  this.  These  I  take  to  be  the  fundamental  Principles of  all  sound  Religion,  and  I  regard  them  as  you  do  in whatever  Sect  I  meet  with  them.
 <br>  
@@ -1269,28 +1273,46 @@ As  to  Jesus  of  Nazareth,  my  Opinion  of  whom  you  particularly desire,  
 I  confide,  that  you  will  not  expose  me  to  Criticism  and censure  by  publishing  any  part  of  this Communication to you.  I  have  ever  let  others  enjoy  their  religious  Sentiments, without  reflecting  on  them  for  those  that appeared  to  me  unsupportable  and  even  absurd.  All  Sects  here,  and  we  have a  great  Variety,  have  experienced my  good  will  in  assisting them  with  Subscriptions  for  building  their  new  Places  of Worship;  and,  as  I  have never  opposed  any  of  their  Doctrines, I  hope  to  go  out  of  the  World  in  Peace  with  them  all
 
 
-Thomas Paine in the *Age of Reason* [@paine_writings_1796]
+Paine was certainly the most outward in his critique of Christianity (and all religions) as we see below in this excerpt from the *Age of Reason* [@paine_writings_1796]
 
->Jesus Christ wrote no account of himself, of his birth, parentage, or anything else. Not a line of what is called the New Testament is of his writing. The history of him is altogether the work of other people; and as to the account given of his resurrection and ascension, it was the necessary counterpart to the story of his birth. His historians, having brought him into the world in a supernatural manner, were obliged to take him out again in the same manner, or the first part of the story must have fallen to the ground.  
+
+>I believe in one God, and no more; and I hope for
+    happiness beyond this life. I believe the equality of man, and I
+    believe that religious duties consist in doing justice, loving
+    mercy, and endeavoring to make our fellow-creatures happy. But, lest
+    it should be supposed that I believe many other things in addition
+    to these, I shall, in the progress of this work, declare the things
+    I do not believe, and my reasons for not believing them. I do not
+    believe in the creed professed by the Jewish church, by the Roman
+    church, by the Greek church, by the Turkish church, by the
+    Protestant church, nor by any church that I know of. My own mind is
+    my own church. All national institutions of churches, whether
+    Jewish, Christian, or Turkish, appear to me no other than human
+    inventions set up to terrify and enslave mankind, and monopolize
+    power and profit...
+<br>  
+Jesus Christ wrote no account of himself, of his birth, parentage, or anything else. Not a line of what is called the New Testament is of his writing. The history of him is altogether the work of other people; and as to the account given of his resurrection and ascension, it was the necessary counterpart to the story of his birth. His historians, having brought him into the world in a supernatural manner, were obliged to take him out again in the same manner, or the first part of the story must have fallen to the ground.  
 <br>
 The wretched contrivance with which this latter part is told, exceeds everything that went before it. The first part, that of the miraculous conception, was not a thing that admitted of publicity; and therefore the tellers of this part of the story had this advantage, that though they might not be credited, they could not be detected. They could not be expected to prove it, because it was not one of those things that admitted of proof, and it was impossible that the person of whom it was told could prove it himself.
 <br>  
 But the resurrection of a dead person from the grave, and his ascension through the air, is a thing very different, as to the evidence it admits of, to the invisible conception of a child in the womb. The resurrection and ascension, supposing them to have taken place, admitted of public and ocular demonstration, like that of the ascension of a balloon, or the sun at noon day, to all Jerusalem at least. A thing which everybody is required to believe, requires that the proof and evidence of it should be equal to all, and universal; and as the public visibility of this last related act was the only evidence that could give sanction to the former part, the whole of it falls to the ground, because that evidence never was given. Instead of this, a small number of persons, not more than eight or nine, are introduced as proxies for the whole world, to say they saw it, and all the rest of the world are called upon to believe it. But it appears that Thomas did not believe the resurrection; and, as they say, would not believe without having ocular and manual demonstration himself. So neither will I; and the reason is equally as good for me, and for every other person, as for Thomas.
 <br>  
 It is in vain to attempt to palliate or disguise this matter. The story, so far as relates to the supernatural part, has every mark of fraud and imposition stamped upon the face of it. Who were the authors of it is as impossible for us now to know, as it is for us to be assured that the books in which the account is related were written by the persons whose names they bear. The best surviving evidence we now have respecting this affair is the Jews. They are regularly descended from the people who lived in the time this resurrection and ascension is said to have happened, and they say ‘it is not true.’ It has long appeared to me a strange inconsistency to cite the Jews as a proof of the truth of the story. It is just the same as if a man were to say, I will prove the truth of what I have told you, by producing the people who say it is false....
-<br>
+<br>  
 **It is upon this plain narrative of facts, together with another case I am going to mention, that the Christian mythologists, calling themselves the Christian Church, have erected their fable, which for absurdity and extravagance is not exceeded by anything that is to be found in the mythology of the ancients.**
 
-Further such writings and accounts exist but I shall not here make it my mission to reproduce them all (for a summary discussion see [@allen_our_2005]).
+Many further such writings and accounts among prominent Americans in the founding era exist but I shall not here make it my mission to reproduce them all (for a summary discussion see [@allen_our_2005], or for a more complete review see [@kramnick_godless_1996]^[This is the book Driesbach critiques on Barton's website. I bought a used copy and read it to ascertain it's contents -- One of Dreisbach's complaints is that the authors don't cite specific sources for quotations. The authors address that issue at the end of the book. Most books that most people read are not scholarly work, and do not include citations because citations are distracting to many readers. The authors chose not to include footnotes with citations to make the text more accessible but include a list of primary sources at the end of the book.]).
+
+In 2025 David Barton was one of the "expert witnesses" called by the Republican sponsors of Texas SB-10 that would ***require*** every public school teacher to display the Ten Commandments in their classrooms if a copy is donated (no one imagines a copy will not be donated). The bill's sponsors and proponents argued that this requirement is certainly not in violation of the establishment clause because it's just a historically interesting and relevant document. They argued there's no reason to think the purpose of this Bill is to instantiate the notion in the children that Government buildings and educational spaces belong to and and are controlled by people who believe that the mythological nonsense in the Bible is authoritative, or to suggest the United States endorses or establishes a particular religion -- it's just some relevant history that was so important to the Founders. Studying his specific testimony would take ten's of hours but I'm skeptical that it was objectively true.  
 
 I will finish this section with a few further basic observations:
 
 * I have personally heard numerous times in my life the argument that we can know America is a Christian Nation because our National Motto is "In God We Trust" and we need but look at any legal US tender to find it.
-  - I always wonder if the people making this argument are just entirely unaware that this motto wasn't formally adopted until 1956, and that US currency didn't start including that phrase until 1864, and that the inclusion of that phrase on all US currency wasn't finalized until the last Buffalo nickels were minted in 1938....or if they are intentionally misrepresenting history -- the founders, when seeking a national motto, came up with *E Pluribis Unum* (out of many, one) and a treaty signed by John Adams in 1797 included the statement *"As the Government of the United States... is not in any sense founded on the Christian religion"*^[The Treaty of Peace and Friendship between the United States of America and the Bey and Subjects of Tripoli, or Barbary] 
+  - I always wonder if the people making this argument are just entirely unaware that this motto didn't exist until 1861, that US currency didn't start including that phrase until 1864, that the inclusion of that phrase on all US currency wasn't finalized until the last Buffalo nickels were minted in 1938, and that it was not formally adopted as a motto of the United States until 1956...or if they are intentionally misrepresenting history because they want to create a fictitious past in which America was always an overtly Christian nation -- the founders, when seeking a national motto, came up with *E Pluribis Unum* (out of many, one) and a treaty signed by John Adams in 1797 included the statement *"As the Government of the United States... is not in any sense founded on the Christian religion"*^[The Treaty of Peace and Friendship between the United States of America and the Bey and Subjects of Tripoli, or Barbary] 
   
-* I have heard the same argument regarding the Pledge of Allegiance and similarly wonder if the people making that argument are just unaware that the words "under God" were added to the pledge in 1956, which wasn't formally adopted until 1942, and which didn't exist until 1892, when it was written (based on a previous work) by a Christian Socialist (yes that kind of socialist) Baptist named [Francis Bellamy](https://en.wikipedia.org/wiki/Francis_Bellamy)
+* I have heard the same argument regarding the Pledge of Allegiance and similarly wonder if the people making that argument are just unaware that the words "under God" were added to the pledge in 1956, that the "godless" pledge wasn't formally adopted until 1942, and that the pledge didn't exist until 1892, when it was written (based on a slightly earlier work) by a Christian Socialist (yes that kind of socialist) Baptist named [Francis Bellamy](https://en.wikipedia.org/wiki/Francis_Bellamy)
 
-* When Ronald Reagan called for a Constitutional Amendment to explicitly permit voluntary vocal prayer in schools in a 1984 radio address, he alluded to the Constitutional Convention of 1787, saying [@sirico_benjamin_2013]:<br>*"When the Constitution was being debated at the Constitutional Convention, Benjamin Franklin rose to say: "The longer I live, the more convincing proofs I see that God governs in the affairs of men. Without His concurring aid, we shall succeed in this political building no better  than the builders of Babel.' He asked: "Have we now forgotten this powerful Friend? Or do we imagine we no longer need His assistance?"  Franklin then asked the Convention to begin its daily deliberations by asking for the assistance of Almighty God.'"*<br> In a follow up interview when asked about how the convention responded to this proposal Reagan replied "And the funny thing is, it was Benjamin Franklin that uttered the statement in the Constitutional  Convention that finally got them to open the meetings with prayer". In 2009 U.S. Congressman Louie Gohmer, on the House floor, told the same story stating that *"motion was adopted unanimously. And from that day to this day, we do not begin Congress in this body without a prayer to begin"*. Bryan Hardesty develops a series of home schooling e-books called *The American Testimony* which tell this same story -- asserting that *"With each session beginning in prayer, a spirit of unity and cooperation emerged"* and presumably because of this unity the Convention was able to reach a compromise and develop the Constitution we all know and love [@sirico_benjamin_2013]. 
+* When Ronald Reagan called for a Constitutional Amendment to explicitly permit voluntary vocal prayer in schools in a 1984 radio address, he alluded to the Constitutional Convention of 1787, saying [@sirico_benjamin_2013]:<br>*"When the Constitution was being debated at the Constitutional Convention, Benjamin Franklin rose to say: "The longer I live, the more convincing proofs I see that God governs in the affairs of men. Without His concurring aid, we shall succeed in this political building no better than the builders of Babel.' He asked: "Have we now forgotten this powerful Friend? Or do we imagine we no longer need His assistance?"  Franklin then asked the Convention to begin its daily deliberations by asking for the assistance of Almighty God.'"*<br> In a follow up interview when asked about how the convention responded to this proposal Reagan replied "And the funny thing is, it was Benjamin Franklin that uttered the statement in the Constitutional Convention that finally got them to open the meetings with prayer". In 2009 U.S. Congressman Louie Gohmert, on the House floor, told the same story stating that the *"motion was adopted unanimously. And from that day to this day, we do not begin Congress in this body without a prayer to begin"*. Bryan Hardesty develops a series of home schooling e-books called *The American Testimony* which tell this same story -- asserting that *"With each session beginning in prayer, a spirit of unity and cooperation emerged"* and presumably because of this unity the Convention was able to reach a compromise and develop the Constitution we all know and love [@sirico_benjamin_2013]. 
   - **The main thrust of the assertions above are fiction.** Reagan's quotation of Franklin is pretty close, but the outcome of the proposal was negative. The Convention had been meeting for a month with no prayers. Franklin made a speech in June motioning *"that henceforth prayers imploring the assistance of Heaven, and its blessings on our deliberations, be held in this Assembly every morning before we proceed to business, and that one or more of the Clergy of this City be requested to officiate in that service."*. 
   - The motion was seconded by one person but other deputies didn't take it up. Alexander Hamilton suggested such action might make the public lose confidence in the Convention [@sirico_benjamin_2013]
   - Hugh williamson (North Carolina) -- noted that the omission of a clergy led prayer was obviously because the Convention had no money to pay for one [@sirico_benjamin_2013] -- apparently the notion that one of the members of the Convention would lead the prayer never occurred to their thoughts.  
@@ -1300,13 +1322,23 @@ I will finish this section with a few further basic observations:
   - The motion was tabled and never formally voted upon by the Convention -- which continued meeting without prayer. 
   - Fictitious versions of these events began appearing as early as 1815 in a letter from William Steele to his son, which relays an account of the events he heard from John Dayton (Dayton was the New Jersey Deputy) -- in this second hand telling, the convention except Hamilton were awed and inspired and "The motion  for appointing a chaplain was instantly seconded and carried" [@sirico_benjamin_2013]. 
   - @sirico_benjamin_2013 summarizes the propagation of the "mythical" version (his words) in numerous books and other media from "extreme social conservatives" concluding that *"None of these efforts bears the mark of academic scholarship. It is difficult to determine whether the authors were intentionally misleading their audiences to further their thesis of Christian American exceptionalism or whether they simply lacked the sophistication to distinguish between reliable and questionable authorities.*
-  
-   
+
+Innumerable distortions like these abound but it should be the work of volumes and years to document them. If we really want to gain insight into the founder's perspective on the place of religion in relation to the United States Government -- the Constitution is the only authoritative source because it is the only document that defines the United States -- God is never mentioned and religion is only mentioned twice:
+
+Article VI, Clause 3, US Constitution
+
+>The Senators and Representatives before mentioned, and the Members of the several State Legislatures, and all executive and judicial Officers, both of the United States and of the several States, shall be bound by Oath or Affirmation, to support this Constitution; but **no religious Test shall ever be required as a Qualification to any Office or public Trust under the United States.**
+
+Ammendment I, US Constitution
+
+>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; 
+
+
 #### **The Rapture**
 
 The notion of "The Rapture" -- that all the real Christians would be
 teleported off to heaven or some such place just before a period of
-tribulation when all the prophecies would come true preceeding Jesus'
+tribulation when all the prophecies would come true preceding Jesus'
 second coming -- did not exist in human thought until it was invented by
 (mostly) John Nelson Darby in the 1830's, based on preliminary
 groundwork that started in the 1820's. It didn't become widely popular
@@ -1535,9 +1567,9 @@ social and economic change. @harding_imagining_1994 notes that
 
 are among the signs of "impending doom". If we have political operators
 who view the above as magical signs and portents of the end times, that
-catastrophically corrupts their ability to make policy and law that
-"promote[s] the general welfare" (U.S Constitution, Preamble.) and
-serves the interests of the United States.
+catastrophically corrupts their ability to make policies and laws that
+"promote the general welfare" (U.S Constitution, Preamble.) and
+serve the interests of the United States.
 
 It is dangerous because adherents like John MacArthur honestly [^33]
 believe that [@macarthur_coming_1992]
@@ -1715,7 +1747,7 @@ More battles are fought,
 > brother of Goliath the Gittite, the staff of whose spear was like a
 > weaver's beam.** [emphasis added]
 
-> (NRSVU) 19 Then there was another battle with the Philistines at Gob,
+> (NRSVUE) 19 Then there was another battle with the Philistines at Gob,
 > and Elhanan son of Jaare-oregim the Bethlehemite **killed Goliath the
 > Gittite, the shaft of whose spear was like a weaver's beam.**
 
@@ -1787,7 +1819,7 @@ skooched a few consonants in the Hebrew to harmonize the accounts --
 Chronicles is overwhelmingly thought to have been written after 1 and 2
 Samuel.
 
-Fully examining this topic would require a book, but a two
+Fully examining this topic would require a book, but two
 incontrovertible observations emerge (plus a few bonus facts not
 previously covered at no additional charge!):
 
@@ -1824,7 +1856,7 @@ harmonize the accounts.
 
 Forgery in early and medieval Christianity was common enough for
 significant examples to survive. In the interest of trying to finish
-this document, I'm not going provide an analysis of each one, but will
+this document within my lifetime, I'm not going provide an analysis of each one, but will
 rather provide a list of writings in two categories: (1) works that are
 widely recognized as forgeries among scholars, and (2) works
 where significant debate among scholars still occurs.
@@ -1834,7 +1866,7 @@ scholarship regarding authenticity and authorship. *Forgery and
 Counterforgery - The Use of Deceit in early Christian Polemics*
 [@erhman_forgery_2013] is an formal academic treatment of the title
 subject. I recommend it for anyone interested in seriously studying, but
-it's \~500 pages long.
+it's \~500 pages long. For a short summary of that book with a more straightforward title see *Early Christian Lies and the Lying Liars Who Wrote Them: Bart Ehrman's "Forgery and Counterforgery"* [@brakke_early_2016] -- it's only 13 pages and begins ever so bluntly stating "Of the twenty-seven writings that make up the Christian New Testament, at least ten are almost certainly forgeries"
 
 *Forgeries and Fiction - Wide Scholarly Consensus*
 
@@ -1869,6 +1901,9 @@ it's \~500 pages long.
         Irenaeus) -- see [@harrison_quest_2004] for a detailed
         discussion of this work and a summary of other forgeries in
         Paul's name or late fabrications about Paul.
+-   Epistle of the Apostles
+    -   Claims to be written by 11 of the 12 apostles, references Paul, but may not have been widely used since no other surviving Christian writing refers to it -- most likely written between 120 and 170 CE in Egypt. 
+-   2 Clement        
 -   The Gospel of Thomas
     -   A sayings gospel of Jesus
 -   The Infancy Gospel of Thomas
@@ -1890,6 +1925,7 @@ it's \~500 pages long.
 -   The Gospel of Mary
 -   The Gospel of Judas
 -   The Gospel of Peter
+-   The Apocalypse of Peter
 -   The Gospel of Pseudo-Matthew
     -   There are dragons! This was written in the early 7th Century, and continued to be augmented through the 9th century. 
 -   Letter to King Abgar (from Jesus) -- see for example @mcdonald_is_2016
@@ -1961,16 +1997,21 @@ Catholic Church's letters, orders, and other documents.[^39]
         late first century CE.
 -   Colossians
 -   Ephesians
--   Luke/Acts (some technical gray area on calling it a "forgery" -- the
+-   Acts (some technical gray area on calling it a "forgery" -- the
     author does not name themselves but claims certain status that
     suggests a particular author -- attributed to Luke by at least the
     2nd Century )
 -   Jude
 
 All the others -- the above is not remotely comprehensive but I'm
-getting arthritic in my fingers and I'm tired of looking up the names.
+getting arthritic in my fingers and I'm tired of looking up the names. Suffice it to say that the Christian literary tradition is resplendent with forgeries and misrepresentation.
 
 #### **The Carta Dominica, Epistle of Christ from Heaven, or "Sunday Letter"**
+
+```{r, fig.cap="18th Century English copy. Source: https://commons.wikimedia.org/wiki/File:Chain_Letter_from_Heaven.jpg. Public domain." }
+knitr::include_graphics('Chain_Letter_from_Heaven.jpg')
+```
+
 
 This one is wild -- I originally just listed it in the previous section
 but it's fascinating and deserves some attention. Our first record of it
@@ -2068,50 +2109,13 @@ Modernized English reads:
 Humans *love* chain messages for reasons that utterly escape my
 understanding. Can we please stop?
 
-#### **Capture the Relics**
+#### **The Shroud**
 
-In medieval Christianity, the relics of the Saints became beacons for
-pilgrimages - people proclaimed miracles from touching the bones of
-martyrs and possessing such relics was an economic, political, and
-clerical boon. Many accounts of fake relics exist, but it should be the
-work of a book to account them. I shall instead leave you with this
-fascinating discussion from historian Diarmaid @macculloch_history_2010
-regarding how the Benedictine Rule governing monasteries became the
-dominant protocol.
+Yes, I know. I have read them. I have seen them. For anyone who would like to believe the Shroud to be authentic, there exist innumerable discussions and presentations and papers purporting to justify that belief, but they are all either flat nonsense or grossly insufficient. Most of them include blatant falsehoods or represent data in a misleading or dishonest way to create the illusion of scientific rigor. 
 
-> There had long been other monastic Rules known in the Frankish
-> territories. Why did Benedict's prevail? One major motivation arose
-> from a dramatic act of theft. In the central Loire valley, at the
-> heart of France, there was a monastery called Fleury. Its much later
-> Romanesque church still stands, a monumental tribute to the prestige
-> of an ancient monastic tradition and the product of a hugely
-> successful pilgrimage based on that theft, which is also commemorated
-> in Fleury's alternative name, Saint-Benoît-sur-Loire.
+Though it sounds like fun, I'm not going to address every single one of those arguments because it would be the work of thousands of pages. I do feel it necessary however to at least state that I have read and studied the most recent arguments that are scientific in nature -- the application of Wide-Angle X-Ray Scattering to suggest a 1st Century CE dating that @de_caro_x-ray_2022 conduct. This work is interesting, and worthy of further exploration, but it is not conclusive. The techniques measure the crystalline structure of cellulose in the linen which degrades naturally over time. Comparing the structure of the material with other samples of known dates is the basis for this study. There are fundamental problems. The result requires assumptions about temperature and humidity prior to the shroud's known history; the result requires that the fire  
 
-> Towards the end of the seventh century the monks of Fleury had mounted
-> an expedition far into the south of Italy, to Monte Cassino, and there
-> they clandestinely excavated the body of Benedict himself, plus the
-> corpse of his even more shadowy sister and fellow religious,
-> Scholastica. The consecrated raiding party bore their swag of bones
-> back in triumph to the Loire, and there Benedictine monks still tend
-> them in a crypt in their great church, to the continuing mortification
-> of the Benedictines of Monte Cassino. Benedict had not put up any
-> resistance to his abduction, so it was reasonable to suppose that he
-> approved of it, and thus he gave his formidable blessing to the whole
-> people of Francia....
 
-> The enterprise of the monks of Fleury was not limited to burgling
-> Italian cemeteries; as early as the eighth century, Fleury drew on its
-> de facto possession of the bones of Benedict to negotiate the right to
-> appeal directly to the pope against any bishop in the Frankish Church,
-> and during the ninth century the abbey continued to enhance this
-> useful weapon through creative manuscript forgeries. Popes were not
-> slow to reward Fleury's succession of consecrated crimes with further
-> privileges, and in 997 the abbey pulled off a triumphant coup: it
-> gained papal recognition as the premier monastery in France and
-> custodian of St Benedict. A subsequent pope in 1059 issued a similar
-> privilege for Italy to the indignant monks of Monte Cassino, who now
-> claimed that Benedict had not gone missing at all.
 
 #### **The Holy Fire**
 
@@ -2215,6 +2219,52 @@ dominant protocol.
 > doubtful on the spot, and at the moment, will be received with
 > implicit faith at a convenient distance of time and space.
 
+
+#### **Capture the Relics**
+
+In medieval Christianity, the relics of the Saints became beacons for
+pilgrimages - people proclaimed miracles from touching the bones of
+martyrs and possessing such relics was an economic, political, and
+clerical boon. Many accounts of fake relics exist, but it should be the
+work of a book to account them. I shall instead leave you with this
+fascinating discussion from historian Diarmaid @macculloch_history_2010
+regarding how the Benedictine Rule governing monasteries became the
+dominant protocol.
+
+> There had long been other monastic Rules known in the Frankish
+> territories. Why did Benedict's prevail? One major motivation arose
+> from a dramatic act of theft. In the central Loire valley, at the
+> heart of France, there was a monastery called Fleury. Its much later
+> Romanesque church still stands, a monumental tribute to the prestige
+> of an ancient monastic tradition and the product of a hugely
+> successful pilgrimage based on that theft, which is also commemorated
+> in Fleury's alternative name, Saint-Benoît-sur-Loire.
+
+> Towards the end of the seventh century the monks of Fleury had mounted
+> an expedition far into the south of Italy, to Monte Cassino, and there
+> they clandestinely excavated the body of Benedict himself, plus the
+> corpse of his even more shadowy sister and fellow religious,
+> Scholastica. The consecrated raiding party bore their swag of bones
+> back in triumph to the Loire, and there Benedictine monks still tend
+> them in a crypt in their great church, to the continuing mortification
+> of the Benedictines of Monte Cassino. Benedict had not put up any
+> resistance to his abduction, so it was reasonable to suppose that he
+> approved of it, and thus he gave his formidable blessing to the whole
+> people of Francia....
+
+> The enterprise of the monks of Fleury was not limited to burgling
+> Italian cemeteries; as early as the eighth century, Fleury drew on its
+> de facto possession of the bones of Benedict to negotiate the right to
+> appeal directly to the pope against any bishop in the Frankish Church,
+> and during the ninth century the abbey continued to enhance this
+> useful weapon through creative manuscript forgeries. Popes were not
+> slow to reward Fleury's succession of consecrated crimes with further
+> privileges, and in 997 the abbey pulled off a triumphant coup: it
+> gained papal recognition as the premier monastery in France and
+> custodian of St Benedict. A subsequent pope in 1059 issued a similar
+> privilege for Italy to the indignant monks of Monte Cassino, who now
+> claimed that Benedict had not gone missing at all.
+
 #### **The Flood**
 
 The flood story in Genesis is almost certainly an appropriation of the of
@@ -2224,12 +2274,12 @@ Gilgamesh](https://www.arthistoryproject.com/timeline/the-ancient-world/mesopota
 
 Let us see how elements of these stories compare. 
 
-```{r giglamesh}
+```{r giglamesh }
 library(kableExtra)
 ##layout="l-body-outset"
 dat <- readxl::read_xlsx('Gigamesh-Genesis.xlsx')
 
-dat %>%  kbl() %>%
+dat %>%  kbl(caption = "Epic of Gilgamesh (2100 - 1000 BCE) compared with Genesis (1000 - 400 BCE).") %>%
   kable_paper("hover", full_width = F)
 
 ```
@@ -2246,30 +2296,14 @@ of the Exodus and the conquest of Caanan by Israel.
 
 [^41]: I dind't know this about Jefferson until a few years ago.
     Jefferson was a Deist and rejected the notion that Jesus was God and
-    rejected the supernatural in general. In the Presidential Election
+    rejected the supernatural in general (generally discussed already above). In the Presidential Election
     of 1800 Jefferson's political opponents accused him of being an
     atheist because of this -- he constructed what is now known as *The
     Jefferson Bible* which relates the stories of Jesus' teachings on
     morality and ethics but strips out the miracles and magic. For an
     excellent discussion I recommend *Religion in American Politics* by
     Frank Lambert [@lambert_religion_2008] -- or consult your favorite
-    search engine. Thomas Paine was also a Deist and loudly rejected the
-    doctrines and creeds and dogmas of organized religion in the
-    introduction to is 1796 publication "The Age of Reason". He states
-    plainly: "I believe in one God, and no more; and I hope for
-    happiness beyond this life. I believe the equality of man, and I
-    believe that religious duties consist in doing justice, loving
-    mercy, and endeavoring to make our fellow-creatures happy. But, lest
-    it should be supposed that I believe many other things in addition
-    to these, I shall, in the progress of this work, declare the things
-    I do not believe, and my reasons for not believing them. I do not
-    believe in the creed professed by the Jewish church, by the Roman
-    church, by the Greek church, by the Turkish church, by the
-    Protestant church, nor by any church that I know of. My own mind is
-    my own church. All national institutions of churches, whether
-    Jewish, Christian, or Turkish, appear to me no other than human
-    inventions set up to terrify and enslave mankind, and monopolize
-    power and profit" [@paine_writings_1796]. I tend to agree.
+    search engine.
 
 If you go to Jerusalem and visit the Israel Museum exhibit called
 [Pharaoh in Canaan: The Untold
@@ -2287,6 +2321,7 @@ the biblical tale" [@hasson_new_2016].
 knitr::include_graphics('Exodus.png')
 
 ```
+
 
 #### **The Image and Conceptualization of the God of the Christian and Hebrew Bibles**
 
@@ -2315,7 +2350,7 @@ Northwest Semitic Storm deities (like Baal).
 
 Consider for instance this section from the Song of Debora in Judges 5
 
-> (NRSVU -- hebrew for Yahweh added) 4 **`r yahweh`**, when you went out
+> (NRSVUE -- hebrew for Yahweh added) 4 **`r yahweh`**, when you went out
 > from Seir, when you marched from the region of Edom, the earth
 > trembled, and the heavens poured; the clouds indeed poured water. 5
 > The mountains quaked before **`r yahweh`**, the One of Sinai, before
@@ -2334,7 +2369,7 @@ translated in [@smith_ugaritic_1994]:
 
 Now consider Psalm 104
 
-> (NRSVU -- hebrew for Yahweh added) 1 Bless **`r yahweh`**, O my soul.
+> (NRSVUE -- hebrew for Yahweh added) 1 Bless **`r yahweh`**, O my soul.
 > O **`r yahweh`** my God, you are very great.... **you make the clouds
 > your chariot;** you ride on the wings of the wind; 4 you make the
 > winds your messengers, **fire and flame your ministers.**
@@ -2356,6 +2391,17 @@ of his forces defeated by the Goddess Anat, who asserts
 Here Fire and Flame are proper names for gods who served under Baal, but
 all the gods were children of El -- the high god who ruled the pantheon
 with Asherah [@handy_among_1994].
+
+Or compare descriptions of **`r yahweh`** (Yahweh) defeating Leviathan in Isiah 27:1
+
+> (NRSVUE) On that day the Lord with his cruel and great and strong sword will punish Leviathan **the fleeing serpent**^[KJV has "piercing" but this doesn't really make sense in modern English -- the Hebrew here is quite clearly relating that the serpent is running away -- see some available commentaries [here](https://biblehub.com/commentaries/isaiah/27-1.htm), one of which states plainly "The idea of piercing is not in the Hebrew word, nor is it ever used in that sense."], Leviathan **the twisting serpent**, and he will kill the dragon that is in the sea.
+
+with the Baal Cycle describing Baal defeating Litan (or Lotan -- Litan/Lotan is a cognate word with Leviathan -- both are Semitic languages with shared roots.)
+
+> (Baal Cycle from [@smith_ugaritic_1994]) When you struck down Litan, **the fleeing snake**, Annihilated **the twisting snake**, The powerful one with seven heads. 
+
+The Baal Cycle was almost certainly written at least 5 or 6 centuries before the book of Isiah was written down. Litan is conflated with Tunnanu in the Baal Cycle (the exact same language as above describes Tunnanu in a different part of the story) and "Tunnanu is clearly related to Hebrew Tannin, also a mythological being, related closely to Yamm/Nahar/Leviathan/Rahab in Ps 74:13–15, Isa 27:1, 51:9; Job 7:12. In these passages he is identified as a snake-like dragon, sometimes with multiple heads." [@smith_ugaritic_1994]. In the Baal Cycle Yamm is a god of the sea. Psalm 74:13 describes a dragon with multiple heads
+
 
 So we see that early conceptions of **`r yahweh`** were similar to other
 Northwest Semitic deities. @romer_invention_2015 concisely presents
@@ -2385,7 +2431,7 @@ Let us consider two translations of Deuteronomy 32:7-9
 > For the Lord's portion is his people; Jacob is the lot of his
 > inheritance. [bold text mine]
 
-> (NRSVU) 7 Remember the days of old; consider the years long past; ask your father, and he will inform
+> (NRSVUE) 7 Remember the days of old; consider the years long past; ask your father, and he will inform
 > you, your elders, and they will tell you. 8 When the Most High apportioned the nations, when he divided humankind, he fixed the boundaries of the peoples **according to the number of the gods** [or "divine beings"]; 9 the Lord's own portion was his people, Jacob his allotted share. [bold text mine]
 
 **Modern translations differ from the KJV because the KJV rendering was
@@ -2393,15 +2439,15 @@ not the original form of the Hebrew text.** In the early 17th century -
 the best Hebrew manuscripts available were the Masoretic Texts (MT -- Hebrew
 manuscripts maintained within the Jewish tradition). The earliest of
 these we posses date to about the 11th century. Both the Septuagint
-translations (which were completed from Hebrew sources around 250 BCE,
-and the Dead Sea Scroll fragment 4QDeut<sup>j</sup>) provide the earlier reading
-that is reflected in NRSVU and other modern translations.
+translations (which were completed from Hebrew sources around 250 BCE),
+and the Dead Sea Scroll fragment 4QDeut<sup>j</sup> provide the earlier reading
+that is reflected in NRSVUE and other modern translations.
 
 For reference see @joosten_note_2007 who states
 
 > The reading of the Qumran fragment [Dead Sea
 Scroll 4QDeutj] and the Septuagint is widely considered to reflect the
-original text of the poem in Deut. XXXii.5 In this understanding, the
+original text of the poem in Deut. XXXii. In this understanding, the
 passage harks back to a time when Israelite monotheism was struggling to
 come to terms with ambient polytheism. The reading of the MT is viewed
 as a secondary variant due to theological correction. It is a kind of
@@ -2413,7 +2459,7 @@ aiming to iron out a residue of polytheism from the biblical text.
 
 Somewhere along the way, as strict Monotheism became the theology of the
 day, scribes realized that Deut 32:8 was too problematic and made an
-adjustment
+adjustment.^[Though Joosten goes on to argue the "correction" to the reading "number of Israelites" doesn't really make sense, and requires some further explanation - he argues that an earlier version of the text (no longer extant) may have read "number of the sons of Bull El". Both El in the Ugaritic tradition and Yahweh in the earlier times were sometimes conceptualized as bovine -- and in the Ugaritic texts the exact expression "Bull El" is used to refer to El when talking about El's children -- and if the original reading was indeed "Bull El" then the shift from "Bull El" to "Israelites" in the Hebrew script is just a subtle shift in two letters and would explain the reading in the Masoretic Texts, and the deletion of "Bull" would have been theologically desirable in later period Judiasm.]
 
 @_new_2010 similarly notes that the passages
 
@@ -2426,28 +2472,33 @@ adjustment
 
 El the high diety from the Ugaritic texts ruled over his children -- the active deities, who each ruled over their own "nations" (likely city states) [@handy_among_1994]. Many scholars notice the parallels with Duet 32:8. 
 
-All of the above is very different from the conception of God we have by
-the 2nd century BCE and after -- when God is no longer named with a
-proper name, is less anthropomorphic, and by the time of the early
+That the Hebrew Bible shares traditions with, exhibits the influence of, and directly borrows from, other societies and cultures around the Mediterranean is not really debatable
+
+* We've already discussed the flood story in Genesis and it's relation to the Epic of Gilgamesh
+* The Covenant Code in the Hebrew Bible leans heavily on, and reuses some material verbatim from, the Law of Hammurabi -- "an eye for an eye", the "talion" justice in the Covenant Code -- finds its roots in Hammurabi which pre-dates the Hebrew Bible by about a thousand years. Numerous Covenant Code Laws are almost identical to laws in Hammurabi and are presented in the same order  [@wright_how_2019]
+* The creation stories from multiple traditions in the ancient near east contain similar elements (darkness, chaos, waters) -- see for example [@smith_biblical_2007] for a general discussion or [@sparks_enuma_2007] for a specific examination of the Priestly addition of the creation story in Genesis 1 as direct emulation of the Enūma Elish -- the Mesopotamian creation myth. 
+* Large books provide brief summaries of comparative and related texts. @pritchard_ancient_1969 notes in the introduction to *Ancient Near Eastern Texts Relating to the Old Testament* that "*The embarrassing wealth of comparative material from the ancient Near East has made the task.of selecting texts for the present volume a difficult one.*"  @hallo_approaches_2020 examines the density of parallels between various portions of the Hebrew Bible and other literature from the ancient near East to find that Genesis "is most widely and most significantly paralleled in the literature of the ancient Near East" in terms of density, but that Psalms and Proverbs contain the highest number of parallels by raw count (they are quite a bit larger in terms of text content). 
+
+
+The conceptualizations of **`r yahweh`** (Yahweh) from the selections of the Hebrew Bible above are very different from the conception of God we have by the 2nd century BCE and after -- when God is no longer named with a
+proper name, is no longer distinctly anthropomorphic, and by the time of the early
 Christian writers -- the conception of God is quite markedly steeped in
-Greek philosophical frameworks -- almost certainly because Jews were
-exposed to Greco-Roman culture and ideas as the Roman Empire encroached
-upon and finally conquered ancient Palestine in 63 BCE, and because
-early Christian thinkers were educated in Greek schools (all of the New
-Testament writings were originally written in Greek).
+Greek philosophical frameworks (the notion of Jesus as the λόγος *logos* is almost certainly a combination of Jewish conceptions of the Word of God as containing power and the Greek Stoic philosophical conception of *logos* as representative of the principles of order and function that underlie the universe). The integration of these Greek philosophical frameworks into Jewish and Christian theological thought occurred because Jews were exposed to Greco-Roman culture and ideas with the conquest of Palestine by Alexander the Great in 332 BCE and the later Roman Empire encroachment and conquest of the region in 63 BCE, and because early Christian thinkers were educated in Greek schools (all of the New Testament writings were originally written in Greek). Greek philosophical influence on the nature of deity is possibly why translations of the Hebrew Bible into other languages (beginning with the Septuagint) interpreted the Hebrew of the very first sentence in Genesis a little differently than what the text actually says. Modern translations fix this and reflect the most likely original meaning imparted to the words that are in the Hebrew manuscripts:
 
-But changes in Christian conceptualizations of God didn't stop in the
-1st Century CE.
+> (NRSVUE) When God began to create the heavens and the earth...
 
-##### **The Trinity**
+But changes in Christian conceptualizations of God didn't stop in the 1st Century CE.
+
+
+#### **The Trinity**
 
 The Doctrine of the Trinity is a post-Biblical innovation that wasn't
-mature in Christian theology until the 5th century CE or so (strictly
+mature in Christian theology until at least the 5th century CE or so (strictly
 speaking it still isn't finalized across all denominations, and
 significant disagreement continues -- some modern day churches such as
 Unitarian Universalists and Oneness Pentacostals still reject it).
 Readers astutely familiar with the King James Version may refute the
-suggestion that it's not in the Bible by thinking of 1 John 5:7
+suggestion that it's not in the Bible ("post-Biblical") by thinking of 1 John 5:7
 
 > (KJV) **5** Who is he that overcometh the world, but he that believeth
 > that Jesus is the Son of God? **6** This is he that came by water and
@@ -2471,7 +2522,7 @@ Spirit, water, and blood. Verse 7 seems disconnected with verses 6 and
 > the Spirit and the water and the blood; and the three are in
 > agreement.
 
-> (NRSVU) **5** Who is it who conquers the world but the one who
+> (NRSVUE) **5** Who is it who conquers the world but the one who
 > believes that Jesus is the Son of God? Testimony concerning the Son of
 > God **6** This is the one who came by water and blood, Jesus Christ,
 > not with the water only but with the water and the blood. And the
@@ -2491,10 +2542,10 @@ modern translations is because it wasn't in the original text.***
 
 The additional text we find in the KJV is known as the *Comma
 Johanneum*. The reasons for thinking it wasn't in the original text are
-*that*
 
--   of the \~500 Greek manuscripts in existence that contain 1 John 5,
-    the *Comma Johanneum* is only found in at most *ten*[^44]
+
+-   *that* of the \~500 Greek manuscripts in existence that contain 1 John 5,
+    the *Comma Johanneum* is only found in *ten*[^44]
     [@metzger_text_2005], [@hixson_evangelical_2020] .
 
 -   *that* seven of these ten are 14-18th century CE manuscripts; one is
@@ -2555,7 +2606,7 @@ Johanneum*. The reasons for thinking it wasn't in the original text are
     constructed -- for example @metzger_text_2005 do not include GA 177
     in their count of eight. GA 177 is an 11th century manuscript but
     the Comma in it was added as a marginal note around 1785 and the
-    form of the text (with chapter and verse indicate it was added based
+    form of the text (with chapter and verse - a much later convention) indicate it was added based
     on a printed edition -- so not really a manuscript witness).
 
 [^45]: Made between 541 and 546 CE, Codex Fuldensis does not include the
@@ -2573,7 +2624,7 @@ knitr::include_graphics("jc_bottom_close.jpg")
 ```
 
 The most likely origin for the Comma is someone reading and writing in
-Latin in the Western Empire in the mid 2nd to early 3rd century CE who
+Latin in the Western Roman Empire in the mid 2nd to early 3rd century CE who
 made an annotation on 1 John 5:7-8 thinking that pattern of thought
 (three witnesses that agree in one, or "are one" as it's usually
 rendered in Latin) made a good argument in support of the concept of
@@ -2584,7 +2635,8 @@ Latin tradition, and later still assimilated into the Greek tradition.
 Erasmus didn't include the *Comma* in the first or second editions of
 the *Textus Receptus* (printed Greek New Testament developed in the
 early 1500's) because at the time there was **no** known Greek
-manuscript evidence for it.
+manuscript evidence for it^[Erasmus had seen one manuscript that included it as a marginal note among the material used for the 1st and 2nd editions. The inclusion of the phrase in the 3rd edition may have been effected under duress from accusations of heresy, and through the production of a Greek Manuscript specifically to provide Erasmus with "evidence" -- the [Codex Montfortianus](https://en.wikipedia.org/wiki/Codex_Montfortianus). Erasmus's work was widely criticized by clergy and personages. Englishman Henry Standish argued "that any attempt to improve or translate the Bible meant the end of Christianity" [@levine_erasmus_1997] -- he made that argument in the early 1500's about what would later be called the Textus Receptus (Erasmus' work), which would later form the primary material for the King James translation in 1611; KJV only advocates still make this argument in 2025 -- @levine_erasmus_1997 describes Gibbon's choice to discuss this issue in this History of the Decline and Fall as "nothing less than a victory for the idea of history.". See also [@whitford_yielding_2015]].
+
 
 An article on the *Comma* in manuscript Gregory-Aland 177 (as mentioned
 above in the notes) states that while "the manuscript basis for this
@@ -2605,9 +2657,9 @@ discussing various other forgeries by Anthanasius and Augustin that
 > Hunneric summoned to the conference of Carthage. An allegorical
 > interpretation, in the form, perhaps, of a marginal note, invaded the
 > text of the Latin Bibles, which were renewed and corrected in a dark
-> period of ten centuries. After the invention of printing, 119 the
+> period of ten centuries. After the invention of printing, the
 > editors of the Greek Testament yielded to their own prejudices, or
-> those of the times; 120 and the pious fraud, which was embraced with
+> those of the times; and the pious fraud, which was embraced with
 > equal zeal at Rome and at Geneva, has been infinitely multiplied in
 > every country and every language of modern Europe.
 
@@ -2615,14 +2667,14 @@ But this is all digression.
 
 All of the above is required to demonstrate that the concept of the
 Trinity is post-biblical and that no Biblical passages in the original
-texts as best we can reconstruct them describe a Triune God. No such
+texts as best we can reconstruct them describe a Triune God^[I am aware of the many other passages people will point to but none of them actually equate Jesus in essence with the Father, much less explicitly define a Trinitarian formula.] . No such
 Doctrine existed formally within Christianity until 325 CE when it was
 determined by majority vote. So what was the thinking in early
 Christianity before that?
 
 The Gospels are not precise respecting Jesus' Divinity and exactly how
 he is supposed to relate to capital G God, **`r yahweh`** (Yahweh), the
-God of Israel, and this presented a problem for the Monotheistic Jews
+God of Israel, and this presented a problem for the Monotheistic Jews (early Christians)
 who were first grappling with what Jesus was actually supposed to be. A
 few of the different concepts competing in the marketplace of religious
 theologies included
@@ -2654,28 +2706,219 @@ theologies included
     view is still practiced today by Oneness Pentecostals and
     interestingly enough, they also use 1 John 5:7-8 as an evidence to
     support their concept.
--   A long detailed history of thought progression is available at the
+-   A detailed history of thought progression is available at the
     [Standford Encylopedia of
     Philosophy](https://plato.stanford.edu/entries/trinity/trinity-history.html#ProNicCon)
     [@tuggy_trinity_2024]
 
 But the main point of history I want to highlight is the debate leading
-up to First Nicaea in 325 -- at this point there were two major factions
-in the church that were
+up to First Nicaea -- at this point there were at least two major factions
+in the church debating the nature of Jesus. 
 
-`r arian` [homoiousios -- similar essence]
+Arius, a North African presbyter and ascetic, promoted the idea that only God the Father, **`r yahweh`** (Yahweh), the God of Israel, was an eternal being with no first cause, and that the *Logos* (the Greek word translated in chapter 1 of John as the "word" -- Jesus as the author of John describes him) was the first creation by the Father, subordinate to God, but of  `r arian` (homoiousios) -- similar essence. So Jesus is not God, but is still divine or like a deity -- this is in fact more closely aligned with the plain sense of the Greek in John 1:1 "and the Word was God" -- a more literal translation would be "and the word was deity" -- most scholars today (even evangelical scholars) agree that this is how the plain text reads because of the specific grammar^[They then argue for why we should understand it to to equate Jesus with God the Father, but counter arguments point out these arguments rely on anachronistic impositions of the modern monotheistic understanding of Yahweh that were much less developed in the late 1st century CE.]
 
-`r athanasius` [homoousios -- same essence, *consubstantial*]
+This idea spread from the school in Alexandria and became common around the Mediterranean, and resonated with people who had difficulty imagining Jesus and the Father as both being God, but somehow also imagining that there was only one God. By this time a Trinitarian philosophy had developed that was generally considered Orthodoxy in the Church -- and strongly promoted by Alexander of Alexandria and his deacon Athanasius. Athanasius became a most prominent promoter of the opposing view to Arius' suggestion, which was that God the Father, **`r yahweh`** (Yahweh), the God of Israel, and Jesus were of `r athanasius` (homoousios) -- same essence, *consubstantial*)
 
-#### The Bible as the *Inspired* Word of God
+Arius was denounced at a Synod in 321 and excommunicated -- he went to Palestine and gained support among the clergy in the region including the Bishop of Nicomedia (Eusebius). His ideas were popular and widespread enough, particularly in the Eastern Empire, that the Church faced schism. The spread of Arianism in the Eastern Empire strained the policies of religious tolerance held by the Emperor Licinius -- he issued new rules forbidding discussion among the bishops which caused political unrest. 
 
-#### The Creation Story in Genesis 1
+For an interesting discussion of the Game of Thrones style intrigue see @gibbon_history_1782 for painstaking detail or [@grant_religion_1975] for an approachable synopsis in 12 pages. The very short version is that at this time (323-324 CE) the Roman Empire was divided into West and East with two independent Emperors (Constantine in the West and his brother-in-law Licinius in the East). Constantine exploited the instability in the East caused by the Arian movement to invade the Eastern Empire. He defeated his brother-in-law's forces, but spared his life for a few months before executing him on the notion that he was plotting something. "To the victor now belonged the Christian churches of the east" [@grant_religion_1975] and Constantine set out to settle the instabilities. He had a letter drawn up and sent to Alexander of Alexandria and to Arius that *"blamed both contestants alike for their controversy over theological questions that never should have been brought up...[and]...insisted upon the goals of peace, harmony, and unity. He ordered both disturbers of the peace to refrain from further discussions"* [@grant_religion_1975]. But team `r athanasius` (homoousios) had been busy -- they had marshaled votes among the bishops to condemn and expel the Arians and called a council at Ancyra for that primary purpose. This council forced the issue to resolve the division rather than tabling the debate in favor of unity and harmony as Constantine had ordered.  The Arians did not go quietly. Eusebius gave a sermon in which he called the Son of God a "created being" which manifested significant pearl clutching screams of heresy among team `r athanasius` (homoousios). The continuing agitation agitated Constantine and he had the council moved to Nicaea, which was close to his villa. The Bishops came, arguments were presented, political machinations occurred, the Arians were soundly rejected by vote,^[But the debate was not yet over -- the majority parties were divided themselves among the Tritheists and Sabellians -- for the time being, they reached a compromise on the wording of a creed that allowed each side their own subtle interpretations but which firmly rejected Arianism. This was the first form of the "Nicene Creed" but it's not the one we all learned in Sunday School -- that one emerges at the Council of Constantinople in 381 CE. For a discussion of debates in the 360's up to 380 that lead to the form of Trinitarian docutrine that most churches still promote today see [@beeley_early_2011]. Of interest to our current investigation is the manner in which  Gregory of Nazianzus fabricates arguments against Apollinarius by making things up that Apollinarius did not actually say -- for instance, that Apollinarius asserted the human body of Jesus existed before the incarnation when there is no evidence Apollinarius taught this; @beeley_early_2011 describes Gregory's arguments as a "propaganda campaign".] and as Edward Gibbon so eloquently records it, the Arians then [@gibbon_history_1782] 
+
+>prudently assumed those modest virtues, which, in the fury of civil and religious dissensions, are seldom practised, or even praised, except by the weaker party. They recommended the exercise of Christian charity and moderation.
+
+As a result of the Christian charity and moderation that he requested, [@gibbon_history_1782]
+
+>The impious Arius was banished into one of the remote provinces of Illyricum; his person and disciples were branded by law with the odious name of Porphyrians; his writings were condemned to the flames, and a capital punishment was denounced against those in whose possession they should be found. The emperor had now imbibed the spirit of controversy, and the angry, sarcastic style of his edicts was designed to inspire his subjects with the hatred which he had conceived against the enemies of Christ.
+
+Yet, around three years after the council (~328), Constantine looked with mercy toward the Arians and he recalled them from exile. Arius himself was to be admitted to communion in the cathedral of Constantinople...but, 
+
+>On the same day, which had been fixed for the triumph of Arius, he expired; and the strange and horrid circumstances of his death might excite a suspicion, that the orthodox saints had contributed more efficaciously than by their prayers, to deliver the church from the most formidable of her enemies.[@gibbon_history_1782]
+
+"More efficaciously than by their prayers" was Gibbon's thinly veiled suggestion of murder. Athanasius described the death of Arius in a letter to Serapion [@muehlberger_legend_2015]
+
+>Praying about these things, the bishop withdrew, very concerned; but a wondrous and unexpected thing took place. As those with Eusebius threatened, the bishop prayed, and Arius, overconfident in those who were with Eusebius, foolishly went in to the ‘throne’ because of the necessity of his gut. Immediately, according to what is written, ‘falling face first, he burst in the middle’. Upon falling, he immediately expired, deprived of both communion and his life at the same time.
+
+Gibbon blithely suggests that if we take Athanasius' account to be true, the we must choose as options for the cause of death "between _poison_ and _miracle_" [@gibbon_history_1782].
+
+Of interest to our writing here is that the tale of Arius' death is another example of imaginative narrative innovation. The letter of Athanasius above was written in 358-359, nearly 20 years after Arius' death, and it is the first record of any such narrative. During this time debates around the ideas that Arius promoted continued to burn brightly and such an infamous death would have been potent ammunition, but it never appears in any other records until this time [@muehlberger_legend_2015]. Weird. Additionally, we can see the story grow and change over time as innovative writers exploited the source material to make it juicier. Early Christian historians relied on Athanasius for the basis of the story, but they *"added details when they incorporated it into their own histories. The predominant trend among these fifth-century historians was toward making that death into a spectacle: it was placed in ever more public locations and the putative witnesses were multiplied."* [@muehlberger_legend_2015]. @muehlberger_legend_2015 documents the continuous progression of these expansions starting with the Christian monk and historian [Rufinus](https://en.wikipedia.org/wiki/Tyrannius_Rufinus) -- who adds a crowd of witnesses, changes the time of the event from night to day, and alters the death to be upon the moment he sat on the toilet -- "his intestines and all his guts flowed out down the drain". A later Christian writer (historian Socrates, mid 5th Century -- not that Socrates) adds the spleen and liver to the bodily organs being expelled from the rectum and has the event seen not just by a crowd of witnesses, but puts the event during a public procession. Another 5th century historian, Sozomen, tempers the description by suggesting stroke or disease of the heart or acts of magic. Commentary from a 9th century writer (Phobius) suggests that the most elaborate version of the story (from Socrates) had become the dominant variant.    
+
+But getting back to the Trinity, theological debates and purges and exiles and murders continued for centuries. Law codes under Emperor Justinian called for people who didn't believe in the Trinity (or rather, people who dared to say they didn't believe in the Trinity) to be put to death. Remind me again of the argument I've heard so many times, that people wouldn't have converted to Christianity if they didn't think it was true? That may be the case but it also seems the case that people will convert to Christianity if they think it will kill them otherwise. For two examples: [@fletcher_interview_1999] provides a historical overview and [@goldin_forced_2014] develops a specific examination of the Crusades, during which "Christians violently forced Jews away from their religion and compelled them to become Christians; those who refused were either murdered or killed themselves as martyrs".  
+
+People were still being burned at the stake for rejecting the Trinity in the 16th Century -- consider the trial and execution of [Michael Servetus](https://en.wikipedia.org/wiki/Michael_Servetus#Imprisonment_and_execution) - theologian, physician who independently discovered the process of pulmonary circulation, scientist, and apparently heretic -- specifically heretical because he espoused non-Trinitarian suggestions about the nature of God and Jesus. He was probably condemned on the evidence and recommendation of John Calvin, and burned alive in 1553 along with his works which were also condemned -- only two copies of the writing for which his excruciating death was required by the followers of Christ [sic] still exist -- see discussion in the British Medical Journal [@noauthor_michael_1910], [@clarke_michael_1953], or [@friedman_michael_1974]. I personally know one person who holds Calvin as an example of good Christian theology.
+
+The last person known to be executed specifically for refusing to accept Trinitarian theology by a State^[So far as I was able to find in a quick search.] was [Thomas Aikenhead](https://en.wikipedia.org/wiki/Thomas_Aikenhead) -- a 20 year old student at the College of Edinburgh -- see [@gray_blasphemies_2013] or [@giibson_humanist_2016]. Among the charges were that he said mean things about the Bible, Jesus, and rejected the mystery of the Trinity. The records of the trial are still extant -- see [@howell_complete_1816]. Among the specific accusations of these mean sayings (perhaps today they might have been mean tweets?) were that Jesus "learned magick in Egypt, and ...picked up a few ignorant blockish fisher fellows, whom he knew by his skill...had strong imaginations" and that Jesus went on to play "pranks". The charges further state that Aikenhead affirmed the "Holy scriptures to be so stuffed with madness, nonsense, and contradictions, that [Aikenhead] admired the stupidity of the world in being soe [sic] long deluded by them". For this he was hanged in 1697. 
+
+Christians seem to have stopped institutionally killing people for not being Christian around the end of the 17th century, but the 18th century voices of the Enlightenment still revved the engines of violence among fundamentalist perspectives. John Locke's work in the late 17th century heavily influenced the development of the U.S. Constitution about a century later in 1787. In England, at almost the same time, thinkers and theologians sought a similar model of a secular Government that would free religion from the petty politics of state affairs -- which some saw as a perversion of that which should not be worldly. Efforts to repeal England's Test and corporation Acts (religious tests required to hold public office -- only Anglican Protestants were allowed) in 1789, 1790 and 1792 sparked intense debates. [Edmond Burke](https://en.wikipedia.org/wiki/Edmund_Burke) was the primary champion against repeal, arguing that "in a Christian commonwealth the Church and the State are one and the same thing, being different integral parts of the same whole." [@mcconnell_establishment_1995] -- asserting that the function of magistrates regarding Christianity (in this case a very specific form of Christianity) was to "protect it, promote it, and forward it." [@kramnick_godless_1996]. A primary voice of the opposition that argued for the repeal of the Act was [Joseph Priestly](https://en.wikipedia.org/wiki/Joseph_Priestley). Conservative ire to the notion of repealing the Test and Corporation Acts led a mob to burn his home and laboratory (he was a chemist^[An interesting but irrelevant fact is that Priestly was the chemist credited with independently discovering molecular oxygen (O<sub>2</sub>) in 1774 by thermally decomposing mercuric oxide.]) in 1791; he fled to Pennsylvania and lived the remainder of his life there.^[Of note, while Burke argued against repealing the Test and Corporation Act, he also vigorously promoted reformations of laws to end direct oppression and promote toleration of Catholics and other Protestant dissenters like Quakers and Unitarians -- for this support "Burke suffered frequent political calumny, lost his seat in Parliament, and was even threatened by a mob of anti-Catholic rioters. The cause of toleration inspired some of his most moving oratory and some of his most persistent and persuasive correspondence" [@mcconnell_establishment_1995]. ]
+
+Blasphemy laws remained in force in the United States through the mid 20th Century -- with punishments of fines and jail time. An 1879 law in Maryland punished blasphemy with fines up to $100 (about \$3,200 in 2025 dollars) or up to six months in jail. Such laws were upheld in courts until after WWII when courts started to find such laws in violation of the First Amendment -- starting in 1952 when the Supreme Court ruled that New York's attempt to ban the showing of the film *The Miracle* was unconstitutional. For a summary see [@price_history_2023].
+
+
+#### **The Inspired Inerrant Bible**
+
+This one will be brief^[A good while later -- It did not turn out to be brief.] but I think it's important to discuss. The notion that the Bible writings are directly inspired by **`r yahweh`** (Yahweh) didn't begin to exist in human thought until the early 3th century CE where the notion of "inspiration" appears in the writings of Origen. 
+
+Origen is the first person to interpret the word *θεόπνευστος* (theopneustos) to 2 Timothy 3:16 to mean that all scripture is directly "inspired". The more literal meaning of the Greek word is "God-breathed". @poirier_invention_2022 conducts an analysis of how that word was used in other writings prior to and contemporaneous with Origen that suggests a meaning which in English would be expressed as "life-giving" -- or something that is fundamentally useful, necessary, or beneficial for living well. This meaning does not invoke the notion that **`r yahweh`** (Yahweh) beamed the content of the texts into the brains of the humans who were writing them. 
+
+There are two points we should consider carefully. 
+
+The first is that the author of 2 Timothy is lying about being Paul when he is not Paul *and* in the early 2nd Century CE when 2 Timothy was written -- "The Bible" didn't exist. Even the Jewish Canon was not yet fixed -- so we can't even know what the author of 2 Timothy meant when he referred to *scripture*, but most likely -- he referred to any religious writings in use at the time, and these *almost certainly* contained works that would later be discarded by the church editors as heretical or simply ignored to become the Apocrypha (many of the "Forgeries and Fictions" in the earlier section are considered among the Apocrypha). 
+
+The second is that Origen was possibly the person most fundamentally responsible for the later development of Christian Theology as a philosophical framework but fundamental to his approach to the Biblical texts was the view that they should be interpreted allegorically to find deeper hidden meanings. Most Christian thinkers prior to Origen interpreted the Hebrew Bible and early Christian writings as literal or historical documents. Origen heavily interpreted such writings allegorically -- a result of Greek education in which allegorical interpretation of Homer (Illiad & Odessy) was emphasized. He is the first Christian writer to explicitly describe three "hypostases" (an underlying reality or substance) in relation to **`r yahweh`** (Yahweh) and Jesus and the Holy Spirit, and to use Greek word `r athanasius` (homoousios) to describe the relationship between Jesus and **`r yahweh`** (Yahweh). This is early days for the Trinity though -- Origen's use of that word is strictly allegorical. Interestingly enough, ***Origen was condemned in general as "the hydra of all heresies" by the Pope in Alexandria in 400 CE, and formally condemned as a heretic at the Fifth Ecumenical Council in 553 CE -- The Emperor Justinian ordered all of his works burned.*** See the Stanford Encyclopedia of Philosophy for an extensive discussion of Origen's works and thoughts [@edwards_origen_2022], or shorter summaries in [@franke_origen_2003] or [@fazio_origen_2018].    
+
+
+On inerrancy, Origen plainly noted that there were discrepancies in the Gospel accounts, but believed them inconsequential. Other evidence is mixed. Jerome (4th Century) seems to suggest the texts contain errors, but other accounts assert Jerome believed in inerrancy. John Chrysostom (4th Century) also plainly states that there are minor discrepancies between times and places but believes them inconsequential - but others studying his work assert he believed in the Bible's infallibility. 
+
+The suggestion of Biblical perfection in general has been around since early Christianity, but specific and formulaic doctrines of inerrancy didn't really exist until .....
+
+
+There are various flavors of such doctrines but many Christians in the United States really believe that the entire Bible, every single word, is perfectly true -- some people take that to mean literally true (even the parables) while others interpret it to mean that it simply contains no flaws. A simple examination of the text must reject this notion because it's full of errors, inconsistencies, and assertions that should make any modern reader recoil in disgust (if such a reader actually believed them to be true). How do Christian thinkers assert the validity of this doctrine?
+
+@graham_inerrancy_2016, writing for Liberty University summarizes for us:
+
+>Arguably the most effective argument for the inerrancy of Scripture is the Standard Deductive Argument: “God is true (Rom. 3:4); the Scriptures were breathed out by God (2 Tim. 3:16); therefore, the Scriptures are true (since they came from the breath of God who is true).” [@graham_inerrancy_2016]
+
+Really? I think this is probably most effective argument because it seems to convince people who are pre-disposed to believe it, but there is no evidentiary content in the statement above. I hope, I really hope, that we can all see the problem. If you haven't formally studied logic you may not recognize that the above is not actually formulated as a deductive argument, but we ought all to be able to recognize that it simplifies to "I have chosen to believe statements contained in the Bible". Surely we recognize that this doesn't work. *I am perfect and never lie to you; I am writing this document; therefore, everything in this document is perfectly true.* Surely we recognize that *my* argument is nonsense (see caveats at the end -- I'm certain that this document includes errors because keep finding and correcting them as I go.)
+
+@graham_inerrancy_2016 goes on to suggest the argument can "be further tested by examining the validity of the statement: “God is true” and does so exclusively by citing additional Bible verses including Hebrews 6:18 
+
+The notion that the Bible is completely perfect and internally consistent is obvious nonsense -- The first major discrepancy starts in Genesis 2:4b when the 2nd, older, creation account begins -- I remember starting to read the Bible after my confirmation course at St. Marks Episcopal Church. I was 12 or 13 years old. We got a Bible at the end of it and I thought it was cool because there were maps in the front and back. But it was so confusing; it didn't make any sense.^[This was also around the time I first read The Lord of the Rings by Tolkien, and its writing and storytelling and mythology were far superior.] Apologists will conjure time vortexes and ridiculous hypothetical scenarios to try to harmonize the obvious discrepancies -- but the Bible looks exactly like what it is -- a large collection of writings by different people at different times and places with different ideas and different theological, political, rhetorical goals that has been curated, edited, redacted, and copied by humans.  
+
+
+
+
+
+
+
+#### **The Authorship of the Gospels**
+
+Almost no serious *critical* Bible scholar believes that the Gospels were written by Mark, Matthew, Luke, or John -- plenty of PhD's in Divinity or Theology etc still believe this -- but the overwhelming majority of scholars who approach the Bible from a text-critical or historical perspective do not find the evidence to be in favor of that interpretation. The introduction to the New Testament in the SBL Study Bible plainly states that *"Although the texts of the four canonical Gospels are anonymous, each one came to be linked in the second century with one of Jesus' apostles or their associates and thus became known as the Gospels according to Matthew, Mark, Luke, and John. There is no doubt that attaching the names of respected early followers of Jesus to the gospel writings enhanced their authority."* [@society_of_biblical_literature_sbl_2023]. 
+
+Like so many sections of this document -- a reasonable treatment requires at least a book, but more likely around 20 books, as the syllabus for a 1916 professional reading course on the Origins of the Gospels offered at Rochester Theological Seminary suggests. The introduction to that course lays out the state of the evidence: *"One is keeping well within bounds in saying that the external evidence regarding the origin of the Gospels does not give us certain ground on which to stand. This may be a matter for regret, but it is always well to face facts"* [@parsons_origin_1916].
+
+I will here just very briefly examine one of the reasons why most scholars conclude that the gospels circulated anonymously before being attributed to specific authors.
+
+That reason is: ***No Christian writing that dates prior to ~ 180 CE names the traditional Gospel authors, despite paraphrasing or quoting text we find in the 4 Gospels that would eventually be selected as cannon.***
+
+The authentic writings of Paul span from around 48 CE to perhaps 62 CE -- Paul never quotes or paraphrases the Gospels as we have them today. But the gospels weren't yet written when Paul was writing his epistles -- when Paul talks about "Scripture" he is talking about the Hebrew Bible and other Jewish writings (because the Hebrew Bible cannon was not yet firmly established). However, 1 Timothy contains a passage found in Luke. 1 Timothy was likely written in the early 2nd Century by someone who was not Paul, and that author does not refer to "Luke". 
+
+The writings of Clement of Rome never mention the traditionally ascribed Gospel authors. First Clement may have been written before the Gospel of Mark was widely circulated (around 70 CE) -- Clement never references text that seems to come from the Gospels or any of the traditional Gospel authors, but he mentions Paul by name twice. 2nd Clement (which was not actually written by Clement and dates to 120-140 CE) alludes to "scripture" and quotes sayings that are similar to the Gospels as we know them, and the author references the "Books and the Apostles", but he doesn't reference the name of Mark, Matthew, Luke or John. It's possible 2 Clement also quotes from Paul and does not reference the name of Paul (the author attributes the words to Jesus) but this reference to Paul is Paul's reference to Isiah -- so may not really be a reference to Paul (Galatians 4:27, Isaiah 54:1).
+
+The [Didache](https://en.wikipedia.org/wiki/Didache) are probably the earliest known "church orders" -- a short essay on how Christians should be conducting rituals and services. Dating it is challenging because no early manuscripts exist but most scholars estimate that it originated in the last quarter of first century or so -- with the document perhaps being edited up to around 150 CE. The Didache claims to represent the teachings of the Apostles, but doesn't mention any by name. The text includes phrases and themes that are similar to sections of Matthew (Baptism instructions, the form of the Lord's Prayer).
+
+The seven surviving letters of Ignatius (Bishop of Antioch) include quotations that appear in Matthew and Luke (as well as numerous other, now apocryphal, writings), but he does not reference the names of Matthew or Luke. The letters heavily quote from Paul, and explicitly mention Paul by name (e.g. [Ignatius to the Ephesians](https://www.earlychristianwritings.com/text/ignatius-ephesians-lightfoot.html)). The dating of these writings is uncertain but they were likely written as early as the the 80's CE up until shortly before his death which could have been as late as around 140 CE.
+
+One surviving writing from Polycarp (Bishop of Smyrna) exists, the Epistle of Polycarp to the Philippians - Polycarp was a contemporary of Ignatius and they exchanged letters. Polycarp died around 155 - 167 CE as an old man, so his letter could be from a wide range of time. His letter contains two contradictory statements regarding the status of Ignatius of Antioch -- one in which Ignatius seems to be still alive and one one which clearly references him as previously deceased, so we can't be sure of the chronology, but still, some time in the first half of the 2nd Century CE. Polycarp references or quotes statements that appear in the Gospels attributed to Mark, Matthew, and Luke but only references one author by name: Paul, four times. See the text for yourself [here](https://www.earlychristianwritings.com/text/polycarp-lightfoot.html).
+
+Marcion of Sinope believed Jesus to be an entirely different God from **`r yahweh`** (Yahweh) and that Paul was the only true apostle. He established a cannon that included a gospel that was a shorter version of what we understand as Luke and slightly shorter versions of 10 of the epistles traditionally ascribed to Paul -- he did not include 1 or 2 Timothy, Titus, or Hebrews. The text of his Gospel is not attributed to Luke -- rather he describes it as "The Gospel of the Lord -- The written account of the life of Jesus Christ, preserved in its original Greek by Marcion, son of Philologus, bishop of Sinope. (Anno Domine 130)"
+
+Justin Martyr's authentic writings (Apology 1 & 2 and Dialogue with Trypho -- around the middle of the 2nd century CE) refer to the "memoirs of the apostles" but never reference specific names even though he alludes to or quotes frequently from a text similar to Matthew and less frequently from the other Gospels [@hurtado_justin_2017]. Justin does not reference Paul at all or reference any of his writings, but this is probably because Justin was writing during the time of Marcion and in certain circles Paul was associated with the Marcion Heresy. Justin does however mention other authors by name: Empedocles, Pythagoras, Homer, Plato, Socrates etc. In the Apology 1, Plato gets 11 mentions. He also cites Old Testament writers by name including Isaiah, Ezekiel, Zechariah etc. See texts [here](https://www.earlychristianwritings.com/justin.html), but note this collection includes writings attributed to Justin that were probably not written by Justin -- they don't mention the Gospel authors either.   
+
+*The Shepherd of Hermas* was an extremely popular book in early Christianity -- most likely dating to around the middle of the 2nd Century -- let's say 130 to 170 CE. Among 2nd, 3rd, and 4th century manuscripts, more manuscripts of this book exist than any other New Testament writing except Matthew and John, but it was rejected as part of the cannon at Nicea in 325 [@schachterle_shepherd_2023]. The book includes concepts and phrases that may allude to, or at least express similar concepts as, the Gospel writings without quoting them directly and also does not mention Mark, Matthew, Luke, or John -- though this data point may not help us because the book also doesn't mention Jesus at all  -- it is written specifically for Christians who have sinned after being baptized and advises what they can do to retain salvation (this may explain its popularity -- according to Hermas, you get precisely one more chance to repent). 
+
+The first record we have of any reference to writings by the our Gospel authors comes from Papias around 130 CE who describes a writing of Mark and a writing of Matthew -- but the writings Papias describes do not match the texts that we know as Mark and Matthew. Both are described as sayings Gospels^[Though the description of Mark could plausibly be interpreted a narrative as well.] -- which are collections of statements attributed to Jesus -- like the Gospel of Thomas. Neither Mark nor Matthew fit that description. When describing the writing he attributes to Mark, Papias asserts that he "wrote accurately all that he had remembered of the things, mentioned by Peter, that the Lord had said and done 'not, indeed, in order!" [@rigg_papias_1956]. The Mark that we have is well ordered indeed. Papias describes both works as written in Hebrew -- textual analysis of all the Gospels we have suggest they were originally authored in Greek rather than translated into Greek^[We have a large data set for comparison in the Septuagint -- thousands of pages of Hebrew translated into Greek.].We only have snippets of Papias' text through Eusebius and other ancient writers but Papias also asserts Matthew wrote independently from Mark, where our Matthew extensively re-uses material from Mark. So Papias provides the first reference that we know of to writings by our traditional Gospel authors, but what he is describing probably aren't the texts we know as Mark and Matthew^[@rigg_papias_1956 argues that if Papias' words were not accurately recorded in Eusebius (a one word discrepancy) that problems with his description of Mark are resolved to some extent -- but there is no evidence to support that hypothesis nor reason to suggest it other than a desire for Papias' witness to refer to Mark as we know it].
+
+Another reason we might not think Papias is describing the Matthew we understand is that he relates an account of Judas' death that is starkly different from the account found in our Matthew (or in Acts for that matter - though Papias is closer to Acts). Here they are:
+
+First, Matthew:
+
+>Matthew 27 (NRSVUE) 3 When Judas, his betrayer, saw that Jesus was condemned, he repented and brought back the thirty pieces of silver to the chief priests and the elders. 4 He said, “I have sinned by betraying innocent blood.” But they said, “What is that to us? See to it yourself.” 5 Throwing down the pieces of silver in the temple, **he departed, and he went and hanged himself.** 6 But the chief priests, taking the pieces of silver, said, “It is not lawful to put them into the treasury, since they are blood money.” 7 After conferring together, they used them to buy the potter’s field as a place to bury foreigners. 8 For this reason that field has been called the Field of Blood to this day.9 Then was fulfilled what had been spoken through the prophet Jeremiah, “And they took the thirty pieces of silver, the price of the one on whom a price had been set, on whom some of the people of Israel had set a price, 10 and they gave them for the potter’s field, as the Lord commanded me.” [Emphasis mine on specific cause of death]
+
+So our Matthew has Judas hang himself and that's pretty much it. 
+
+In Acts 1 we have a bit of a different story:
+
+>Acts 1 (NRSVUE) 15 In those days Peter stood up among the brothers and sisters (together the crowd numbered about one hundred twenty persons) and said, 16 “Brothers and sisters, the scripture had to be fulfilled, which the Holy Spirit through David foretold concerning Judas, who became a guide for those who arrested Jesus, 17 for he was numbered among us and was allotted his share in this ministry.” 18 (**Now this man acquired a field with the reward of his wickedness, and falling headlong, he burst open in the middle, and all his bowels gushed out.** 19 This became known to all the residents of Jerusalem, so that the field was called in their language Hakeldama, that is, Field of Blood.) [Emphasis mine on specific cause of death]
+
+So as the author of Acts tells it, Judas bought the field and somehow fell down and spontaneously exploded. 
+
+Matthew and Acts were probably written within 10-15 years of each other (though some scholars argue for a later date for Acts), and there isn't strong evidence as to which came first that I'm aware of or was able to find quickly -- but certainly, this story suggests Acts is an augmentation of the simple statement in Matthew and stories tend to grow rather than shrink over time -- but they could have developed independently from a shared tradition as well. 
+
+But what has Papias to say? -- we have a an English translation available [here](https://earlywritings.com/forum/viewtopic.php?t=1786)^[There are actually two versions of this story attributed to Papias that vary -- one is much shorter and has him die by being run over by the wagon (or chariot in some translations).]
+
+>But Judas went about in this world as a great model of impiety. He became so bloated in the flesh that he could not pass through a place that was easily wide enough for a wagon—not even his swollen head could fit. They say that his eyelids swelled to such an extent that he could not see the light at all; and a doctor could not see his eyes even with an optical device, so deeply sunken they were in the surrounding flesh. And his genitals became more disgusting and larger than anyone's; simply by relieving himself, to his wanton shame, he emitted pus and worms that flowed through his entire body. And they say that after he suffered numerous torments and punishments, he died on his own land, and that land has been, until now, desolate and uninhabited because of the stench. Indeed, even to this day no one can pass by the place without holding his nose. This was how great an outpouring he made from his flesh on the ground.
+
+Neat. 
+
+If Papias knew of our Matthew, he disregards its narrative of Judas death and supplants it with a much more entertaining version rife with poignant imagery that seems more likely rooted in the tradition proposed in Acts. Papias certainly mentions written works that he attributed to Mark and Matthew, but the evidence leans towards concluding that whatever those writings were, they were not the works that we now understand as Mark and Matthew. 
+
+The first certain record we have of names being assigned to Gospels as we know them comes from Irenaeus of Lyons writing around 180 CE. Irenaeus firmly assigns the gospels to Mark, Matthew, Luke, and John in Book III of his works *Against Heresies*. [He writes](https://www.earlychristianwritings.com/text/irenaeus-book3.html):
+
+>Matthew also issued a written Gospel among the Hebrews in their own dialect, while Peter and Paul were preaching at Rome, and laying the foundations of the Church. After their departure, Mark, the disciple and interpreter of Peter, did also hand down to us in writing what had been preached by Peter. Luke also, the companion of Paul, recorded in a book the Gospel preached by him. Afterwards, John, the disciple of the Lord, who also had leaned upon His breast, did himself publish a Gospel during his residence at Ephesus in Asia.
+
+This is about 100 years after the gospels were written. Christian writers begin referring to the Gospel authors after this (e.g. see examples in Tertulian whose writings likely date from around 190 - 220 -- [This example cites John and Matthew](https://www.tertullian.org/anf/anf03/anf03-07.htm#P606_265571) and dates to around 197 CE.)
+
+The above is a summary of one particular aspect of the evidence suggesting the Gospels were written anonymously. Internally, the texts themselves do not identify the authors (the closest we get is John -- written by the "disciple who Jesus loved", but the identity of that person is uncertain and the actual authors of the final form of the text identify themselves as "we" -- a group separate and not inclusive of that person.). 
+
+One of the most common counter arguments I see against this conclusion is that every manuscript we posses that includes the title page also includes the attribution statement (Gospel according to__). There are two reasons this counter argument is nonsensical. The first reason is that it's patently false. [Papyrus 1](https://en.wikipedia.org/wiki/Papyrus_1) dates to the early 3rd Century and quite explicitly does not include a title or attribution. P1 preserves the beginning of Matthew. The image below zooms in on the top of the papyrus; the $\alpha$ at the top is a page number and there are no known manuscripts where a page number occurred between a title and the body of the text -- so while some apologists suggest the title must have been cut off at the top, there are no other examples of such an arrangement.
+
+```{r, fig.cap="The front side (recto) of Papyrus 1, a New Testament manuscript of the Gospel of Matthew. Text is a part of the first chapter of Matthew in Greek. Most likely originated in Egypt. Also part of the Oxyrhynchus Papyri (P. oxy. 2)<br>Source: University of Pennsylvania Library via https://commons.wikimedia.org/wiki/File:Papyrus_1_-_recto.jpg?uselang=en#Licensing. Public domain. "}
+
+
+knitr::include_graphics('Papyrus_1_top.JPG')
+
+
+```
+
+
+The second reason that the counter argument of "no anonymous manuscripts" is nonsensical is that we don't posses any manuscripts that can plausibly date before the late 2nd Century (around or after the time of Irenaeus' writings). Some Christian apologists blatantly mis-represent this data and the nature of the scholarship. 
+
+Authors @pitre_case_2016 [write](https://archive.org/details/brant-pitre-the-case-for-jesus-the-biblical-and-historical-evidence-for-christ/page/n13/mode/2up):
+
+>First and foremost, given my interest in the quest for Jesus, I began looking for the “anonymous” copies of the Gospels that I had learned about during my undergraduate years. Surely, I thought, there must be some anonymous manuscripts, since every textbook I had read started with the assertion that the four Gospels were originally anonymous and that we don’t know who actually wrote them. But I wanted to see for myself...
+<br>  
+And I did. What I quickly discovered is that there are no anonymous manuscripts of the four Gospels. They don’t exist. In fact, as we will see in chapter 2, the only way to defend the theory that the Gospels were originally anonymous is to ignore virtually all of the evidence from the earliest Greek manuscripts and the most ancient Christian writers.
+
+Pitre and Barron here suggest that manuscripts are a critical component of the argument for why scholars think the Gospels were originally anonymous -- that is mostly untrue, though P1 is part of the data -- and with Pitre's education (a very good one), I'm mildly skeptical that he doesn't understand this. There are content creators who propagate the notion that some set of earliest manuscripts don't have attributions and that's not really the case as we'll see, but that's not the scholarly argument. The last sentence is absolute nonsense because the earliest manuscripts do not provide any information on the period before Irenaeus and the "most ancient" Christian writers are the ones discussed above and are one of the primary pieces of external evidence pointing to anonymous Gospels. But let's see what Pitre and Barron have to say in Chapter 2. On page 20 they present a table listing early manuscripts with the various forms of attribution -- P1 is not referenced at all: 
+
+```{r pirtre, out.width = "100%", fig.cap= "Table from [@pitre_case_2016] on p.20"}
+
+knitr::include_graphics('Pitre_ms.jpg')
+
+```
+
+Like most people, I started at the top. [Papyrus 4](https://en.wikipedia.org/wiki/Papyrus_4) (P4) is actually a fragment of Luke, but among its pieces was a separate flyleaf of Matthew that includes the title. "A date in the late second or early third century makes best sense of the evidence, making this neglected flyleaf the earliest manuscript title of Matthew’s gospel" [@gathercole_earliest_2012]. So this data is around the time of Irenaeus or after and does not counter indicate the evidence of the most ancient Christian writers. Stating "2nd Century" implies somewhere between 100 and 200 CE to most readers and misrepresents the data. We should also note that other scholars have previously argued for dates as late as the 4th century [@head_observations_1990] and 
+
+The description of [Papyrus 62](https://en.wikipedia.org/wiki/Papyrus_62) here is entirely inaccurate. P62 sits firmly in the [*4th Century*](https://manuscripts.csntm.org/manuscript/View/GA_P62), and does not contain the title page of Matthew -- rather we only have fragments that contain a few verses from Chapter 11. So this is a rather strange and startling mistake for someone with a Ph.D to make in a published book. 
+
+@pitre_case_2016 provide a note on the Date column. I thought perhaps they were looking at a divergent source that suggested earlier dates, but if we read note 13 (on the Date column in the image above), it advises 
+
+>For a discussion of the dates of the manuscripts, see Bruce M. Metzger and Bart D. Ehrman, The Text
+of the New Testament: Its Transmission, Corruption, and Restoration (Oxford: Oxford University Press,
+2005), 52–94. [@pitre_case_2016]
+
+I happen to posses a copy of this exact book and have already cited it in this document. On page 53 @metzger_text_2005 defer to other researchers on the date of P4 as "late second century". I don't find any discussion of P62 in [@metzger_text_2005]. The only other thought I can conjure is that perhaps [@pitre_case_2016] made a typo and meant to indicate P64, but this doesn't help -- P64 is actually part of the same original manuscript as P4 and is a "fragment of a single leaf containing versus from Matthew 26" [@metzger_text_2005]. This description of P64 is instructive because on page 24 of [@pitre_case_2016], they provides this table:
+
+```{r pitre2, out.width="100%", fig.cap="Table from [@pitre_case_2016] purporting to list MS witness to the title and attribution of the Letter to the Hebrews (the new testament book now generally referred to as just 'Hebrews') ." }
+
+knitr::include_graphics('Pitre_hebrews.png')
+
+```
+
+Again, P64 is late 2nd century so around the time of Irenaeus, and it doesn't contain Hebrews *at all*. This is P64:
+
+```{r, out.width = "100%", fig.cap="Three fragements comprise P64; there is writing on both sides and they contain sections of verses from Matthew 26.\nSource: [@magdalen_college_magdalen_2013]." }
+
+knitr::include_graphics('P64.png')
+
+```
+
+P64 is held at Magdalen (pronounced 'Mauldin') College in the United Kingdom -- see @magdalen_college_magdalen_2013 for a discussion of its history and content. 
+
+***The notion that these are simple errors in [@pitre_case_2016] is starting to stretch my imagination.***   
+
+When I started writing this section I didn't intend to address counter arguments, but ran across an image of the first table presented above in my googling. The process of discovery I have been through above is entirely representative of nearly every Christian apologist counter argument I have ever encountered. 
+
+The data that scholars are examining is the fact that for the first 100 years of Christian writings that survive, no writers name the gospel authors at all when referring to passages we find in the canonical gospels, but those writers do name other authors they reference (Paul, the Greeks etc.). Luke and John are never named as Gospel authors at all in that first ~100 years, and the only references to Matthew and Mark come from Papias who is describing texts that don't match our Gospels very well. The texts themselves do not name their own authors. Then, around 180-185 CE Iranaeus boldly and unequivocally proclaims the authors. After this time, writers begin referring to the authors by name when referencing passages found in those works. 
+
+But when we stumble across a randomly encountered counter argument -- the author *pretends* as though scholars underhandedly suggest we have hordes of anonymous manuscripts, and that must be why they think the stories circulated anonymously,*ignores* that we do have 1 early anonymous manuscript, *pretends* that scholarship ignores the most ancient Christian writers when the most ancient writers are why they conclude what they conclude, and *blatantly* misrepresents the data and the original arguments^[One more example of [@pitre_case_2016] misrepresenting the original arguments is a discussion of variance among the titles of the Gospels on the manuscripts we have. Pitre quotes Ehrman as stating: "Because our surviving Greek manuscripts provide such a wide variety of (different) titles for the Gospels, textual scholars have long realized that their familiar names (e.g., 'The Gospel according to Matthew') do not go back to a single “original” title, but were added later by scribes." This is an accurate quote of Ehrman's work, but Pitre and Barron follow with: "Look back at the chart showing the titles of the earliest Greek manuscripts. Where is the “wide variety” of titles that he is talking about? The only significant difference is that in some later copies, the word “Gospel” is missing, probably because the title was abbreviated". This is again pretending as though the original argument was something entirely different from what it was -- When Ehrman talks about "different"  titles for the Gospels, he is talking about variances in the how they were written (on one line or three lines, before the text, after the text etc. @allen_titles_2022 provides an exhaustive examination of title variation in the New Testament manuscripts. Though the basic content of the attribution is the same there are "multiple ways in which titles can vary, including the spelling of proper names (26), corrections within titles (22), orthographic variations that lead to unusual spellings or morphological uncertainty (24), ambiguous bilingualism (16) and titles that deviated from early traditions (2). These textual peculiarities pale in comparison with the variety of ways in which the titles are designed and laid out vis-à-vis the main text. In cases where the material is sufficiently preserved, multiple strategies distinguish titles from the texts they label. For example, the two inscriptions to John (P66 and P75) share essentially the same text but are presented in different ways and were added at different stages in each manuscript’s history of usage."  [@allen_titles_2022]. The title in P66 was written by a different person than who wrote the main text where in P75 they were the same person. P66 is on three lines where P75 is on two lines. The argument was never that one manuscript title was wildly different than another - but that differences in execution of the titles suggest that the scribes who were writing them weren't all copying from sources that originally included titles -- meaning that scribes in different places maintaining manuscripts independently began incorporating the titles independently from each other and made their own stylistic choices for how and where to write them.] by counter-arguing against an argument that never existed in the first place (the textbook definition of the "Straw Man" logical fallacy) 
+
+I see this pattern over and over and over, which, at long last, brings me to this final section. 
+
 
 ## The Counter Arguments
 
 The review and compilation of this material and the construction of this
 document consumed about `r round(hrs_spent)` hours of my time and
-required about 1,000 pages of reading. While this
+required around 2,000 pages of reading. While this
 labor was augmented by having previously read perhaps 5,000 pages of
 Biblical scholarship and history related to the Ancient Near East,
 Judaism, and early Christianity -- mostly in the last six or seven years
@@ -2706,7 +2949,7 @@ in every way [^48]. These arguments are not scholarship or critical
 thinking; they do not seek knowledge or truth; they seek only to justify
 *beliefs*, the refutation of which would be unpleasant and uncomfortable
 for the apologist. A reasonably thorough treatment would require an
-entire book, but I want to examine just one example I encountered while
+a large volume, but I want to examine just one example I encountered while
 writing this document.
 
 [^47]: For those new to the academic study of the Bible, "apologetics"
@@ -2716,9 +2959,8 @@ writing this document.
 
 [^48]: Many state this assumption plainly in their arguments. For
     example, @wright_epic_2019 concludes that the Exodus actually
-    occurred and that it occurred in 1446 BCE (the Biblical timeline).
-    He reaches these conclusions "based on my view of the nature of
-    Biblical "Inspiration," "Inerrancy," as well as textual, literary,
+    occurred and that it occurred in 1446 BCE (one possible Biblical timeline depending on which version of manuscripts you prefer). He reaches these conclusions "based on my view of the nature of
+    Biblical 'Inspiration', 'Inerrancy', as well as textual, literary,
     philosophical, historical and archaeological considerations".
     History and archaeology come last and they are but bits of data
     sprinkled on top of a dogma cake to make it look edible.
@@ -2835,7 +3077,7 @@ challenged on their reasoning user \@Xeno explained that:
 
 ...and so people do not think critically, people *must* not think
 critically -- they must think *creatively*, or *magically* to find any
-way possible to make the data fit the dogma (of Inspiration, of
+way possible to make the objective reality of history bend to their mythological preferences (of Inspiration, of
 Inerrancy etc.).
 
 I've seen that pattern of thought many many times and it is so
@@ -2844,3 +3086,11 @@ detrimental for the human condition because we have a significant
 portion of the population who are conditioned to accept what they are
 told, not to think too hard about it, and are socially rewarded for this
 conformance.
+
+
+## Acknowledgments {.appendix}
+I owe awareness of many (but not all) of the topics above to Dr. Dan McClellan's public scholarship work and seem to have absorbed some of his language patterns into my own thinking and writing. In this document I have done my best in to independently study every topic and conduct my own analysis of those topics from source material, but still, "with apologies to Dan McClellan" where needed. I will however specifically claim that my employment of Willie Mays' signature catch phrase in the section on Donald Lutz's work is my own and independent of Dr. McClellan's similar usage of that phrase in his less formal writings. 
+
+## Caveats {.appendix}
+As I stated in the final section - I have not spent much time on this. I'm certain it contains errors. I have corrected many during the course of the writing, as I continue to study and sometimes find that I previously misunderstood something or was insufficiently clear, or specific or sometimes too specific in my representation of certainty. To be confident I'm not misrepresenting any of the work I'm referencing here, I should like about 500 more hours, but I'm not going to spend that much time. I have done my best to be diligent in what I'm stating with confidence but offer my sincere apologies for any factual errors or misrepresentations that remained.
+
